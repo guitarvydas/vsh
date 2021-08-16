@@ -8,7 +8,7 @@ inspire and demonstrate some simple concepts for building FBP-like
 (flow-based programming) visual tools using components implemented in
 various languages.
 
-This examplar implementation runs on linux and implements a (very)
+This exemplar implementation runs on linux and implements a (very)
 simple replacement for "sh" that uses diagrams to represent
 combinations of commands and pipes, based on the notions of FBP.
 These ideas should be easily transcribeable onto other operating
