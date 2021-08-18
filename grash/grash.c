@@ -72,6 +72,7 @@
          parent resumes processing commands
 	 child (if not exec'ed) terminates
 
+  redir N - overwrite FD slot N by contents of slot TOS, pop TOS (no pipes used, straight call to dup2())
 */
 
 #define PIPEMAX 100
@@ -135,6 +136,13 @@ void gdup (char *p) {
   dup2 (pipes[i][dir], fd);
   close(pipes[i][oppositeDir]);  // flows are one-way only
   usedPipes[i] = 1;
+}
+
+void redirect (char *p) {
+  int fd_slot_to_overwrite = atoi(p);
+  int fd_slot_from = pop();
+  fprintf (stderr, "dup2(%d,%d)\n", fd_slot_from, fd_slot_to_overwrite);
+  dup2 (fd_slot_from, fd_slot_to_overwrite);
 }
 
 void gdup_std (char *p, int fd, int dir) {
@@ -314,6 +322,11 @@ void interpret (char *line, int argc, char **argv) {
     p = parse ("exec", line);
     if (p) {
       doExec (p, argc, argv, 0);
+      return;
+    }
+    p = parse ("redir", line);
+    if (p) {
+      redirect (p);
       return;
     }
     quit("can't happen");
