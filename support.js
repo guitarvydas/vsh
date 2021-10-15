@@ -41,11 +41,12 @@ exports.strMangle = (s) => {
 
     return ret
         // convert names to be acceptable to SWIPL
-	.replace (/-/g, '__')
+//	.replace (/-/g, '__')
 	.replace (/\\/g, '\\\\')
 
-	.replace (/ __g /g, ' -g ')
-	.replace (/__q/g, '-q');
+//	.replace (/ __g /g, ' -g ')
+//	.replace (/__q/g, '-q')
+    ;
 }
 
 
@@ -64,7 +65,7 @@ function newID(name, quoteds, scope) {
 }
 
 function pushID (name, s, scope) {
-    scope.scopeModify (name, stripQuotes (s));
+    scope.scopeModify (name, namify (s));
     return '';
 }
 
@@ -92,6 +93,7 @@ exports.refCellID = (s) => {
 }
 
 /// diagrams
+
 exports.newDiagramID = (s, scope) => {
     return newID ('diagramid', s, scope);
 }
@@ -110,21 +112,27 @@ exports.setDiagram = (scope) => {
     scope.scopeAdd ('diagram', diagramID);
 }
 
-exports.namify = (s) => {
-    return s
-	.trim ()
+function namify (s) {
+    var r = stripQuotes (s).trim ();
+    var regex = new RegExp (/^[0-9A-Z]/);
+    if (regex.test (r)) {
+	r = "x_" + r;
+    };
+    return r
 	.replace (/"/g,'')
-	.replace (/ /g,'__');
+	.replace (/-/g,'__')
+	.replace (/ /g,'___');
 }
 
 
-function refID (s, scope) {
+function refID (s1, scope) {
     // produce smaller ID's (useful for debugging workbench)
+    var s = stripQuotes (s1);
     var n = nameIndexTable[s];
     if (n) {
 	return "id" + n.toString();
     } else {
-	return s;
+	return namify (s);
     }
 }    
 
@@ -132,14 +140,6 @@ function stripQuotes (s) {
     var s1 = s.replace (/^(\")/,'');
     var s2 = s1.replace (/([\"])$/,'');
     var s3 = s2.replace (/^(\")/,'');
-    // process.stderr.write (s);
-    // process.stderr.write (" -> ");
-    // process.stderr.write (s1);
-    // process.stderr.write (" -> ");
-    // process.stderr.write (s2);
-    // process.stderr.write (" -> ");
-    // process.stderr.write (s3);
-    // process.stderr.write ('\n');
     return s3;
 }
 
