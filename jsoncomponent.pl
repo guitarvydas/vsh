@@ -25,7 +25,10 @@ jsonify(Strm,D,ID):-
 			      children:C,
 			      connections:X
 		    }),
+    nl(Strm),
+    write(Strm,","),
     nl(Strm).
+
 
 allc:-
     writeTopLevelComponents(user_output),
@@ -37,9 +40,12 @@ allc.
 writeAllComponents(Strm):-
     forall(
 	diagram(D,_),
-	forall(
+	(
+	 forall(
 	    childComponent(D,ID),
 	    jsonify(Strm,D,ID)
+	 ),
+	 write(Strm,"true]")
 	)
     ).
 
@@ -53,6 +59,8 @@ writeTopLevelComponents(Strm):-
     ).    
 
 writeTopLevelComponent(Strm,D,ID):-
+    write(Strm,"["),
     json_write(Strm,tlc{diagram:D,toplevelcomponent:ID}),
+    write(Strm,","),
     nl(Strm).
 

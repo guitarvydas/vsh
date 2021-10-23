@@ -11,7 +11,6 @@ exports.decodeMxDiagram = (encoded) => {
 }    
 
 function inline_decodeMxDiagram (encoded) {
-    //process.stderr.write ('### support.js/decodeMxDiagram ###\n');
     var data = atob (encoded);
     var inf = pako.inflateRaw (
 	Uint8Array.from (data, c=>c.charCodeAt (0)), {to: 'string'})
@@ -33,31 +32,24 @@ exports.resetNames = () => {
     counter = 1;
 }
 
-exports.strMangle = (s) => {
-        // remove HTML junk added by drawio
-    var ret = s
-	.replace (/&[^ ]+;/g, '\n')
-	.replace (/\\\\/g, '');
-
-    return ret
-        // convert names to be acceptable to SWIPL
-//	.replace (/-/g, '__')
-	.replace (/\\/g, '\\\\')
-
-//	.replace (/ __g /g, ' -g ')
-//	.replace (/__q/g, '-q')
-    ;
-}
-
-
 
 var nameIndexTable = [];
 var counter = 1;
 
 
+function namify (s) {
+    let id = stripQuotes (s)
+	.trim ()
+	.replace (/ /g,'__')
+	.replace (/-/g, '__');
+    if (id.match(/^[A-Z]/g)) {
+	id = "id_" + id;
+    };
+    return id;
+}
 
 function newID(name, quoteds, scope) {
-    var s = stripQuotes (quoteds. trim ());
+    var s = namify (quoteds);
     scope.scopeModify (name, s);
     nameIndexTable[s] = counter;
     counter += 1;
@@ -93,7 +85,6 @@ exports.refCellID = (s) => {
 }
 
 /// diagrams
-
 exports.newDiagramID = (s, scope) => {
     return newID ('diagramid', s, scope);
 }
@@ -112,86 +103,36 @@ exports.setDiagram = (scope) => {
     scope.scopeAdd ('diagram', diagramID);
 }
 
-function namify (s) {
-    var r = stripQuotes (s).trim ();
-    var regex = new RegExp (/^[0-9A-Z]/);
-    if (regex.test (r)) {
-	r = "x_" + r;
-    };
-    return r
-	.replace (/"/g,'')
-	.replace (/-/g,'__')
-	.replace (/ /g,'___');
-}
 
 
-function refID (s1, scope) {
-    // produce smaller ID's (useful for debugging workbench)
-    var s = stripQuotes (s1);
-    var n = nameIndexTable[s];
-    if (n) {
-	return "id" + n.toString();
-    } else {
-	return namify (s);
-    }
+function refID (s, scope) {
+    return namify (s);
+    // // produce smaller ID's (useful for debugging workbench)
+    // var n = nameIndexTable[s];
+    // if (n) {
+    // 	return "id" + n.toString();
+    // } else {
+    // 	return s;
+    // }
 }    
 
 function stripQuotes (s) {
-    var s1 = s.replace (/^(\")/,'');
-    var s2 = s1.replace (/([\"])$/,'');
-    var s3 = s2.replace (/^(\")/,'');
-    return s3;
+    let len = s.length;
+    if (s[0] === '"' && s[len-1] === '"') {
+	return s.substring (1,len-1);
+    } else {
+	return s;
+    }
 }
 
 exports.stripQuotes = (s) => {
-    return stripQuotes (s.trim ());
+    return stripQuotes (s);
 }
 
 exports.mangleNewlines = (s) => {
     return s.replace (/(\r\n|\r|\n)/g,'@~@');
 }
 
-/////
-
-const http = require ('http');
-
-const options = { method: 'POST'
-};
-
-var data = '';
-
-function sendReq (fn_OK) {
-    let request = http.request ('http://localhost:8000/decodeMxDiagram',
-				options,
-				(res) => {
-				    if (res.statusCode !== 201) {
-					console.error (`Did not get an OK from the server. Code ${res.statusCode}`);
-					res.resume ();
-					return;
-				    }
-				
-				    res.on('data', (chunk) => { 
-					data += chunk;
-				    });
-				    res.on('close', () => {
-					return fn_OK (data);
-				    });
-				    
-				    request.on('error', (err) => {
-					console.error (err);
-				    });
-				});
-    const reqData = { message: "hello" };
-    request.write (JSON.stringify (reqData));
-    request.end ();
+exports.swiplEsc = (s) => {
+    return s.replace (/[\\]/g,'&#92;');
 }
-
-
-async function reqDecodeMxDiagram () { 
-    var p = (() => new Promise (fn_resolve => sendReq (fn_resolve))) ();
-    var returneddata = await p; 
-    return returneddata;
-}
-
-// var r = areq ();
-// (async () => { console.log (await r); })();

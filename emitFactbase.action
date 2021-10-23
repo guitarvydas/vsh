@@ -1,4 +1,4 @@
-Diagrams [@ds] = [[${support.strMangle (ds)}]]
+Diagrams [@ds] = [[${ds}]]
 Diagram [k @a k2 graphmodel k3] =
   {{scopeAdd ('diagramid', 'yyy'); }}
   [[${a}${graphmodel}]]
@@ -41,7 +41,7 @@ IDAttribute [id eq s] = [[${support.pushCellID (s, _scope)}]]
 EllipseAttribute [kind eq q1 s q2] = [[ellipse(${support.getCellID(_scope)}, "").\n]]
 TextAttribute [kind eq q1 s q2] = [[text(${support.getCellID(_scope)}, "").\n]]
 KindAttribute [kind eq s] = [[kind(${support.getCellID(_scope)}, ${s}).\n]]
-ValueAttribute [v eq s] = [[value(${support.getCellID (_scope)}, ${s}).\n]]
+ValueAttribute [v eq s] = [[value(${support.getCellID (_scope)}, ${support.swiplEsc (s)}).\n]]
 SourceAttribute [v eq s] = [[source(${support.getCellID (_scope)}, ${support.refCellID (s)}).\n]]
 TargetAttribute [v eq s] = [[target(${support.getCellID (_scope)}, ${support.refCellID (s)}).\n]]
 EdgeAttribute [v eq q1 s q2] = [[edge(${support.getCellID(_scope)}, "").\n]]

@@ -1,0 +1,3 @@
+#!/bin/bash
+# drawio to factbase
+./drawio2fb.bash

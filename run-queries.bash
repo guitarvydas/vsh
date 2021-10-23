@@ -56,7 +56,7 @@ cp fb.pl _c7.pl
 assignCode
 cp fb.pl _c8.pl
 
-# convert fb.pl to "structured" form
+# convert fb.pl to JSON form
 swipl -g 'use_module(library(http/json))' \
       -g 'consult(fb).' \
       -g 'consult(component).' \

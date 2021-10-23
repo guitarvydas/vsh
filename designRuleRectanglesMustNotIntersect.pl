@@ -63,8 +63,8 @@ designRuleRectanglesMustNotIntersect(A,B):-
     format('FATAL design rule: rectangles must not intersect (Abottom Bright) ~w ~w~n', [A,B]),
     !.
 
-designRuleRectanglesMustNotIntersect(A,B):- A = B.
-designRuleRectanglesMustNotIntersect(A,B):- A \= B.
+designRuleRectanglesMustNotIntersect(A,B):- A = B,!.
+designRuleRectanglesMustNotIntersect(A,B):- A \= B,!.
 
 
 linesIntersect(Xa1, Ya1, Xa2, Ya2, Xb1, Yb1, Xb2, Yb2):-

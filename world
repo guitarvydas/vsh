@@ -1,0 +1,4 @@
+#!/bin/bash
+# world
+read </dev/fd/3
+echo world

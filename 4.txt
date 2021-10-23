@@ -1,30 +1,242 @@
-
-id1		"FeA5kuE7ltZkfkWCjx6k"
-id2		"0"
-id3		"1"
-id4		"q8f1Wc8Eixn7i3I6va0J-1"
-id5		"q8f1Wc8Eixn7i3I6va0J-34"
-id6		"q8f1Wc8Eixn7i3I6va0J-2"
-id7		"q8f1Wc8Eixn7i3I6va0J-6"
-id8		"q8f1Wc8Eixn7i3I6va0J-29"
-id9		"q8f1Wc8Eixn7i3I6va0J-7"
-id10		"q8f1Wc8Eixn7i3I6va0J-8"
-id11		"q8f1Wc8Eixn7i3I6va0J-9"
-id12		"q8f1Wc8Eixn7i3I6va0J-30"
-id13		"q8f1Wc8Eixn7i3I6va0J-10"
-id14		"q8f1Wc8Eixn7i3I6va0J-11"
-id15		"q8f1Wc8Eixn7i3I6va0J-12"
-id16		"q8f1Wc8Eixn7i3I6va0J-31"
-id17		"q8f1Wc8Eixn7i3I6va0J-13"
-id18		"q8f1Wc8Eixn7i3I6va0J-14"
-id19		"q8f1Wc8Eixn7i3I6va0J-15"
-id20		"q8f1Wc8Eixn7i3I6va0J-32"
-id21		"q8f1Wc8Eixn7i3I6va0J-16"
-id22		"q8f1Wc8Eixn7i3I6va0J-17"
-id23		"q8f1Wc8Eixn7i3I6va0J-21"
-id24		"q8f1Wc8Eixn7i3I6va0J-33"
-id25		"q8f1Wc8Eixn7i3I6va0J-22"
-id26		"q8f1Wc8Eixn7i3I6va0J-23"
-id27		"q8f1Wc8Eixn7i3I6va0J-24"
-id28		"q8f1Wc8Eixn7i3I6va0J-26"
+diagram(id_FeA5kuE7ltZkfkWCjx6k, "").
+name(id_FeA5kuE7ltZkfkWCjx6k, "Page-1").
+cell(0,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, 0).
+cell(1,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, 1).
+cell(q8f1Wc8Eixn7i3I6va0J__35,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__35).
+value(q8f1Wc8Eixn7i3I6va0J__35, "VSH").
+vertex(q8f1Wc8Eixn7i3I6va0J__35, "").
+x(q8f1Wc8Eixn7i3I6va0J__35, 95).
+y(q8f1Wc8Eixn7i3I6va0J__35, 50).
+width(q8f1Wc8Eixn7i3I6va0J__35, 910).
+height(q8f1Wc8Eixn7i3I6va0J__35, 1180).
+cell(q8f1Wc8Eixn7i3I6va0J__1,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__1).
+value(q8f1Wc8Eixn7i3I6va0J__1, "drawio to factbase").
+vertex(q8f1Wc8Eixn7i3I6va0J__1, "").
+x(q8f1Wc8Eixn7i3I6va0J__1, 255).
+y(q8f1Wc8Eixn7i3I6va0J__1, 80).
+width(q8f1Wc8Eixn7i3I6va0J__1, 160).
+height(q8f1Wc8Eixn7i3I6va0J__1, 70).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__1,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__1).
+value(id_Mgc4P_O0__WP39K7Fo8ME__1, "./drawio2fb.bash").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__1, "red").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__1, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__1, 285).
+y(id_Mgc4P_O0__WP39K7Fo8ME__1, 110).
+width(id_Mgc4P_O0__WP39K7Fo8ME__1, 100).
+height(id_Mgc4P_O0__WP39K7Fo8ME__1, 30).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__25,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__25).
+edge(id_Mgc4P_O0__WP39K7Fo8ME__25, "").
+source(id_Mgc4P_O0__WP39K7Fo8ME__25, q8f1Wc8Eixn7i3I6va0J__2).
+target(id_Mgc4P_O0__WP39K7Fo8ME__25, id_Mgc4P_O0__WP39K7Fo8ME__4).
+cell(q8f1Wc8Eixn7i3I6va0J__2,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__2).
+value(q8f1Wc8Eixn7i3I6va0J__2, "out").
+ellipse(q8f1Wc8Eixn7i3I6va0J__2, "").
+fillColor(q8f1Wc8Eixn7i3I6va0J__2, "yellow").
+vertex(q8f1Wc8Eixn7i3I6va0J__2, "").
+x(q8f1Wc8Eixn7i3I6va0J__2, 395).
+y(q8f1Wc8Eixn7i3I6va0J__2, 95).
+width(q8f1Wc8Eixn7i3I6va0J__2, 40).
+height(q8f1Wc8Eixn7i3I6va0J__2, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__2,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__2).
+value(id_Mgc4P_O0__WP39K7Fo8ME__2, "create rect facts").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__2, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__2, 265).
+y(id_Mgc4P_O0__WP39K7Fo8ME__2, 240).
+width(id_Mgc4P_O0__WP39K7Fo8ME__2, 630).
+height(id_Mgc4P_O0__WP39K7Fo8ME__2, 240).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__30,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__30).
+edge(id_Mgc4P_O0__WP39K7Fo8ME__30, "").
+source(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__3).
+target(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__11).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__3,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__3).
+value(id_Mgc4P_O0__WP39K7Fo8ME__3, "out").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__3, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__3, "yellow").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__3, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__3, 875).
+y(id_Mgc4P_O0__WP39K7Fo8ME__3, 340).
+width(id_Mgc4P_O0__WP39K7Fo8ME__3, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__3, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__4,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__4).
+value(id_Mgc4P_O0__WP39K7Fo8ME__4, "in").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__4, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__4, "green").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__4, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__4, 245).
+y(id_Mgc4P_O0__WP39K7Fo8ME__4, 340).
+width(id_Mgc4P_O0__WP39K7Fo8ME__4, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__4, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__8,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__8).
+value(id_Mgc4P_O0__WP39K7Fo8ME__8, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## create rect fact for every vertex that is not an edge/ellipse/text&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## but does not mark rectangles (the default)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## this pass finds the defaults and creates explicit rect(...) facts&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'consult(5).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'consult(rects).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'printRects.' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'halt.' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&amp;gt; 6.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;quot;menlo&amp;quot; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__8, "red").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__8, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__8, 295).
+y(id_Mgc4P_O0__WP39K7Fo8ME__8, 270).
+width(id_Mgc4P_O0__WP39K7Fo8ME__8, 570).
+height(id_Mgc4P_O0__WP39K7Fo8ME__8, 190).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__9,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__9).
+value(id_Mgc4P_O0__WP39K7Fo8ME__9, "sort factbase").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__9, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__9, 265).
+y(id_Mgc4P_O0__WP39K7Fo8ME__9, 540).
+width(id_Mgc4P_O0__WP39K7Fo8ME__9, 460).
+height(id_Mgc4P_O0__WP39K7Fo8ME__9, 150).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__27,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__27).
+edge(id_Mgc4P_O0__WP39K7Fo8ME__27, "").
+source(id_Mgc4P_O0__WP39K7Fo8ME__27, id_Mgc4P_O0__WP39K7Fo8ME__10).
+target(id_Mgc4P_O0__WP39K7Fo8ME__27, id_Mgc4P_O0__WP39K7Fo8ME__15).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__10,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__10).
+value(id_Mgc4P_O0__WP39K7Fo8ME__10, "out").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__10, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__10, "yellow").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__10, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__10, 705).
+y(id_Mgc4P_O0__WP39K7Fo8ME__10, 595).
+width(id_Mgc4P_O0__WP39K7Fo8ME__10, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__10, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__11,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__11).
+value(id_Mgc4P_O0__WP39K7Fo8ME__11, "in").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__11, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__11, "green").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__11, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__11, 245).
+y(id_Mgc4P_O0__WP39K7Fo8ME__11, 595).
+width(id_Mgc4P_O0__WP39K7Fo8ME__11, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__11, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__12,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__12).
+value(id_Mgc4P_O0__WP39K7Fo8ME__12, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# augment the factbase (fb.pl) after every inferencing step&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;cat 5.pl 6.pl | sort &amp;gt;fb.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__12, "red").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__12, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__12, 295).
+y(id_Mgc4P_O0__WP39K7Fo8ME__12, 580).
+width(id_Mgc4P_O0__WP39K7Fo8ME__12, 400).
+height(id_Mgc4P_O0__WP39K7Fo8ME__12, 80).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__13,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__13).
+value(id_Mgc4P_O0__WP39K7Fo8ME__13, "run queries").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__13, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__13, 275).
+y(id_Mgc4P_O0__WP39K7Fo8ME__13, 750).
+width(id_Mgc4P_O0__WP39K7Fo8ME__13, 250).
+height(id_Mgc4P_O0__WP39K7Fo8ME__13, 110).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__28,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__28).
+edge(id_Mgc4P_O0__WP39K7Fo8ME__28, "").
+source(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__14).
+target(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__19).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__14,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__14).
+value(id_Mgc4P_O0__WP39K7Fo8ME__14, "out").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__14, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__14, "yellow").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__14, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__14, 505).
+y(id_Mgc4P_O0__WP39K7Fo8ME__14, 790).
+width(id_Mgc4P_O0__WP39K7Fo8ME__14, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__14, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__15,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__15).
+value(id_Mgc4P_O0__WP39K7Fo8ME__15, "in").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__15, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__15, "green").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__15, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__15, 255).
+y(id_Mgc4P_O0__WP39K7Fo8ME__15, 790).
+width(id_Mgc4P_O0__WP39K7Fo8ME__15, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__15, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__16,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__16).
+value(id_Mgc4P_O0__WP39K7Fo8ME__16, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;./run-queries.bash &amp;gt;7.json&lt;/span&gt;&lt;/p&gt;").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__16, "red").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__16, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__16, 305).
+y(id_Mgc4P_O0__WP39K7Fo8ME__16, 790).
+width(id_Mgc4P_O0__WP39K7Fo8ME__16, 180).
+height(id_Mgc4P_O0__WP39K7Fo8ME__16, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__17,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__17).
+value(id_Mgc4P_O0__WP39K7Fo8ME__17, "emit bash").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__17, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__17, 285).
+y(id_Mgc4P_O0__WP39K7Fo8ME__17, 900).
+width(id_Mgc4P_O0__WP39K7Fo8ME__17, 190).
+height(id_Mgc4P_O0__WP39K7Fo8ME__17, 110).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__29,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__29).
+edge(id_Mgc4P_O0__WP39K7Fo8ME__29, "").
+source(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__18).
+target(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__23).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__18,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__18).
+value(id_Mgc4P_O0__WP39K7Fo8ME__18, "out").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__18, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__18, "yellow").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__18, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__18, 455).
+y(id_Mgc4P_O0__WP39K7Fo8ME__18, 940).
+width(id_Mgc4P_O0__WP39K7Fo8ME__18, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__18, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__19,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__19).
+value(id_Mgc4P_O0__WP39K7Fo8ME__19, "in").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__19, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__19, "green").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__19, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__19, 265).
+y(id_Mgc4P_O0__WP39K7Fo8ME__19, 940).
+width(id_Mgc4P_O0__WP39K7Fo8ME__19, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__19, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__20,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__20).
+value(id_Mgc4P_O0__WP39K7Fo8ME__20, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;node emitBash.js&lt;/span&gt;&lt;/p&gt;").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__20, "red").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__20, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__20, 315).
+y(id_Mgc4P_O0__WP39K7Fo8ME__20, 940).
+width(id_Mgc4P_O0__WP39K7Fo8ME__20, 120).
+height(id_Mgc4P_O0__WP39K7Fo8ME__20, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__21,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__21).
+value(id_Mgc4P_O0__WP39K7Fo8ME__21, "permissions to execute").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__21, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__21, 285).
+y(id_Mgc4P_O0__WP39K7Fo8ME__21, 1060).
+width(id_Mgc4P_O0__WP39K7Fo8ME__21, 190).
+height(id_Mgc4P_O0__WP39K7Fo8ME__21, 110).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__23,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__23).
+value(id_Mgc4P_O0__WP39K7Fo8ME__23, "in").
+ellipse(id_Mgc4P_O0__WP39K7Fo8ME__23, "").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__23, "green").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__23, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__23, 265).
+y(id_Mgc4P_O0__WP39K7Fo8ME__23, 1100).
+width(id_Mgc4P_O0__WP39K7Fo8ME__23, 40).
+height(id_Mgc4P_O0__WP39K7Fo8ME__23, 40).
+cell(id_Mgc4P_O0__WP39K7Fo8ME__24,"").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__24).
+value(id_Mgc4P_O0__WP39K7Fo8ME__24, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;chmod a_x VSH&lt;/span&gt;&lt;/p&gt;").
+fillColor(id_Mgc4P_O0__WP39K7Fo8ME__24, "red").
+vertex(id_Mgc4P_O0__WP39K7Fo8ME__24, "").
+x(id_Mgc4P_O0__WP39K7Fo8ME__24, 315).
+y(id_Mgc4P_O0__WP39K7Fo8ME__24, 1100).
+width(id_Mgc4P_O0__WP39K7Fo8ME__24, 120).
+height(id_Mgc4P_O0__WP39K7Fo8ME__24, 40).
 

@@ -1,0 +1,4 @@
+#!/bin/bash
+# hello
+echo hello
+echo done >/dev/fd/4
