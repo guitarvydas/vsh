@@ -1,7 +1,7 @@
 unhtml {
   text = htmlchar*
   htmlchar =
-      "&nbsp; " -- nbsp
+      "&amp;nbsp; " -- nbsp
     | "&lt;br&gt;" -- br
     | "&amp;gt;" -- agt
     | "&amp;lt;" -- alt
