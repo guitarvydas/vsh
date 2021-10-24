@@ -22,6 +22,13 @@ pfr create-rect-facts unhtml.ohm unhtml.action | pfr - span.ohm span.action | pf
 # cat temp1 | pfr - span.ohm span.action >temp2
 # cat temp2
 
+echo ${names}
+pfr emit-bash unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+pfr permissions-to-execute unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+pfr sort-factbase unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+pfr drawio-to-factbase unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+pfr VSH unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+
 #create-rect-facts
 
 # for i in ${names}
