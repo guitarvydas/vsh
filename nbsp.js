@@ -17,7 +17,8 @@ var nbsp_semantics =
     {
 	text : function (cs) { return cs.nbsp ().join (''); },
 	htmlchar_nbsp : function (k) { return ' '; },
-	htmlchar_any : function (c) { return c; },
+	htmlchar_any : function (c) { return c.nbsp (); },
+	_iter : function (...children) { return children.map (c => c.nbsp ()); },
 	_terminal : function () { return this.primitiveValue; }
     };
 
@@ -33,6 +34,7 @@ if (cst.succeeded ()) {
     console.log ('OK');
     var sem = parser.createSemantics ();
     sem.addOperation ('nbsp', nbsp_semantics);
+    console.error (sem (cst).nbsp ());
 } else {
     var pos = cst._rightmostFailurePosition;
     console.error (parser.trace (grammar).toString ());
