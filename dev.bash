@@ -8,8 +8,7 @@ chmod a+x ${names}
 mydir=`pwd`
 # pf - unhtml.ohm <run-queries
 
-pfr run-queries unhtml.ohm unhtml.action | pfr - span.ohm span.action <temp1 >temp2
-pfr temp2 para.ohm para.action
+pfr run-queries unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
 
 #create-rect-facts
 # pfr create-rect-facts unhtml.ohm unhtml.action >temp1
