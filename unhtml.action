@@ -4,3 +4,7 @@ htmlchar_amp [k] = [[&]]
 htmlchar_lt [k] = [[<]]
 htmlchar_gt [k] = [[>]]
 htmlchar_any [c] = [[${c}]]
+
+htmlchar_br [k] = [[\n]]
+htmlchar_agt [k] = [[>]]
+htmlchar_alt [k] = [[<]]
