@@ -15,12 +15,12 @@ chmod a+x ${names}
 mydir=`pwd`
 # pf - unhtml.ohm <run-queries
 
-# pfr run-queries unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
-# pfr create-rect-facts unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+pfr run-queries unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
+pfr create-rect-facts unhtml.ohm unhtml.action | pfr - span.ohm span.action | pfr - para.ohm para.action
 
-pfr create-rect-facts unhtml.ohm unhtml.action >temp1
-cat temp1 | pfr - span.ohm span.action >temp2
-cat temp2
+# pfr create-rect-facts unhtml.ohm unhtml.action >temp1
+# cat temp1 | pfr - span.ohm span.action >temp2
+# cat temp2
 
 #create-rect-facts
 
