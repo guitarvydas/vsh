@@ -2,7 +2,6 @@ span {
 text =
     stuff* span text -- withspan
   | stuff* -- withoutspan
-span = "<span" (~">" any)* ">" notSpanEnd* "</span>"
-notSpanEnd = ~"</span>" any
-stuff = ~"<span" any
+span = "<span" (~">" any)* ">" text "</span>"
+stuff = ~"<span" ~"</span" any
 }

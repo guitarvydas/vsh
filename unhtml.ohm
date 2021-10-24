@@ -1,10 +1,10 @@
 unhtml {
   text = htmlchar*
   htmlchar =
+      "&nbsp; " -- nbsp
     | "&lt;br&gt;" -- br
     | "&amp;gt;" -- agt
     | "&amp;lt;" -- alt
-    | "&nbsp;" -- nbsp
     | "&amp;"  -- amp
     | "&lt;"  -- lt
     | "&gt;"  -- gt
