@@ -1,0 +1,4 @@
+text [@cs] = [[${cs}]]
+html_nbsp [k] = [[\ ]]
+html_amp [k] = [[&]]
+html_any [c] = [[${c}]]

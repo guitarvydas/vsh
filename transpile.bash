@@ -16,5 +16,5 @@ swipl -q \
 # augment the factbase (fb.pl) after every inferencing step
 cat 5.pl 6.pl | sort >fb.pl
 
-./run-queries.bash >7.json
+./run-queries.bash
 

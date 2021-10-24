@@ -1,0 +1,5 @@
+text_withspan [@stuff span text] = [[${stuff}${span}${text}]]
+text_withoutspan [@stuff] = [[${stuff}]]
+span [k @cs k2 @cs2 k3] = [[${k}${cs}${k2}${cs2}${k3}]]
+notSpanEnd [c] = [[${c}]]
+stuff [c] = [[${c}]]

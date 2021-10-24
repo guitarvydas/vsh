@@ -1,0 +1,7 @@
+text_withpara [@stuff para text] = [[${stuff}${para}${text}]]
+text_withoutpara [@stuff] = [[${stuff}]]
+para [k @cs k2 @cs2 k3] = [[${k}${cs}${k2}${cs2}${k3}]]
+notPEnd [c] = [[${c}]]
+stuff [c] = [[${c}]]
+
+
