@@ -3,6 +3,8 @@ unhtml {
   htmlchar =
       "&nbsp;" -- nbsp
     | "&amp;"  -- amp
+    | "&lt;"  -- lt
+    | "&gt;"  -- gt
     | any      -- any
 }
 

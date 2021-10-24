@@ -1,1 +1,4 @@
+#!/bin/bash
+# run queries
+<p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &#34;menlo&#34;&quot;><span class=&quot;s1&quot;>./run-queries.bash &gt;7.json</span></p><p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &#34;menlo&#34;&quot;><span class=&quot;s1&quot;>echo done &gt;/dev/fd/4<br></span></p>
 
