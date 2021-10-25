@@ -1,32 +1,32 @@
 
-b(id_Mgc4P_O0__WP39K7Fo8ME__1,160).
-b(id_Mgc4P_O0__WP39K7Fo8ME__10,635).
-b(id_Mgc4P_O0__WP39K7Fo8ME__11,635).
-b(id_Mgc4P_O0__WP39K7Fo8ME__12,660).
-b(id_Mgc4P_O0__WP39K7Fo8ME__13,860).
-b(id_Mgc4P_O0__WP39K7Fo8ME__14,830).
-b(id_Mgc4P_O0__WP39K7Fo8ME__15,830).
-b(id_Mgc4P_O0__WP39K7Fo8ME__16,830).
-b(id_Mgc4P_O0__WP39K7Fo8ME__17,1010).
-b(id_Mgc4P_O0__WP39K7Fo8ME__18,980).
-b(id_Mgc4P_O0__WP39K7Fo8ME__19,980).
-b(id_Mgc4P_O0__WP39K7Fo8ME__2,480).
-b(id_Mgc4P_O0__WP39K7Fo8ME__20,980).
-b(id_Mgc4P_O0__WP39K7Fo8ME__21,1170).
-b(id_Mgc4P_O0__WP39K7Fo8ME__23,1140).
-b(id_Mgc4P_O0__WP39K7Fo8ME__24,1140).
-b(id_Mgc4P_O0__WP39K7Fo8ME__25,360).
-b(id_Mgc4P_O0__WP39K7Fo8ME__27,810).
-b(id_Mgc4P_O0__WP39K7Fo8ME__28,960).
-b(id_Mgc4P_O0__WP39K7Fo8ME__29,1120).
-b(id_Mgc4P_O0__WP39K7Fo8ME__3,380).
-b(id_Mgc4P_O0__WP39K7Fo8ME__30,615).
-b(id_Mgc4P_O0__WP39K7Fo8ME__4,380).
-b(id_Mgc4P_O0__WP39K7Fo8ME__8,460).
-b(id_Mgc4P_O0__WP39K7Fo8ME__9,690).
-b(q8f1Wc8Eixn7i3I6va0J__1,170).
-b(q8f1Wc8Eixn7i3I6va0J__2,135).
-b(q8f1Wc8Eixn7i3I6va0J__35,1230).
+b(id_Mgc4P_O0__WP39K7Fo8ME__1,370).
+b(id_Mgc4P_O0__WP39K7Fo8ME__10,845).
+b(id_Mgc4P_O0__WP39K7Fo8ME__11,845).
+b(id_Mgc4P_O0__WP39K7Fo8ME__12,870).
+b(id_Mgc4P_O0__WP39K7Fo8ME__13,1070).
+b(id_Mgc4P_O0__WP39K7Fo8ME__14,1040).
+b(id_Mgc4P_O0__WP39K7Fo8ME__15,1040).
+b(id_Mgc4P_O0__WP39K7Fo8ME__16,1040).
+b(id_Mgc4P_O0__WP39K7Fo8ME__17,1220).
+b(id_Mgc4P_O0__WP39K7Fo8ME__18,1190).
+b(id_Mgc4P_O0__WP39K7Fo8ME__19,1190).
+b(id_Mgc4P_O0__WP39K7Fo8ME__2,690).
+b(id_Mgc4P_O0__WP39K7Fo8ME__20,1190).
+b(id_Mgc4P_O0__WP39K7Fo8ME__21,1380).
+b(id_Mgc4P_O0__WP39K7Fo8ME__23,1350).
+b(id_Mgc4P_O0__WP39K7Fo8ME__24,1350).
+b(id_Mgc4P_O0__WP39K7Fo8ME__25,570).
+b(id_Mgc4P_O0__WP39K7Fo8ME__27,1020).
+b(id_Mgc4P_O0__WP39K7Fo8ME__28,1170).
+b(id_Mgc4P_O0__WP39K7Fo8ME__29,1330).
+b(id_Mgc4P_O0__WP39K7Fo8ME__3,590).
+b(id_Mgc4P_O0__WP39K7Fo8ME__30,825).
+b(id_Mgc4P_O0__WP39K7Fo8ME__4,590).
+b(id_Mgc4P_O0__WP39K7Fo8ME__8,670).
+b(id_Mgc4P_O0__WP39K7Fo8ME__9,900).
+b(q8f1Wc8Eixn7i3I6va0J__1,390).
+b(q8f1Wc8Eixn7i3I6va0J__2,330).
+b(q8f1Wc8Eixn7i3I6va0J__35,1440).
 cell(0,"").
 cell(1,"").
 cell(id_Mgc4P_O0__WP39K7Fo8ME__1,"").
@@ -119,7 +119,7 @@ fillColor(id_Mgc4P_O0__WP39K7Fo8ME__3, "yellow").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__4, "green").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__8, "red").
 fillColor(q8f1Wc8Eixn7i3I6va0J__2, "yellow").
-height(id_Mgc4P_O0__WP39K7Fo8ME__1, 50).
+height(id_Mgc4P_O0__WP39K7Fo8ME__1, 120).
 height(id_Mgc4P_O0__WP39K7Fo8ME__10, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__11, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__12, 80).
@@ -139,9 +139,9 @@ height(id_Mgc4P_O0__WP39K7Fo8ME__3, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__4, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__8, 190).
 height(id_Mgc4P_O0__WP39K7Fo8ME__9, 150).
-height(q8f1Wc8Eixn7i3I6va0J__1, 90).
+height(q8f1Wc8Eixn7i3I6va0J__1, 170).
 height(q8f1Wc8Eixn7i3I6va0J__2, 40).
-height(q8f1Wc8Eixn7i3I6va0J__35, 1180).
+height(q8f1Wc8Eixn7i3I6va0J__35, 1250).
 l(id_Mgc4P_O0__WP39K7Fo8ME__1,270).
 l(id_Mgc4P_O0__WP39K7Fo8ME__10,705).
 l(id_Mgc4P_O0__WP39K7Fo8ME__11,245).
@@ -168,10 +168,10 @@ l(id_Mgc4P_O0__WP39K7Fo8ME__4,245).
 l(id_Mgc4P_O0__WP39K7Fo8ME__8,295).
 l(id_Mgc4P_O0__WP39K7Fo8ME__9,265).
 l(q8f1Wc8Eixn7i3I6va0J__1,255).
-l(q8f1Wc8Eixn7i3I6va0J__2,395).
+l(q8f1Wc8Eixn7i3I6va0J__2,680).
 l(q8f1Wc8Eixn7i3I6va0J__35,95).
 name(id_FeA5kuE7ltZkfkWCjx6k, "Page-1").
-r(id_Mgc4P_O0__WP39K7Fo8ME__1,390).
+r(id_Mgc4P_O0__WP39K7Fo8ME__1,650).
 r(id_Mgc4P_O0__WP39K7Fo8ME__10,745).
 r(id_Mgc4P_O0__WP39K7Fo8ME__11,285).
 r(id_Mgc4P_O0__WP39K7Fo8ME__12,695).
@@ -187,7 +187,7 @@ r(id_Mgc4P_O0__WP39K7Fo8ME__20,460).
 r(id_Mgc4P_O0__WP39K7Fo8ME__21,475).
 r(id_Mgc4P_O0__WP39K7Fo8ME__23,305).
 r(id_Mgc4P_O0__WP39K7Fo8ME__24,460).
-r(id_Mgc4P_O0__WP39K7Fo8ME__25,415).
+r(id_Mgc4P_O0__WP39K7Fo8ME__25,700).
 r(id_Mgc4P_O0__WP39K7Fo8ME__27,725).
 r(id_Mgc4P_O0__WP39K7Fo8ME__28,525).
 r(id_Mgc4P_O0__WP39K7Fo8ME__29,485).
@@ -196,8 +196,8 @@ r(id_Mgc4P_O0__WP39K7Fo8ME__30,895).
 r(id_Mgc4P_O0__WP39K7Fo8ME__4,285).
 r(id_Mgc4P_O0__WP39K7Fo8ME__8,865).
 r(id_Mgc4P_O0__WP39K7Fo8ME__9,725).
-r(q8f1Wc8Eixn7i3I6va0J__1,415).
-r(q8f1Wc8Eixn7i3I6va0J__2,435).
+r(q8f1Wc8Eixn7i3I6va0J__1,700).
+r(q8f1Wc8Eixn7i3I6va0J__2,720).
 r(q8f1Wc8Eixn7i3I6va0J__35,1005).
 rect(0,"").
 rect(1,"").
@@ -219,40 +219,40 @@ source(id_Mgc4P_O0__WP39K7Fo8ME__27, id_Mgc4P_O0__WP39K7Fo8ME__10).
 source(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__14).
 source(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__18).
 source(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__3).
-t(id_Mgc4P_O0__WP39K7Fo8ME__1,110).
-t(id_Mgc4P_O0__WP39K7Fo8ME__10,595).
-t(id_Mgc4P_O0__WP39K7Fo8ME__11,595).
-t(id_Mgc4P_O0__WP39K7Fo8ME__12,580).
-t(id_Mgc4P_O0__WP39K7Fo8ME__13,750).
-t(id_Mgc4P_O0__WP39K7Fo8ME__14,790).
-t(id_Mgc4P_O0__WP39K7Fo8ME__15,790).
-t(id_Mgc4P_O0__WP39K7Fo8ME__16,790).
-t(id_Mgc4P_O0__WP39K7Fo8ME__17,900).
-t(id_Mgc4P_O0__WP39K7Fo8ME__18,940).
-t(id_Mgc4P_O0__WP39K7Fo8ME__19,940).
-t(id_Mgc4P_O0__WP39K7Fo8ME__2,240).
-t(id_Mgc4P_O0__WP39K7Fo8ME__20,940).
-t(id_Mgc4P_O0__WP39K7Fo8ME__21,1060).
-t(id_Mgc4P_O0__WP39K7Fo8ME__23,1100).
-t(id_Mgc4P_O0__WP39K7Fo8ME__24,1100).
-t(id_Mgc4P_O0__WP39K7Fo8ME__25,115).
-t(id_Mgc4P_O0__WP39K7Fo8ME__27,615).
-t(id_Mgc4P_O0__WP39K7Fo8ME__28,810).
-t(id_Mgc4P_O0__WP39K7Fo8ME__29,960).
-t(id_Mgc4P_O0__WP39K7Fo8ME__3,340).
-t(id_Mgc4P_O0__WP39K7Fo8ME__30,360).
-t(id_Mgc4P_O0__WP39K7Fo8ME__4,340).
-t(id_Mgc4P_O0__WP39K7Fo8ME__8,270).
-t(id_Mgc4P_O0__WP39K7Fo8ME__9,540).
-t(q8f1Wc8Eixn7i3I6va0J__1,80).
-t(q8f1Wc8Eixn7i3I6va0J__2,95).
-t(q8f1Wc8Eixn7i3I6va0J__35,50).
+t(id_Mgc4P_O0__WP39K7Fo8ME__1,250).
+t(id_Mgc4P_O0__WP39K7Fo8ME__10,805).
+t(id_Mgc4P_O0__WP39K7Fo8ME__11,805).
+t(id_Mgc4P_O0__WP39K7Fo8ME__12,790).
+t(id_Mgc4P_O0__WP39K7Fo8ME__13,960).
+t(id_Mgc4P_O0__WP39K7Fo8ME__14,1000).
+t(id_Mgc4P_O0__WP39K7Fo8ME__15,1000).
+t(id_Mgc4P_O0__WP39K7Fo8ME__16,1000).
+t(id_Mgc4P_O0__WP39K7Fo8ME__17,1110).
+t(id_Mgc4P_O0__WP39K7Fo8ME__18,1150).
+t(id_Mgc4P_O0__WP39K7Fo8ME__19,1150).
+t(id_Mgc4P_O0__WP39K7Fo8ME__2,450).
+t(id_Mgc4P_O0__WP39K7Fo8ME__20,1150).
+t(id_Mgc4P_O0__WP39K7Fo8ME__21,1270).
+t(id_Mgc4P_O0__WP39K7Fo8ME__23,1310).
+t(id_Mgc4P_O0__WP39K7Fo8ME__24,1310).
+t(id_Mgc4P_O0__WP39K7Fo8ME__25,310).
+t(id_Mgc4P_O0__WP39K7Fo8ME__27,825).
+t(id_Mgc4P_O0__WP39K7Fo8ME__28,1020).
+t(id_Mgc4P_O0__WP39K7Fo8ME__29,1170).
+t(id_Mgc4P_O0__WP39K7Fo8ME__3,550).
+t(id_Mgc4P_O0__WP39K7Fo8ME__30,570).
+t(id_Mgc4P_O0__WP39K7Fo8ME__4,550).
+t(id_Mgc4P_O0__WP39K7Fo8ME__8,480).
+t(id_Mgc4P_O0__WP39K7Fo8ME__9,750).
+t(q8f1Wc8Eixn7i3I6va0J__1,220).
+t(q8f1Wc8Eixn7i3I6va0J__2,290).
+t(q8f1Wc8Eixn7i3I6va0J__35,190).
 target(id_Mgc4P_O0__WP39K7Fo8ME__25, id_Mgc4P_O0__WP39K7Fo8ME__4).
 target(id_Mgc4P_O0__WP39K7Fo8ME__27, id_Mgc4P_O0__WP39K7Fo8ME__15).
 target(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__19).
 target(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__23).
 target(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__11).
-value(id_Mgc4P_O0__WP39K7Fo8ME__1, "./drawio2fb.bash&lt;br&gt;echo done &amp;gt;/dev/fd/4").
+value(id_Mgc4P_O0__WP39K7Fo8ME__1, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr vsh.drawio drawio.ohm drawio.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 1.txt styleexpander.ohm styleexpander.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 2.txt attributeelider.ohm attributeelider.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 3.txt emitFactbase.ohm emitFactbase.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
 value(id_Mgc4P_O0__WP39K7Fo8ME__10, "out").
 value(id_Mgc4P_O0__WP39K7Fo8ME__11, "in").
 value(id_Mgc4P_O0__WP39K7Fo8ME__12, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# augment the factbase (fb.pl) after every inferencing step&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;cat 5.pl 6.pl | sort &amp;gt;fb.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/p&gt;").
@@ -298,7 +298,7 @@ vertex(id_Mgc4P_O0__WP39K7Fo8ME__9, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__1, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__2, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__35, "").
-width(id_Mgc4P_O0__WP39K7Fo8ME__1, 120).
+width(id_Mgc4P_O0__WP39K7Fo8ME__1, 380).
 width(id_Mgc4P_O0__WP39K7Fo8ME__10, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__11, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__12, 400).
@@ -318,7 +318,7 @@ width(id_Mgc4P_O0__WP39K7Fo8ME__3, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__4, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__8, 570).
 width(id_Mgc4P_O0__WP39K7Fo8ME__9, 460).
-width(q8f1Wc8Eixn7i3I6va0J__1, 160).
+width(q8f1Wc8Eixn7i3I6va0J__1, 445).
 width(q8f1Wc8Eixn7i3I6va0J__2, 40).
 width(q8f1Wc8Eixn7i3I6va0J__35, 910).
 x(id_Mgc4P_O0__WP39K7Fo8ME__1, 270).
@@ -342,31 +342,31 @@ x(id_Mgc4P_O0__WP39K7Fo8ME__4, 245).
 x(id_Mgc4P_O0__WP39K7Fo8ME__8, 295).
 x(id_Mgc4P_O0__WP39K7Fo8ME__9, 265).
 x(q8f1Wc8Eixn7i3I6va0J__1, 255).
-x(q8f1Wc8Eixn7i3I6va0J__2, 395).
+x(q8f1Wc8Eixn7i3I6va0J__2, 680).
 x(q8f1Wc8Eixn7i3I6va0J__35, 95).
-y(id_Mgc4P_O0__WP39K7Fo8ME__1, 110).
-y(id_Mgc4P_O0__WP39K7Fo8ME__10, 595).
-y(id_Mgc4P_O0__WP39K7Fo8ME__11, 595).
-y(id_Mgc4P_O0__WP39K7Fo8ME__12, 580).
-y(id_Mgc4P_O0__WP39K7Fo8ME__13, 750).
-y(id_Mgc4P_O0__WP39K7Fo8ME__14, 790).
-y(id_Mgc4P_O0__WP39K7Fo8ME__15, 790).
-y(id_Mgc4P_O0__WP39K7Fo8ME__16, 790).
-y(id_Mgc4P_O0__WP39K7Fo8ME__17, 900).
-y(id_Mgc4P_O0__WP39K7Fo8ME__18, 940).
-y(id_Mgc4P_O0__WP39K7Fo8ME__19, 940).
-y(id_Mgc4P_O0__WP39K7Fo8ME__2, 240).
-y(id_Mgc4P_O0__WP39K7Fo8ME__20, 940).
-y(id_Mgc4P_O0__WP39K7Fo8ME__21, 1060).
-y(id_Mgc4P_O0__WP39K7Fo8ME__23, 1100).
-y(id_Mgc4P_O0__WP39K7Fo8ME__24, 1100).
-y(id_Mgc4P_O0__WP39K7Fo8ME__3, 340).
-y(id_Mgc4P_O0__WP39K7Fo8ME__4, 340).
-y(id_Mgc4P_O0__WP39K7Fo8ME__8, 270).
-y(id_Mgc4P_O0__WP39K7Fo8ME__9, 540).
-y(q8f1Wc8Eixn7i3I6va0J__1, 80).
-y(q8f1Wc8Eixn7i3I6va0J__2, 95).
-y(q8f1Wc8Eixn7i3I6va0J__35, 50).
+y(id_Mgc4P_O0__WP39K7Fo8ME__1, 250).
+y(id_Mgc4P_O0__WP39K7Fo8ME__10, 805).
+y(id_Mgc4P_O0__WP39K7Fo8ME__11, 805).
+y(id_Mgc4P_O0__WP39K7Fo8ME__12, 790).
+y(id_Mgc4P_O0__WP39K7Fo8ME__13, 960).
+y(id_Mgc4P_O0__WP39K7Fo8ME__14, 1000).
+y(id_Mgc4P_O0__WP39K7Fo8ME__15, 1000).
+y(id_Mgc4P_O0__WP39K7Fo8ME__16, 1000).
+y(id_Mgc4P_O0__WP39K7Fo8ME__17, 1110).
+y(id_Mgc4P_O0__WP39K7Fo8ME__18, 1150).
+y(id_Mgc4P_O0__WP39K7Fo8ME__19, 1150).
+y(id_Mgc4P_O0__WP39K7Fo8ME__2, 450).
+y(id_Mgc4P_O0__WP39K7Fo8ME__20, 1150).
+y(id_Mgc4P_O0__WP39K7Fo8ME__21, 1270).
+y(id_Mgc4P_O0__WP39K7Fo8ME__23, 1310).
+y(id_Mgc4P_O0__WP39K7Fo8ME__24, 1310).
+y(id_Mgc4P_O0__WP39K7Fo8ME__3, 550).
+y(id_Mgc4P_O0__WP39K7Fo8ME__4, 550).
+y(id_Mgc4P_O0__WP39K7Fo8ME__8, 480).
+y(id_Mgc4P_O0__WP39K7Fo8ME__9, 750).
+y(q8f1Wc8Eixn7i3I6va0J__1, 220).
+y(q8f1Wc8Eixn7i3I6va0J__2, 290).
+y(q8f1Wc8Eixn7i3I6va0J__35, 190).
 contains1(id_Mgc4P_O0__WP39K7Fo8ME__13,id_Mgc4P_O0__WP39K7Fo8ME__16).
 contains1(id_Mgc4P_O0__WP39K7Fo8ME__17,id_Mgc4P_O0__WP39K7Fo8ME__20).
 contains1(id_Mgc4P_O0__WP39K7Fo8ME__2,id_Mgc4P_O0__WP39K7Fo8ME__8).
@@ -460,7 +460,7 @@ unknowncomponentname(0,"u1").
 unknowncomponentname(1,"u2").
 factcomponentcode(0,"").
 factcomponentcode(1,"").
-factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__1,"./drawio2fb.bash&lt;br&gt;echo done &amp;gt;/dev/fd/4").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__1,"&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr vsh.drawio drawio.ohm drawio.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 1.txt styleexpander.ohm styleexpander.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 2.txt attributeelider.ohm attributeelider.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 3.txt emitFactbase.ohm emitFactbase.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
 factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__12,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# augment the factbase (fb.pl) after every inferencing step&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;cat 5.pl 6.pl | sort &amp;gt;fb.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/p&gt;").
 factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__13,"").
 factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__16,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;./run-queries.bash &amp;gt;7.json&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/span&gt;&lt;/p&gt;").

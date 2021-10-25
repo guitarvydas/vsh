@@ -3,10 +3,10 @@
 # ./drawio2fb.bash
 
 cdir=`pwd`
-pfr vsh.drawio drawio.ohm drawio.action $cdir/support.js \
-    | pfr 1.txt styleexpander.ohm styleexpander.action $cdir/support.js \
-    | pfr 2.txt attributeelider.ohm attributeelider.action $cdir/support.js \
-    | pfr 3.txt emitFactbase.ohm emitFactbase.action $cdir/support.js \
+pfr vsh.drawio drawio.ohm drawio.srw $cdir/support.js \
+    | pfr - styleexpander.ohm styleexpander.srw $cdir/support.js \
+    | pfr - attributeelider.ohm attributeelider.srw $cdir/support.js \
+    | pfr - emitFactbase.ohm emitFactbase.srw $cdir/support.js \
     | sort >5.pl
 
 
