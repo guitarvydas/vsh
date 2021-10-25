@@ -1,0 +1,7 @@
+div {
+text =
+    stuff* div text -- withdiv
+  | stuff* -- withoutdiv
+div = "<div" (~">" any)* ">" text "</div>"
+stuff = ~"<div" ~"</div" any
+}
