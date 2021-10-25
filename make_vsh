@@ -1,5 +1,5 @@
 #!/bin/bash
-# VSH
+# make_vsh
 mkfifo pipe0
 mkfifo pipe1
 mkfifo pipe2

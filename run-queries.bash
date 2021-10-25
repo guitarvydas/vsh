@@ -39,22 +39,14 @@ swipl -g 'consult(fb).'  -g 'consult(onSameDiagram).' -g 'consult(component).' -
 
 # pipeline
 allContains1
-cp fb.pl _c1.pl
 printAllDeepContains
-cp fb.pl _c2.pl
 printAllDirectContains
-cp fb.pl _c3.pl
 designRuleRectanglesMustNotIntersectOnTheSameDiagram
-cp fb.pl _c4.pl
 printAllPortContains
-cp fb.pl _c5.pl
 printAllDirections
-cp fb.pl _c6.pl
 
 assignNames
-cp fb.pl _c7.pl
 assignCode
-cp fb.pl _c8.pl
 
 # convert fb.pl to JSON form
 swipl -g 'use_module(library(http/json))' \

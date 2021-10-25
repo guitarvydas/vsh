@@ -274,7 +274,7 @@ value(id_Mgc4P_O0__WP39K7Fo8ME__8, "&lt;p class=&quot;p1&quot; style=&quot;margi
 value(id_Mgc4P_O0__WP39K7Fo8ME__9, "sort factbase").
 value(q8f1Wc8Eixn7i3I6va0J__1, "drawio to factbase").
 value(q8f1Wc8Eixn7i3I6va0J__2, "out").
-value(q8f1Wc8Eixn7i3I6va0J__35, "VSH").
+value(q8f1Wc8Eixn7i3I6va0J__35, "make_vsh").
 vertex(id_Mgc4P_O0__WP39K7Fo8ME__1, "").
 vertex(id_Mgc4P_O0__WP39K7Fo8ME__10, "").
 vertex(id_Mgc4P_O0__WP39K7Fo8ME__11, "").
@@ -455,7 +455,7 @@ factname(id_Mgc4P_O0__WP39K7Fo8ME__8,"code6").
 factname(id_Mgc4P_O0__WP39K7Fo8ME__9,"sort factbase").
 factname(q8f1Wc8Eixn7i3I6va0J__1,"drawio to factbase").
 factname(q8f1Wc8Eixn7i3I6va0J__2,"out").
-factname(q8f1Wc8Eixn7i3I6va0J__35,"VSH").
+factname(q8f1Wc8Eixn7i3I6va0J__35,"make_vsh").
 unknowncomponentname(0,"u1").
 unknowncomponentname(1,"u2").
 factcomponentcode(0,"").

@@ -120,25 +120,7 @@ function makePipeName (container, sourceComponent, targetComponent) {
 
 function emitToScript (code) {
     // see https://www.w3.org/wiki/Common_HTML_entities_used_for_typography
-    let s = code
-
-	// .replace (/&amp;/g,'&')
-	// .replace (/&quot;/g,"'")
-	// .replace (/&lt;/g,'<')
-	// .replace (/&gt;/g,'>')
-	// .replace (/&#34;/g,'"')
-	// .replace (/&#34;/g,'"')
-	// .replace (/&#92;/g,'\\')
-	// .replace (/<br>/,'\n')
-
-	// .replace (/&amp;>/,'>')
-	// .replace (/&amp;</,'<')
-	// .replace (/^<[^>]+>/,'')
-	// .replace (/^<span[^>]+>/,'')
-	// .replace (/<\/span>/,'')
-	// .replace (/<\/p>/,'')
-	// .replace (/&gt;/g,'>') // This is needed a 2nd time - I don't know why
-    ;
+    let s = code;
     script += (s + '\n');
 }
 
