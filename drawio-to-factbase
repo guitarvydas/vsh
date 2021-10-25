@@ -1,3 +1,3 @@
 #!/bin/bash
-# drawio to factbase
+# drawio-to-factbase
 &lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr vsh.drawio drawio.ohm drawio.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 1.txt styleexpander.ohm styleexpander.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 2.txt attributeelider.ohm attributeelider.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr 3.txt emitFactbase.ohm emitFactbase.srw $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4

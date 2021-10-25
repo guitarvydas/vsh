@@ -124,7 +124,6 @@ function emitToScript (code) {
     script += (s + '\n');
 }
 
-
 var fs = require ('fs');
 var components_string = fs.readFileSync (process.argv [2]);
 var components = JSON.parse(components_string);

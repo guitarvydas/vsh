@@ -31,7 +31,7 @@
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
   "id":"id_Mgc4P_O0__WP39K7Fo8ME__13",
   "inputs": ["in" ],
-  "name":"run queries",
+  "name":"run-queries",
   "outputs": ["out" ],
   "synccode":""
 }
@@ -53,7 +53,7 @@
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
   "id":"id_Mgc4P_O0__WP39K7Fo8ME__17",
   "inputs": ["in" ],
-  "name":"emit bash",
+  "name":"emit-bash",
   "outputs": ["out" ],
   "synccode":""
 }
@@ -64,7 +64,7 @@
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
   "id":"id_Mgc4P_O0__WP39K7Fo8ME__2",
   "inputs": ["in" ],
-  "name":"create rect facts",
+  "name":"create-rect-facts",
   "outputs": ["out" ],
   "synccode":""
 }
@@ -86,7 +86,7 @@
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
   "id":"id_Mgc4P_O0__WP39K7Fo8ME__21",
   "inputs": ["in" ],
-  "name":"permissions to execute",
+  "name":"permissions-to-execute",
   "outputs": [],
   "synccode":""
 }
@@ -119,7 +119,7 @@
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
   "id":"id_Mgc4P_O0__WP39K7Fo8ME__9",
   "inputs": ["in" ],
-  "name":"sort factbase",
+  "name":"sort-factbase",
   "outputs": ["out" ],
   "synccode":""
 }
@@ -130,45 +130,45 @@
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
   "id":"q8f1Wc8Eixn7i3I6va0J__1",
   "inputs": [],
-  "name":"drawio to factbase",
+  "name":"drawio-to-factbase",
   "outputs": ["out" ],
   "synccode":""
 }
 ,
 {
   "children": [
-    "run queries",
-    "emit bash",
-    "create rect facts",
-    "permissions to execute",
-    "sort factbase",
-    "drawio to factbase"
+    "run-queries",
+    "emit-bash",
+    "create-rect-facts",
+    "permissions-to-execute",
+    "sort-factbase",
+    "drawio-to-factbase"
   ],
   "connections": [
     {
       "name":"x2",
-      "source": {"component":"drawio to factbase", "port":"out"},
-      "target": {"component":"create rect facts", "port":"in"}
+      "source": {"component":"drawio-to-factbase", "port":"out"},
+      "target": {"component":"create-rect-facts", "port":"in"}
     },
     {
       "name":"x3",
-      "source": {"component":"sort factbase", "port":"out"},
-      "target": {"component":"run queries", "port":"in"}
+      "source": {"component":"sort-factbase", "port":"out"},
+      "target": {"component":"run-queries", "port":"in"}
     },
     {
       "name":"x4",
-      "source": {"component":"run queries", "port":"out"},
-      "target": {"component":"emit bash", "port":"in"}
+      "source": {"component":"run-queries", "port":"out"},
+      "target": {"component":"emit-bash", "port":"in"}
     },
     {
       "name":"x5",
-      "source": {"component":"emit bash", "port":"out"},
-      "target": {"component":"permissions to execute", "port":"in"}
+      "source": {"component":"emit-bash", "port":"out"},
+      "target": {"component":"permissions-to-execute", "port":"in"}
     },
     {
       "name":"x6",
-      "source": {"component":"create rect facts", "port":"out"},
-      "target": {"component":"sort factbase", "port":"in"}
+      "source": {"component":"create-rect-facts", "port":"out"},
+      "target": {"component":"sort-factbase", "port":"in"}
     }
   ],
   "diagram":"id_FeA5kuE7ltZkfkWCjx6k",

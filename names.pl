@@ -7,12 +7,14 @@ makename(C):-
 makename(C):-
     port(C),
     value(C,Name),
-    format("factname(~w,\"~w\").~n",[C,Name]),
+    fixupName(Name,FixedUpName),
+    format("factname(~w,\"~w\").~n",[C,FixedUpName]),
     !.
 makename(C):-
     component(C),
     value(C,Name),
-    format("factname(~w,\"~w\").~n",[C,Name]),
+    fixupName(Name,FixedUpName),
+    format("factname(~w,\"~w\").~n",[C,FixedUpName]),
     !.
 makename(C):-
     gensym(u,Name),
