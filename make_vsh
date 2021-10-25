@@ -5,24 +5,24 @@ mkfifo pipe1
 mkfifo pipe2
 mkfifo pipe3
 mkfifo pipe4
-./run-queries 4>pipe2 3<pipe1 &
-run-queries_pid=$!
-./emit-bash 4>pipe3 3<pipe2 &
-emit-bash_pid=$!
-./create-rect-facts 4>pipe4 3<pipe0 &
-create-rect-facts_pid=$!
-./permissions-to-execute  3<pipe3 &
-permissions-to-execute_pid=$!
-./sort-factbase 4>pipe1 3<pipe4 &
-sort-factbase_pid=$!
-./drawio-to-factbase 4>pipe0  &
-drawio-to-factbase_pid=$!
-wait $run-queries_pid
-wait $emit-bash_pid
-wait $create-rect-facts_pid
-wait $permissions-to-execute_pid
-wait $sort-factbase_pid
-wait $drawio-to-factbase_pid
+./run_queries 4>pipe2 3<pipe1 &
+run_queries_pid=$!
+./emit_bash 4>pipe3 3<pipe2 &
+emit_bash_pid=$!
+./create_rect_facts 4>pipe4 3<pipe0 &
+create_rect_facts_pid=$!
+./permissions_to_execute  3<pipe3 &
+permissions_to_execute_pid=$!
+./sort_factbase 4>pipe1 3<pipe4 &
+sort_factbase_pid=$!
+./drawio_to_factbase 4>pipe0  &
+drawio_to_factbase_pid=$!
+wait $run_queries_pid
+wait $emit_bash_pid
+wait $create_rect_facts_pid
+wait $permissions_to_execute_pid
+wait $sort_factbase_pid
+wait $drawio_to_factbase_pid
 rm pipe0
 rm pipe1
 rm pipe2
