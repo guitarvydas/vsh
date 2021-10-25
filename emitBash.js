@@ -126,7 +126,7 @@ function emitToScript (code) {
 
 
 var fs = require ('fs');
-var components_string = fs.readFileSync ('7.json');
+var components_string = fs.readFileSync (process.argv [2]);
 var components = JSON.parse(components_string);
 gatherComponents (components);
 createPipeNames (components);

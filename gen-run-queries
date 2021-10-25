@@ -1,0 +1,10 @@
+#!/bin/bash
+# run queries
+./run-queries.bash >7.json
+echo done >/dev/fd/4
+
+
+
+
+
+
