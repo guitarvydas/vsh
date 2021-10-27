@@ -1,3 +1,5 @@
+'use strict';
+
 var componentTable;
 let pipenum = 0;
 let script;
@@ -7,6 +9,9 @@ function emit (components) {
     let toplevel = null;
     let pipenum = 0;
     components.forEach (c => {
+	if (c.name) {
+	    c.name = mangle_for_boot (c.name);
+	}
 	if (c.toplevelcomponent) {
 	    // no op
 	} else if (c.synccode !== '') {
@@ -38,13 +43,15 @@ function emitAsyncContainerComponent (c) {
 function emitChildComponents (children) {
     children.forEach (name => {
 	let c = lookup (name);
-	emitToScript (`./${name} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
+	let n = mangle_for_boot (name);
+	emitToScript (`./${n} ${c.inpipe} ${c.outpipe} &\n${n}_pid=\$\!`);
     });
 }
 
 function emitChildWaits (children) {
     children.forEach (name => {
-	emitToScript (`wait \$${name}_pid`);
+	let n = mangle_for_boot (name);
+	emitToScript (`wait \$${n}_pid`);
     });
 }
 
@@ -78,7 +85,7 @@ function newScript (name) {
 
 function endScript (sname) {
     let name = sname.replace (/ /g,'-');
-    //process.stderr.write (`emitting ${name}\n`);
+    process.stderr.write (`emitting ${name}\n`);
     fs.writeFileSync (name, script);
     componentNames += ' ' + name;
 }
@@ -86,10 +93,15 @@ function endScript (sname) {
 function gatherComponents (components) {
     // make a table of components (for easier access in subsequent passes)
     componentTable = [];
+    console.error (components.length);
+    components.forEach (c => { console.error (c); });
     components.forEach (c => {
 	if (c.toplevelcomponent) {
+	    console.error ('1');
 	    // no op
 	} else {
+	    console.error ('2');
+	    console.error (c)
 	    componentTable [c.name] = c;
 	    c.inpipe = '';
 	    c.outpipe = '';
@@ -122,6 +134,10 @@ function emitToScript (code) {
     // see https://www.w3.org/wiki/Common_HTML_entities_used_for_typography
     let s = code;
     script += (s + '\n');
+}
+
+function mangle_for_boot (name) {
+    return "boot_" + name;
 }
 
 var fs = require ('fs');

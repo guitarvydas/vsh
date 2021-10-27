@@ -1,7 +1,3 @@
-jc(D,ID,N,I,O,SyncCode,C,X):-
-    component(D,ID,N,I,O,SyncCode,C,X).
-
-
 all(Comp):-
     jc(D,ID,N,I,O,SyncCode,C,X),
     Comp = component{
@@ -15,6 +11,9 @@ all(Comp):-
 	    connections:X
 	}.
 
-allc:-
+%% allid(ID):-
+%%         jc(D,ID,N,I,O,SyncCode,C,X).
+
+jall:-
     bagof(C,all(C),Bag),
     json_write(user_error,Bag).
