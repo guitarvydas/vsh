@@ -26,6 +26,11 @@ cell(id_Mgc4P_O0__WP39K7Fo8ME__30,"").
 cell(id_Mgc4P_O0__WP39K7Fo8ME__4,"").
 cell(id_Mgc4P_O0__WP39K7Fo8ME__8,"").
 cell(id_Mgc4P_O0__WP39K7Fo8ME__9,"").
+cell(id_OHDw4CAGKoPJ1KLI____7b__1,"").
+cell(id_OHDw4CAGKoPJ1KLI____7b__2,"").
+cell(id_OHDw4CAGKoPJ1KLI____7b__3,"").
+cell(id_OHDw4CAGKoPJ1KLI____7b__4,"").
+cell(id_OHDw4CAGKoPJ1KLI____7b__5,"").
 cell(q8f1Wc8Eixn7i3I6va0J__1,"").
 cell(q8f1Wc8Eixn7i3I6va0J__2,"").
 cell(q8f1Wc8Eixn7i3I6va0J__35,"").
@@ -57,6 +62,11 @@ diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__30).
 diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__4).
 diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__8).
 diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_Mgc4P_O0__WP39K7Fo8ME__9).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_OHDw4CAGKoPJ1KLI____7b__1).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_OHDw4CAGKoPJ1KLI____7b__2).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_OHDw4CAGKoPJ1KLI____7b__3).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_OHDw4CAGKoPJ1KLI____7b__4).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, id_OHDw4CAGKoPJ1KLI____7b__5).
 diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__1).
 diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__2).
 diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__35).
@@ -65,6 +75,7 @@ edge(id_Mgc4P_O0__WP39K7Fo8ME__27, "").
 edge(id_Mgc4P_O0__WP39K7Fo8ME__28, "").
 edge(id_Mgc4P_O0__WP39K7Fo8ME__29, "").
 edge(id_Mgc4P_O0__WP39K7Fo8ME__30, "").
+edge(id_OHDw4CAGKoPJ1KLI____7b__5, "").
 ellipse(id_Mgc4P_O0__WP39K7Fo8ME__10, "").
 ellipse(id_Mgc4P_O0__WP39K7Fo8ME__11, "").
 ellipse(id_Mgc4P_O0__WP39K7Fo8ME__14, "").
@@ -74,6 +85,8 @@ ellipse(id_Mgc4P_O0__WP39K7Fo8ME__19, "").
 ellipse(id_Mgc4P_O0__WP39K7Fo8ME__23, "").
 ellipse(id_Mgc4P_O0__WP39K7Fo8ME__3, "").
 ellipse(id_Mgc4P_O0__WP39K7Fo8ME__4, "").
+ellipse(id_OHDw4CAGKoPJ1KLI____7b__2, "").
+ellipse(id_OHDw4CAGKoPJ1KLI____7b__4, "").
 ellipse(q8f1Wc8Eixn7i3I6va0J__2, "").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__1, "red").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__10, "yellow").
@@ -90,6 +103,9 @@ fillColor(id_Mgc4P_O0__WP39K7Fo8ME__24, "red").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__3, "yellow").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__4, "green").
 fillColor(id_Mgc4P_O0__WP39K7Fo8ME__8, "red").
+fillColor(id_OHDw4CAGKoPJ1KLI____7b__2, "green").
+fillColor(id_OHDw4CAGKoPJ1KLI____7b__3, "red").
+fillColor(id_OHDw4CAGKoPJ1KLI____7b__4, "yellow").
 fillColor(q8f1Wc8Eixn7i3I6va0J__2, "yellow").
 height(id_Mgc4P_O0__WP39K7Fo8ME__1, 120).
 height(id_Mgc4P_O0__WP39K7Fo8ME__10, 40).
@@ -104,27 +120,33 @@ height(id_Mgc4P_O0__WP39K7Fo8ME__18, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__19, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__2, 240).
 height(id_Mgc4P_O0__WP39K7Fo8ME__20, 50).
-height(id_Mgc4P_O0__WP39K7Fo8ME__21, 110).
+height(id_Mgc4P_O0__WP39K7Fo8ME__21, 295).
 height(id_Mgc4P_O0__WP39K7Fo8ME__23, 40).
-height(id_Mgc4P_O0__WP39K7Fo8ME__24, 50).
+height(id_Mgc4P_O0__WP39K7Fo8ME__24, 240).
 height(id_Mgc4P_O0__WP39K7Fo8ME__3, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__4, 40).
 height(id_Mgc4P_O0__WP39K7Fo8ME__8, 190).
 height(id_Mgc4P_O0__WP39K7Fo8ME__9, 150).
+height(id_OHDw4CAGKoPJ1KLI____7b__1, 110).
+height(id_OHDw4CAGKoPJ1KLI____7b__2, 40).
+height(id_OHDw4CAGKoPJ1KLI____7b__3, 50).
+height(id_OHDw4CAGKoPJ1KLI____7b__4, 40).
 height(q8f1Wc8Eixn7i3I6va0J__1, 170).
 height(q8f1Wc8Eixn7i3I6va0J__2, 40).
-height(q8f1Wc8Eixn7i3I6va0J__35, 1250).
+height(q8f1Wc8Eixn7i3I6va0J__35, 1620).
 name(id_FeA5kuE7ltZkfkWCjx6k, "Page-1").
 source(id_Mgc4P_O0__WP39K7Fo8ME__25, q8f1Wc8Eixn7i3I6va0J__2).
 source(id_Mgc4P_O0__WP39K7Fo8ME__27, id_Mgc4P_O0__WP39K7Fo8ME__10).
 source(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__14).
 source(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__18).
 source(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__3).
+source(id_OHDw4CAGKoPJ1KLI____7b__5, id_OHDw4CAGKoPJ1KLI____7b__4).
 target(id_Mgc4P_O0__WP39K7Fo8ME__25, id_Mgc4P_O0__WP39K7Fo8ME__4).
 target(id_Mgc4P_O0__WP39K7Fo8ME__27, id_Mgc4P_O0__WP39K7Fo8ME__15).
 target(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__19).
 target(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__23).
 target(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__11).
+target(id_OHDw4CAGKoPJ1KLI____7b__5, id_OHDw4CAGKoPJ1KLI____7b__2).
 value(id_Mgc4P_O0__WP39K7Fo8ME__1, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr ../vsh/vsh.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
 value(id_Mgc4P_O0__WP39K7Fo8ME__10, "out").
 value(id_Mgc4P_O0__WP39K7Fo8ME__11, "in").
@@ -132,19 +154,23 @@ value(id_Mgc4P_O0__WP39K7Fo8ME__12, "&lt;p class=&quot;p1&quot; style=&quot;marg
 value(id_Mgc4P_O0__WP39K7Fo8ME__13, "run queries").
 value(id_Mgc4P_O0__WP39K7Fo8ME__14, "out").
 value(id_Mgc4P_O0__WP39K7Fo8ME__15, "in").
-value(id_Mgc4P_O0__WP39K7Fo8ME__16, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;./boot_run_queries.bash &amp;gt;7.json&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/span&gt;&lt;/p&gt;").
+value(id_Mgc4P_O0__WP39K7Fo8ME__16, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;./run_queries.bash &amp;gt;7.json&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/span&gt;&lt;/p&gt;").
 value(id_Mgc4P_O0__WP39K7Fo8ME__17, "emit bash").
 value(id_Mgc4P_O0__WP39K7Fo8ME__18, "out").
 value(id_Mgc4P_O0__WP39K7Fo8ME__19, "in").
 value(id_Mgc4P_O0__WP39K7Fo8ME__2, "create rect facts").
 value(id_Mgc4P_O0__WP39K7Fo8ME__20, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;node emitBash.js 7.json&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/span&gt;&lt;/p&gt;").
-value(id_Mgc4P_O0__WP39K7Fo8ME__21, "permissions to execute").
+value(id_Mgc4P_O0__WP39K7Fo8ME__21, "unhtml").
 value(id_Mgc4P_O0__WP39K7Fo8ME__23, "in").
-value(id_Mgc4P_O0__WP39K7Fo8ME__24, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;chmod a+x make_vsh&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;").
+value(id_Mgc4P_O0__WP39K7Fo8ME__24, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr drawio_to_factbase unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot/drawio_to_factbase&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr create_rect_facts unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot/create_rect_facts&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr sort_factbase unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot/sort_factbase&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr run_queries unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot/run_queries&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr emit_bash unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot/emit_bash&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr permissions_to_execute unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue &amp;gt;../vsh_boot/permissions_to_execute&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pfr make_vsh unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot/make_vsh&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;").
 value(id_Mgc4P_O0__WP39K7Fo8ME__3, "out").
 value(id_Mgc4P_O0__WP39K7Fo8ME__4, "in").
 value(id_Mgc4P_O0__WP39K7Fo8ME__8, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## create rect fact for every vertex that is not an edge/ellipse/text&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## but does not mark rectangles (the default)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## this pass finds the defaults and creates explicit rect(...) facts&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'consult(5).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'consult(rects).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'printRects.' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'halt.' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&amp;gt; 6.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;echo done &amp;gt;/dev/fd/4&lt;/p&gt;").
 value(id_Mgc4P_O0__WP39K7Fo8ME__9, "sort factbase").
+value(id_OHDw4CAGKoPJ1KLI____7b__1, "permissions to execute").
+value(id_OHDw4CAGKoPJ1KLI____7b__2, "in").
+value(id_OHDw4CAGKoPJ1KLI____7b__3, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;chmod a+x make_vsh&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;").
+value(id_OHDw4CAGKoPJ1KLI____7b__4, "out").
 value(q8f1Wc8Eixn7i3I6va0J__1, "drawio to factbase").
 value(q8f1Wc8Eixn7i3I6va0J__2, "out").
 value(q8f1Wc8Eixn7i3I6va0J__35, "make_vsh").
@@ -168,6 +194,10 @@ vertex(id_Mgc4P_O0__WP39K7Fo8ME__3, "").
 vertex(id_Mgc4P_O0__WP39K7Fo8ME__4, "").
 vertex(id_Mgc4P_O0__WP39K7Fo8ME__8, "").
 vertex(id_Mgc4P_O0__WP39K7Fo8ME__9, "").
+vertex(id_OHDw4CAGKoPJ1KLI____7b__1, "").
+vertex(id_OHDw4CAGKoPJ1KLI____7b__2, "").
+vertex(id_OHDw4CAGKoPJ1KLI____7b__3, "").
+vertex(id_OHDw4CAGKoPJ1KLI____7b__4, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__1, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__2, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__35, "").
@@ -184,16 +214,20 @@ width(id_Mgc4P_O0__WP39K7Fo8ME__18, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__19, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__2, 630).
 width(id_Mgc4P_O0__WP39K7Fo8ME__20, 165).
-width(id_Mgc4P_O0__WP39K7Fo8ME__21, 195).
+width(id_Mgc4P_O0__WP39K7Fo8ME__21, 995).
 width(id_Mgc4P_O0__WP39K7Fo8ME__23, 40).
-width(id_Mgc4P_O0__WP39K7Fo8ME__24, 145).
+width(id_Mgc4P_O0__WP39K7Fo8ME__24, 925).
 width(id_Mgc4P_O0__WP39K7Fo8ME__3, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__4, 40).
 width(id_Mgc4P_O0__WP39K7Fo8ME__8, 570).
 width(id_Mgc4P_O0__WP39K7Fo8ME__9, 460).
+width(id_OHDw4CAGKoPJ1KLI____7b__1, 195).
+width(id_OHDw4CAGKoPJ1KLI____7b__2, 40).
+width(id_OHDw4CAGKoPJ1KLI____7b__3, 145).
+width(id_OHDw4CAGKoPJ1KLI____7b__4, 40).
 width(q8f1Wc8Eixn7i3I6va0J__1, 445).
 width(q8f1Wc8Eixn7i3I6va0J__2, 40).
-width(q8f1Wc8Eixn7i3I6va0J__35, 910).
+width(q8f1Wc8Eixn7i3I6va0J__35, 1365).
 x(id_Mgc4P_O0__WP39K7Fo8ME__1, 285).
 x(id_Mgc4P_O0__WP39K7Fo8ME__10, 705).
 x(id_Mgc4P_O0__WP39K7Fo8ME__11, 245).
@@ -214,6 +248,10 @@ x(id_Mgc4P_O0__WP39K7Fo8ME__3, 875).
 x(id_Mgc4P_O0__WP39K7Fo8ME__4, 245).
 x(id_Mgc4P_O0__WP39K7Fo8ME__8, 295).
 x(id_Mgc4P_O0__WP39K7Fo8ME__9, 265).
+x(id_OHDw4CAGKoPJ1KLI____7b__1, 305).
+x(id_OHDw4CAGKoPJ1KLI____7b__2, 285).
+x(id_OHDw4CAGKoPJ1KLI____7b__3, 335).
+x(id_OHDw4CAGKoPJ1KLI____7b__4, 1260).
 x(q8f1Wc8Eixn7i3I6va0J__1, 255).
 x(q8f1Wc8Eixn7i3I6va0J__2, 680).
 x(q8f1Wc8Eixn7i3I6va0J__35, 95).
@@ -230,13 +268,17 @@ y(id_Mgc4P_O0__WP39K7Fo8ME__18, 1150).
 y(id_Mgc4P_O0__WP39K7Fo8ME__19, 1150).
 y(id_Mgc4P_O0__WP39K7Fo8ME__2, 450).
 y(id_Mgc4P_O0__WP39K7Fo8ME__20, 1150).
-y(id_Mgc4P_O0__WP39K7Fo8ME__21, 1270).
-y(id_Mgc4P_O0__WP39K7Fo8ME__23, 1310).
+y(id_Mgc4P_O0__WP39K7Fo8ME__21, 1275).
+y(id_Mgc4P_O0__WP39K7Fo8ME__23, 1340).
 y(id_Mgc4P_O0__WP39K7Fo8ME__24, 1310).
 y(id_Mgc4P_O0__WP39K7Fo8ME__3, 550).
 y(id_Mgc4P_O0__WP39K7Fo8ME__4, 550).
 y(id_Mgc4P_O0__WP39K7Fo8ME__8, 480).
 y(id_Mgc4P_O0__WP39K7Fo8ME__9, 750).
+y(id_OHDw4CAGKoPJ1KLI____7b__1, 1640).
+y(id_OHDw4CAGKoPJ1KLI____7b__2, 1680).
+y(id_OHDw4CAGKoPJ1KLI____7b__3, 1680).
+y(id_OHDw4CAGKoPJ1KLI____7b__4, 1340).
 y(q8f1Wc8Eixn7i3I6va0J__1, 220).
 y(q8f1Wc8Eixn7i3I6va0J__2, 290).
 y(q8f1Wc8Eixn7i3I6va0J__35, 190).

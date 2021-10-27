@@ -15,6 +15,6 @@ all(Comp):-
 	    connections:X
 	}.
 
-allc:-
+allc():-
     bagof(C,all(C),Bag),
-    json_write(user_error,Bag).
+    json_write(user_output,Bag).
