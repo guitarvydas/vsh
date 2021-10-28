@@ -9,9 +9,6 @@ function emit (components) {
     let toplevel = null;
     let pipenum = 0;
     components.forEach (c => {
-	if (c.name) {
-	    c.name = mangle_for_boot (c.name);
-	}
 	if (c.toplevelcomponent) {
 	    // no op
 	} else if (c.synccode !== '') {
@@ -43,15 +40,13 @@ function emitAsyncContainerComponent (c) {
 function emitChildComponents (children) {
     children.forEach (name => {
 	let c = lookup (name);
-	let n = mangle_for_boot (name);
-	emitToScript (`./${n} ${c.inpipe} ${c.outpipe} &\n${n}_pid=\$\!`);
+	emitToScript (`./${name} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
     });
 }
 
 function emitChildWaits (children) {
     children.forEach (name => {
-	let n = mangle_for_boot (name);
-	emitToScript (`wait \$${n}_pid`);
+	emitToScript (`wait \$${name}_pid`);
     });
 }
 
@@ -93,15 +88,10 @@ function endScript (sname) {
 function gatherComponents (components) {
     // make a table of components (for easier access in subsequent passes)
     componentTable = [];
-    console.error (components.length);
-    components.forEach (c => { console.error (c); });
     components.forEach (c => {
 	if (c.toplevelcomponent) {
-	    console.error ('1');
 	    // no op
 	} else {
-	    console.error ('2');
-	    console.error (c)
 	    componentTable [c.name] = c;
 	    c.inpipe = '';
 	    c.outpipe = '';
@@ -134,10 +124,6 @@ function emitToScript (code) {
     // see https://www.w3.org/wiki/Common_HTML_entities_used_for_typography
     let s = code;
     script += (s + '\n');
-}
-
-function mangle_for_boot (name) {
-    return "boot_" + name;
 }
 
 var fs = require ('fs');

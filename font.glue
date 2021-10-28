@@ -1,0 +1,4 @@
+text_withfont [@stuff font text] = [[${stuff}${font}${text}]]
+text_withoutfont [@stuff] = [[${stuff}]]
+font [k @cs k2 cs2 k3] = [[${cs2}]]
+stuff [c] = [[${c}]]

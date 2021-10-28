@@ -44,7 +44,7 @@ designRuleRectanglesMustNotIntersect(A,B):-
     %r(B,Br),
     b(B,Bb),
     linesIntersect(Al, Ab, Ar, Ab, Bl, Bt, Bl, Bb),
-    format('FATAL design rule: rectangles must not intersect (Abottom Bleft)~n', [A,B]),
+    format('FATAL design rule: rectangles must not intersect (Abottom Bleft) ~w ~w~n', [A,B]),
     !.
 
 designRuleRectanglesMustNotIntersect(A,B):-

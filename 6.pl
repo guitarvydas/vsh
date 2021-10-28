@@ -11,5 +11,7 @@ rect(id_Mgc4P_O0__WP39K7Fo8ME__21,"").
 rect(id_Mgc4P_O0__WP39K7Fo8ME__24,"").
 rect(id_Mgc4P_O0__WP39K7Fo8ME__8,"").
 rect(id_Mgc4P_O0__WP39K7Fo8ME__9,"").
+rect(id_OHDw4CAGKoPJ1KLI____7b__1,"").
+rect(id_OHDw4CAGKoPJ1KLI____7b__3,"").
 rect(q8f1Wc8Eixn7i3I6va0J__1,"").
 rect(q8f1Wc8Eixn7i3I6va0J__35,"").
