@@ -31,7 +31,7 @@ b(id_OHDw4CAGKoPJ1KLI____7b__4,1380).
 b(id_OHDw4CAGKoPJ1KLI____7b__5,1760).
 b(q8f1Wc8Eixn7i3I6va0J__1,390).
 b(q8f1Wc8Eixn7i3I6va0J__2,330).
-b(q8f1Wc8Eixn7i3I6va0J__35,1810).
+b(q8f1Wc8Eixn7i3I6va0J__35,1840).
 cell(0,"").
 cell(1,"").
 cell(id_Mgc4P_O0__WP39K7Fo8ME__1,"").
@@ -166,7 +166,7 @@ height(id_OHDw4CAGKoPJ1KLI____7b__3, 50).
 height(id_OHDw4CAGKoPJ1KLI____7b__4, 40).
 height(q8f1Wc8Eixn7i3I6va0J__1, 170).
 height(q8f1Wc8Eixn7i3I6va0J__2, 40).
-height(q8f1Wc8Eixn7i3I6va0J__35, 1620).
+height(q8f1Wc8Eixn7i3I6va0J__35, 1650).
 l(id_Mgc4P_O0__WP39K7Fo8ME__1,285).
 l(id_Mgc4P_O0__WP39K7Fo8ME__10,705).
 l(id_Mgc4P_O0__WP39K7Fo8ME__11,245).
@@ -485,3 +485,73 @@ contains(q8f1Wc8Eixn7i3I6va0J__35,id_Mgc4P_O0__WP39K7Fo8ME__9).
 contains(q8f1Wc8Eixn7i3I6va0J__35,id_OHDw4CAGKoPJ1KLI____7b__1).
 contains(q8f1Wc8Eixn7i3I6va0J__35,id_OHDw4CAGKoPJ1KLI____7b__5).
 contains(q8f1Wc8Eixn7i3I6va0J__35,q8f1Wc8Eixn7i3I6va0J__1).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__13,id_Mgc4P_O0__WP39K7Fo8ME__14).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__13,id_Mgc4P_O0__WP39K7Fo8ME__15).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__17,id_Mgc4P_O0__WP39K7Fo8ME__18).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__17,id_Mgc4P_O0__WP39K7Fo8ME__19).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__2,id_Mgc4P_O0__WP39K7Fo8ME__3).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__2,id_Mgc4P_O0__WP39K7Fo8ME__4).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__21,id_Mgc4P_O0__WP39K7Fo8ME__23).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__21,id_OHDw4CAGKoPJ1KLI____7b__4).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__9,id_Mgc4P_O0__WP39K7Fo8ME__10).
+contains(id_Mgc4P_O0__WP39K7Fo8ME__9,id_Mgc4P_O0__WP39K7Fo8ME__11).
+contains(id_OHDw4CAGKoPJ1KLI____7b__1,id_OHDw4CAGKoPJ1KLI____7b__2).
+contains(q8f1Wc8Eixn7i3I6va0J__1,q8f1Wc8Eixn7i3I6va0J__2).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__10,output).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__11,input).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__14,output).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__15,input).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__18,output).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__19,input).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__23,input).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__3,output).
+portdirection(id_Mgc4P_O0__WP39K7Fo8ME__4,input).
+portdirection(id_OHDw4CAGKoPJ1KLI____7b__2,input).
+portdirection(id_OHDw4CAGKoPJ1KLI____7b__4,output).
+portdirection(q8f1Wc8Eixn7i3I6va0J__2,output).
+factname(id_Mgc4P_O0__WP39K7Fo8ME__1,"code1").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__10,"out").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__11,"in").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__12,"code2").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__13,"run_queries").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__14,"out").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__15,"in").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__16,"code3").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__17,"emit_bash").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__18,"out").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__19,"in").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__2,"create_rect_facts").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__20,"code4").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__21,"unhtml").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__23,"in").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__24,"code5").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__3,"out").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__4,"in").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__8,"code6").
+factname(id_Mgc4P_O0__WP39K7Fo8ME__9,"sort_factbase").
+factname(id_OHDw4CAGKoPJ1KLI____7b__1,"permissions_to_execute").
+factname(id_OHDw4CAGKoPJ1KLI____7b__2,"in").
+factname(id_OHDw4CAGKoPJ1KLI____7b__3,"code7").
+factname(id_OHDw4CAGKoPJ1KLI____7b__4,"out").
+factname(q8f1Wc8Eixn7i3I6va0J__1,"drawio_to_factbase").
+factname(q8f1Wc8Eixn7i3I6va0J__2,"out").
+factname(q8f1Wc8Eixn7i3I6va0J__35,"make_vsh").
+unknowncomponentname(0,"u1").
+unknowncomponentname(1,"u2").
+factcomponentcode(0,"").
+factcomponentcode(1,"").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__1,"&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr ../vsh/vsh.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__12,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# augment the factbase (fb.pl) after every inferencing step&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;cat 5.pl 6.pl | sort &amp;gt;fb.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/p&gt;").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__13,"").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__16,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;./run_queries.bash &amp;gt;7.json&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/span&gt;&lt;/p&gt;").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__17,"").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__2,"").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__20,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;node emitBash.js 7.json&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/span&gt;&lt;/p&gt;").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__21,"").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__24,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr drawio_to_factbase unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot2/drawio_to_factbase&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr create_rect_facts unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot2/create_rect_facts&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr sort_factbase unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot2/sort_factbase&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr run_queries unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot2/run_queries&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr emit_bash unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue &amp;gt;../vsh_boot2/emit_bash&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr permissions_to_execute unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue &amp;gt;../vsh_boot2/permissions_to_execute&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;pfr make_vsh unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue &amp;gt;../vsh_boot2/make_vsh&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__8,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## create rect fact for every vertex that is not an edge/ellipse/text&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## but does not mark rectangles (the default)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;## this pass finds the defaults and creates explicit rect(...) facts&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'consult(5).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'consult(rects).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'printRects.' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;-g 'halt.' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&amp;gt; 6.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;echo done &amp;gt;/dev/fd/4&lt;/p&gt;").
+factcomponentcode(id_Mgc4P_O0__WP39K7Fo8ME__9,"").
+factcomponentcode(id_OHDw4CAGKoPJ1KLI____7b__1,"").
+factcomponentcode(id_OHDw4CAGKoPJ1KLI____7b__3,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;chmod a+x make_vsh&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;").
+factcomponentcode(q8f1Wc8Eixn7i3I6va0J__1,"").
+factcomponentcode(q8f1Wc8Eixn7i3I6va0J__35,"").
