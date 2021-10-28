@@ -1,4 +1,14 @@
 #!/bin/bash
+clear
+
+set -e
+trap 'catch' ERR
+
+catch () {
+    echo '*** FATAL ERROR in run.bash ***'
+    exit 1
+}
+
 ./transpile.bash >7.json
 names=`node emitBash.js 7.json`
 # echo chmod a+x ${names}

@@ -1,5 +1,13 @@
 #!/bin/bash
 
+set -e
+trap 'catch' ERR
+
+catch () {
+    echo '*** FATAL ERROR in transpile.bash ***' 1>&2
+    exit 1
+}
+
 # ./drawio2fb.bash
 
 cdir=`pwd`
