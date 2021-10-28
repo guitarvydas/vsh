@@ -19,7 +19,7 @@ echo
 for i in $names
 do
     echo processing $i
-    pfr $i unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue >../vsh_boot/$i
+    pfr $i unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue >../vsh_boot/$i
     chmod a+x $i 
 done
 
