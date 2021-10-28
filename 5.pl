@@ -147,7 +147,7 @@ target(id_Mgc4P_O0__WP39K7Fo8ME__28, id_Mgc4P_O0__WP39K7Fo8ME__19).
 target(id_Mgc4P_O0__WP39K7Fo8ME__29, id_Mgc4P_O0__WP39K7Fo8ME__23).
 target(id_Mgc4P_O0__WP39K7Fo8ME__30, id_Mgc4P_O0__WP39K7Fo8ME__11).
 target(id_OHDw4CAGKoPJ1KLI____7b__5, id_OHDw4CAGKoPJ1KLI____7b__2).
-value(id_Mgc4P_O0__WP39K7Fo8ME__1, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr ../vsh/vsh.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
+value(id_Mgc4P_O0__WP39K7Fo8ME__1, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr b_vsh.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort &amp;gt;5.pl&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
 value(id_Mgc4P_O0__WP39K7Fo8ME__10, "out").
 value(id_Mgc4P_O0__WP39K7Fo8ME__11, "in").
 value(id_Mgc4P_O0__WP39K7Fo8ME__12, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# augment the factbase (fb.pl) after every inferencing step&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;cat 5.pl 6.pl | sort &amp;gt;fb.pl&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; min-height: 13px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;echo done &amp;gt;/dev/fd/4&lt;br&gt;&lt;/p&gt;").
@@ -241,7 +241,7 @@ x(id_Mgc4P_O0__WP39K7Fo8ME__18, 485).
 x(id_Mgc4P_O0__WP39K7Fo8ME__19, 265).
 x(id_Mgc4P_O0__WP39K7Fo8ME__2, 265).
 x(id_Mgc4P_O0__WP39K7Fo8ME__20, 315).
-x(id_Mgc4P_O0__WP39K7Fo8ME__21, 285).
+x(id_Mgc4P_O0__WP39K7Fo8ME__21, 284).
 x(id_Mgc4P_O0__WP39K7Fo8ME__23, 265).
 x(id_Mgc4P_O0__WP39K7Fo8ME__24, 315).
 x(id_Mgc4P_O0__WP39K7Fo8ME__3, 875).
