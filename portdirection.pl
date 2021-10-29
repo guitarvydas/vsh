@@ -3,9 +3,15 @@
 portdirection([P,'input']):-
     ellipse(P,_),
     fillColor(P,"green").
+portdirection([P,'pervasiveinput']):-
+    ellipse(P,_),
+    fillColor(P,"red").
 portdirection([P,'output']):-
     ellipse(P,_),
     fillColor(P,"yellow").
+portdirection([P,'pervasiveoutput']):-
+    ellipse(P,_),
+    fillColor(P,"purple").
 allDirections(Bag):-
     bagof(Pair,portdirection(Pair),Bag).
 

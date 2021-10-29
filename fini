@@ -1,0 +1,13 @@
+#!/bin/bash
+# fini
+result=`read </dev/fd/3`
+echo $result
+# no output
+
+
+
+
+
+
+
+

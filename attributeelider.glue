@@ -29,6 +29,7 @@ EdgeAttribute [v eq q1 s q2] = [[\ ${v}${eq}${q1}${s}${q2}]]
 VertexAttribute [v eq q1 s q2] = [[\ ${v}${eq}${q1}${s}${q2}]]
 GreenAttribute [id k q1 s q2] = [[\ fillColor="green"]]
 YellowAttribute [id k q1 s q2] = [[\ fillColor="yellow"]]
+PurpleAttribute [id k q1 s q2] = [[\ fillColor="purple"]]
 RedAttribute [id k q1 s q2] = [[\ fillColor="red"]]
 OtherCellAttribute [@an k s] = [[]]
 

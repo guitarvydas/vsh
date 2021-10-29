@@ -1,18 +1,20 @@
 [
   {
-    "children": ["hello", "world" ],
+    "children": ["async_hello", "async_world" ],
     "connections": [
       {
 	"name":"x2",
-	"source": {"component":"hello", "port":"out"},
-	"target": {"component":"world", "port":"in"}
+	"source": {"component":"async_hello", "port":"out"},
+	"target": {"component":"async_world", "port":"in"}
       }
     ],
     "diagram":"fo9xvGcHm88d3B_x5weG",
     "id":"i5jZ3dy8F4nkPbaXPHF6__1",
     "inputs": [],
-    "name":"helloworld",
+    "name":"async_helloworld",
     "outputs": [],
+    "pervasiveinputs": ["$1" ],
+    "pervasiveoutputs": [],
     "synccode":""
   },
   {
@@ -23,7 +25,9 @@
     "inputs": [],
     "name":"code1",
     "outputs": [],
-    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo world&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;"
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo a world '&amp;gt;&amp;gt;&amp;gt;&amp;gt;' $1&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;"
   },
   {
     "children": ["code2" ],
@@ -31,8 +35,10 @@
     "diagram":"fo9xvGcHm88d3B_x5weG",
     "id":"i5jZ3dy8F4nkPbaXPHF6__2",
     "inputs": [],
-    "name":"hello",
+    "name":"async_hello",
     "outputs": ["out" ],
+    "pervasiveinputs": ["$1" ],
+    "pervasiveoutputs": [],
     "synccode":""
   },
   {
@@ -43,7 +49,9 @@
     "inputs": [],
     "name":"code2",
     "outputs": [],
-    "synccode":"&lt;div&gt;echo hello&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4"
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;div&gt;echo a hello '&amp;gt;&amp;gt;&amp;gt;&amp;gt;' $1&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4"
   },
   {
     "children": ["code1" ],
@@ -51,8 +59,10 @@
     "diagram":"fo9xvGcHm88d3B_x5weG",
     "id":"i5jZ3dy8F4nkPbaXPHF6__6",
     "inputs": ["in" ],
-    "name":"world",
+    "name":"async_world",
     "outputs": [],
+    "pervasiveinputs": ["$1" ],
+    "pervasiveoutputs": [],
     "synccode":""
   }
 ]
