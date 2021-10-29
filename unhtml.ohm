@@ -9,6 +9,7 @@ unhtml {
     | "&amp;"  -- amp
     | "&lt;"  -- lt
     | "&gt;"  -- gt
+    | "&nbsp;"  -- nonBreakingSpace
     | any      -- any
 }
 

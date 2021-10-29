@@ -58,7 +58,7 @@ function emitPipes (pipeNames) {
 
 function emitRMPipes (pipeNames) {
     pipeNames.forEach (p => {
-	emitToScript (`rm ${p}`);
+	emitToScript (`echo rm ${p}\nrm ${p}`);
     });
 }
 

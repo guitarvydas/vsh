@@ -11,7 +11,7 @@ catch () {
 # ./drawio2fb.bash
 
 cdir=`pwd`
-pfr vsh.drawio drawio.ohm drawio.glue $cdir/support.js \
+pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js \
     | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js \
     | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js \
     | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js \

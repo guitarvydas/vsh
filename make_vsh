@@ -27,9 +27,15 @@ wait $unhtml_pid
 wait $sort_factbase_pid
 wait $permissions_to_execute_pid
 wait $drawio_to_factbase_pid
+echo rm pipe0
 rm pipe0
+echo rm pipe1
 rm pipe1
+echo rm pipe2
 rm pipe2
+echo rm pipe3
 rm pipe3
+echo rm pipe4
 rm pipe4
+echo rm pipe5
 rm pipe5
