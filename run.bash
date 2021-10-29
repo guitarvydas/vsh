@@ -10,6 +10,7 @@ catch () {
 }
 
 ./transpile.bash async_helloworld >7.json
+#./transpile.bash transpile_drawio_to_swipl >7.json
 names=`node emitBash.js 7.json`
 # echo chmod a+x ${names}
 # chmod a+x ${names}

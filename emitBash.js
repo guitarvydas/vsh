@@ -41,10 +41,14 @@ function emitChildComponents (children) {
     children.forEach (name => {
 	let c = lookup (name);
 	let pinputs ='';
+	let poutputs ='';
 	c.pervasiveinputs.forEach (pi => {
 	    pinputs = pinputs + " " + pi;
 	});
-	emitToScript (`./${name} ${pinputs} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
+	c.pervasiveoutputs.forEach (po => {
+	    poutputs = poutputs + " " + po;
+	});
+	emitToScript (`./${name} ${pinputs} ${poutputs} ${makeBashInput (bv (c.inpipe))} ${makeBashOutput (bv (c.outpipe))} &\n${name}_pid=\$\!`);
     });
 }
 
@@ -54,15 +58,16 @@ function emitChildWaits (children) {
     });
 }
 
+
 function emitPipes (pipeNames) {
     pipeNames.forEach (p => {
-	emitToScript (`mkfifo ${p}`);
+	emitToScript (`${p}=pipe\${RANDOM}\nmkfifo ${bv(p)}`);
     });
 }
 
 function emitRMPipes (pipeNames) {
     pipeNames.forEach (p => {
-	emitToScript (`rm ${p}`);
+	emitToScript (`rm ${bv(p)}`);
     });
 }
 
@@ -120,14 +125,42 @@ function makePipeName (container, sourceComponent, targetComponent) {
     let pipeName = `pipe${pipenum}`;
     pipenum += 1;
     container.pipes.push (pipeName);
-    sourceComponent.inpipe = `4>${pipeName}`;
-    targetComponent.outpipe = `3<${pipeName}`;
+    sourceComponent.outpipe = `${pipeName}`;
+    targetComponent.inpipe = `${pipeName}`;
 }
 
 function emitToScript (code) {
     // see https://www.w3.org/wiki/Common_HTML_entities_used_for_typography
     let s = code;
     script += (s + '\n');
+}
+
+function bashVariable (s) {
+    if (s) {
+	return "$" + s;
+    } else {
+	return s;
+    }
+}
+
+function bv (s) {
+    return bashVariable (s);
+}
+
+function makeBashInput (s) {
+    if (s) {
+	return "3<" + s;
+    } else {
+	return '';
+    }
+}
+
+function makeBashOutput (s) {
+    if (s) {
+	return "4>" + s;
+    } else {
+	return '';
+    }
 }
 
 var fs = require ('fs');
