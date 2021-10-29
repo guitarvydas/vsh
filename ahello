@@ -1,0 +1,10 @@
+#!/bin/bash
+# ahello
+echo hello ... $1
+
+echo done >/dev/fd/4
+
+
+
+
+

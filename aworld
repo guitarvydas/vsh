@@ -1,0 +1,13 @@
+#!/bin/bash
+# aworld
+read </dev/fd/3
+echo "world ... $1"
+# no output
+
+
+
+
+
+
+
+

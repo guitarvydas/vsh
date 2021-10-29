@@ -12,27 +12,37 @@ codebox(C):-
     rect(C,_),
     fillColor(C,"red").
 
-component(Diagram,C,Name,Ins,Outs,SyncCode,Children,Connections) :-
+component(Diagram,C,Name,Ins,Outs,IIns,IOuts,SyncCode,Children,Connections) :-
     diagramContains(Diagram,C),
     rect(C,_),
     componentname(C,Name),
     inputsof(C,Ins),
     outputsof(C,Outs),
+    pervasiveinputsof(C,IIns),
+    pervasiveoutputsof(C,IOuts),
     componentcode(C,SyncCode),
     childrenOf(C,Children),
     connectionsOf(C,Connections).
 
 inputsof(C,InBag):-
     inputof(C,_),
-    bagof(I,inputof(C,I),InBag),
-    !.
-inputsof(_,[]).
+    bagof(I,inputof(C,I),InBag).
+inputsof(C,[]) :- \+ inputof(C,_).
 
 outputsof(C,InBag):-
     outputof(C,_),
-    bagof(I,outputof(C,I),InBag),
-    !.
-outputsof(_,[]).
+    bagof(I,outputof(C,I),InBag).
+outputsof(C,[]) :- \+ outputof(C,_).
+
+pervasiveinputsof(C,InBag):-
+    pervasiveinputof(C,_),
+    bagof(I,pervasiveinputof(C,I),InBag).
+pervasiveinputsof(C,[]):- \+ pervasiveinputof(C,_).
+
+pervasiveoutputsof(C,InBag):-
+    pervasiveoutputof(C,_),
+    bagof(I,pervasiveoutputof(C,I),InBag).
+pervasiveoutputsof(C,[]):- \+ pervasiveoutputof(C,_).
 
     
 
@@ -74,6 +84,18 @@ outputof(C,Name):-
     ellipse(O,_),
     contains(C,O),
     fillColor(O,"yellow"),
+    componentname(O,Name).
+
+pervasiveinputof(C,Name):-
+    ellipse(I,_),
+    contains(C,I),
+    fillColor(I,"red"),
+    componentname(I,Name).
+
+pervasiveoutputof(C,Name):-
+    ellipse(O,_),
+    contains(C,O),
+    fillColor(O,"purple"),
     componentname(O,Name).
 
 childof(C,Name):-

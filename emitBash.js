@@ -40,7 +40,11 @@ function emitAsyncContainerComponent (c) {
 function emitChildComponents (children) {
     children.forEach (name => {
 	let c = lookup (name);
-	emitToScript (`./${name} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
+	let pinputs ='';
+	c.pervasiveinputs.forEach (pi => {
+	    pinputs = pinputs + " " + pi;
+	});
+	emitToScript (`./${name} ${pinputs} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
     });
 }
 
@@ -58,7 +62,7 @@ function emitPipes (pipeNames) {
 
 function emitRMPipes (pipeNames) {
     pipeNames.forEach (p => {
-	emitToScript (`echo rm ${p}\nrm ${p}`);
+	emitToScript (`rm ${p}`);
     });
 }
 
