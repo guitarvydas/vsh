@@ -1,13 +1,14 @@
 #!/bin/bash
 # async_helloworld
-mkfifo pipe0
-./async_hello  $1 4>pipe0  &
+pipe0=pipe${RANDOM}
+mkfifo $pipe0
+./async_hello  $1   4>$pipe0 &
 async_hello_pid=$!
-./async_world  $1  3<pipe0 &
+./async_world  $1  3<$pipe0  &
 async_world_pid=$!
 wait $async_hello_pid
 wait $async_world_pid
-rm pipe0
+rm $pipe0
 
 
 
