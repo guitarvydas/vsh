@@ -2,6 +2,7 @@ unhtml {
   text = htmlchar*
   htmlchar =
       "&amp;nbsp; " -- nbsp
+    |  "&amp;nbsp;" -- nbsp2
     | "&lt;br&gt;" -- br
     | "&#92;"  -- backslash
     | "&amp;gt;" -- agt
