@@ -1,104 +1,94 @@
 
 cell(0,"").
 cell(1,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__1,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__10,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__2,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__3,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__4,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__5,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__6,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__9,"").
-cell(id_DuI0__MI3eP6J7asEkqiq__1,"").
-cell(id_DuI0__MI3eP6J7asEkqiq__2,"").
-cell(id_DuI0__MI3eP6J7asEkqiq__3,"").
-diagram(fo9xvGcHm88d3B_x5weG, "").
-diagramContains(fo9xvGcHm88d3B_x5weG, 0).
-diagramContains(fo9xvGcHm88d3B_x5weG, 1).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__1).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__10).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__2).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__3).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__4).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__5).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__6).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__9).
-diagramContains(fo9xvGcHm88d3B_x5weG, id_DuI0__MI3eP6J7asEkqiq__1).
-diagramContains(fo9xvGcHm88d3B_x5weG, id_DuI0__MI3eP6J7asEkqiq__2).
-diagramContains(fo9xvGcHm88d3B_x5weG, id_DuI0__MI3eP6J7asEkqiq__3).
-edge(i5jZ3dy8F4nkPbaXPHF6__4, "").
-ellipse(i5jZ3dy8F4nkPbaXPHF6__5, "").
-ellipse(i5jZ3dy8F4nkPbaXPHF6__9, "").
-ellipse(id_DuI0__MI3eP6J7asEkqiq__1, "").
-ellipse(id_DuI0__MI3eP6J7asEkqiq__2, "").
-ellipse(id_DuI0__MI3eP6J7asEkqiq__3, "").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__10, "red").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__3, "red").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__5, "yellow").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__9, "green").
-fillColor(id_DuI0__MI3eP6J7asEkqiq__1, "red").
-fillColor(id_DuI0__MI3eP6J7asEkqiq__2, "red").
-fillColor(id_DuI0__MI3eP6J7asEkqiq__3, "red").
-height(i5jZ3dy8F4nkPbaXPHF6__1, 480).
-height(i5jZ3dy8F4nkPbaXPHF6__10, 75).
-height(i5jZ3dy8F4nkPbaXPHF6__2, 170).
-height(i5jZ3dy8F4nkPbaXPHF6__3, 80).
-height(i5jZ3dy8F4nkPbaXPHF6__5, 40).
-height(i5jZ3dy8F4nkPbaXPHF6__6, 150).
-height(i5jZ3dy8F4nkPbaXPHF6__9, 40).
-height(id_DuI0__MI3eP6J7asEkqiq__1, 40).
-height(id_DuI0__MI3eP6J7asEkqiq__2, 40).
-height(id_DuI0__MI3eP6J7asEkqiq__3, 40).
-name(fo9xvGcHm88d3B_x5weG, "Page-1").
-source(i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__5).
-target(i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__9).
-value(i5jZ3dy8F4nkPbaXPHF6__1, "async helloworld").
-value(i5jZ3dy8F4nkPbaXPHF6__10, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo a world '&amp;gt;&amp;gt;&amp;gt;&amp;gt;' $1&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
-value(i5jZ3dy8F4nkPbaXPHF6__2, "async hello").
-value(i5jZ3dy8F4nkPbaXPHF6__3, "&lt;div&gt;echo a hello '&amp;gt;&amp;gt;&amp;gt;&amp;gt;' $1&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
-value(i5jZ3dy8F4nkPbaXPHF6__5, "out").
-value(i5jZ3dy8F4nkPbaXPHF6__6, "async world").
-value(i5jZ3dy8F4nkPbaXPHF6__9, "in").
-value(id_DuI0__MI3eP6J7asEkqiq__1, "$1").
-value(id_DuI0__MI3eP6J7asEkqiq__2, "$1").
-value(id_DuI0__MI3eP6J7asEkqiq__3, "$1").
-vertex(i5jZ3dy8F4nkPbaXPHF6__1, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__10, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__2, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__3, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__5, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__6, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__9, "").
-vertex(id_DuI0__MI3eP6J7asEkqiq__1, "").
-vertex(id_DuI0__MI3eP6J7asEkqiq__2, "").
-vertex(id_DuI0__MI3eP6J7asEkqiq__3, "").
-width(i5jZ3dy8F4nkPbaXPHF6__1, 460).
-width(i5jZ3dy8F4nkPbaXPHF6__10, 175).
-width(i5jZ3dy8F4nkPbaXPHF6__2, 235).
-width(i5jZ3dy8F4nkPbaXPHF6__3, 165).
-width(i5jZ3dy8F4nkPbaXPHF6__5, 40).
-width(i5jZ3dy8F4nkPbaXPHF6__6, 245).
-width(i5jZ3dy8F4nkPbaXPHF6__9, 40).
-width(id_DuI0__MI3eP6J7asEkqiq__1, 40).
-width(id_DuI0__MI3eP6J7asEkqiq__2, 40).
-width(id_DuI0__MI3eP6J7asEkqiq__3, 40).
-x(i5jZ3dy8F4nkPbaXPHF6__1, 170).
-x(i5jZ3dy8F4nkPbaXPHF6__10, 295).
-x(i5jZ3dy8F4nkPbaXPHF6__2, 255).
-x(i5jZ3dy8F4nkPbaXPHF6__3, 285).
-x(i5jZ3dy8F4nkPbaXPHF6__5, 470).
-x(i5jZ3dy8F4nkPbaXPHF6__6, 265).
-x(i5jZ3dy8F4nkPbaXPHF6__9, 245).
-x(id_DuI0__MI3eP6J7asEkqiq__1, 245).
-x(id_DuI0__MI3eP6J7asEkqiq__2, 230).
-x(id_DuI0__MI3eP6J7asEkqiq__3, 150).
-y(i5jZ3dy8F4nkPbaXPHF6__1, 170).
-y(i5jZ3dy8F4nkPbaXPHF6__10, 490).
-y(i5jZ3dy8F4nkPbaXPHF6__2, 220).
-y(i5jZ3dy8F4nkPbaXPHF6__3, 265).
-y(i5jZ3dy8F4nkPbaXPHF6__5, 290).
-y(i5jZ3dy8F4nkPbaXPHF6__6, 450).
-y(i5jZ3dy8F4nkPbaXPHF6__9, 507.5).
-y(id_DuI0__MI3eP6J7asEkqiq__1, 460).
-y(id_DuI0__MI3eP6J7asEkqiq__2, 285).
-y(id_DuI0__MI3eP6J7asEkqiq__3, 345).
+cell(kQPuOeSKpFBLvlsbsDxd__1,"").
+cell(mHGQwMe0h4No9jv1bjlY__1,"").
+cell(mHGQwMe0h4No9jv1bjlY__2,"").
+cell(mHGQwMe0h4No9jv1bjlY__3,"").
+cell(mHGQwMe0h4No9jv1bjlY__4,"").
+cell(mHGQwMe0h4No9jv1bjlY__5,"").
+cell(mHGQwMe0h4No9jv1bjlY__6,"").
+cell(mHGQwMe0h4No9jv1bjlY__7,"").
+cell(mHGQwMe0h4No9jv1bjlY__8,"").
+cell(mHGQwMe0h4No9jv1bjlY__9,"").
+diagram(jE60H37yvkXYl8kS__ae6, "").
+diagramContains(jE60H37yvkXYl8kS__ae6, 0).
+diagramContains(jE60H37yvkXYl8kS__ae6, 1).
+diagramContains(jE60H37yvkXYl8kS__ae6, kQPuOeSKpFBLvlsbsDxd__1).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__1).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__2).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__3).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__4).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__5).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__6).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__7).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__8).
+diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__9).
+edge(mHGQwMe0h4No9jv1bjlY__4, "").
+ellipse(kQPuOeSKpFBLvlsbsDxd__1, "").
+ellipse(mHGQwMe0h4No9jv1bjlY__5, "").
+ellipse(mHGQwMe0h4No9jv1bjlY__7, "").
+ellipse(mHGQwMe0h4No9jv1bjlY__9, "").
+fillColor(kQPuOeSKpFBLvlsbsDxd__1, "red").
+fillColor(mHGQwMe0h4No9jv1bjlY__3, "red").
+fillColor(mHGQwMe0h4No9jv1bjlY__5, "yellow").
+fillColor(mHGQwMe0h4No9jv1bjlY__7, "green").
+fillColor(mHGQwMe0h4No9jv1bjlY__8, "red").
+fillColor(mHGQwMe0h4No9jv1bjlY__9, "red").
+height(kQPuOeSKpFBLvlsbsDxd__1, 40).
+height(mHGQwMe0h4No9jv1bjlY__1, 430).
+height(mHGQwMe0h4No9jv1bjlY__2, 170).
+height(mHGQwMe0h4No9jv1bjlY__3, 111).
+height(mHGQwMe0h4No9jv1bjlY__5, 40).
+height(mHGQwMe0h4No9jv1bjlY__6, 110).
+height(mHGQwMe0h4No9jv1bjlY__7, 40).
+height(mHGQwMe0h4No9jv1bjlY__8, 60).
+height(mHGQwMe0h4No9jv1bjlY__9, 40).
+name(jE60H37yvkXYl8kS__ae6, "Page-1").
+source(mHGQwMe0h4No9jv1bjlY__4, mHGQwMe0h4No9jv1bjlY__5).
+target(mHGQwMe0h4No9jv1bjlY__4, mHGQwMe0h4No9jv1bjlY__7).
+value(kQPuOeSKpFBLvlsbsDxd__1, "$1").
+value(mHGQwMe0h4No9jv1bjlY__1, "transpile drawio to swipl").
+value(mHGQwMe0h4No9jv1bjlY__2, "d2pl").
+value(mHGQwMe0h4No9jv1bjlY__3, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&lt;/div&gt;&lt;div&gt;&lt;span&gt;echo done &amp;gt; /dev/fd/4&lt;/span&gt;&lt;/div&gt;").
+value(mHGQwMe0h4No9jv1bjlY__5, "out").
+value(mHGQwMe0h4No9jv1bjlY__6, "fini").
+value(mHGQwMe0h4No9jv1bjlY__7, "in").
+value(mHGQwMe0h4No9jv1bjlY__8, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;result=`read &amp;lt;/dev/fd/3`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo $result&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
+value(mHGQwMe0h4No9jv1bjlY__9, "$1").
+vertex(kQPuOeSKpFBLvlsbsDxd__1, "").
+vertex(mHGQwMe0h4No9jv1bjlY__1, "").
+vertex(mHGQwMe0h4No9jv1bjlY__2, "").
+vertex(mHGQwMe0h4No9jv1bjlY__3, "").
+vertex(mHGQwMe0h4No9jv1bjlY__5, "").
+vertex(mHGQwMe0h4No9jv1bjlY__6, "").
+vertex(mHGQwMe0h4No9jv1bjlY__7, "").
+vertex(mHGQwMe0h4No9jv1bjlY__8, "").
+vertex(mHGQwMe0h4No9jv1bjlY__9, "").
+width(kQPuOeSKpFBLvlsbsDxd__1, 40).
+width(mHGQwMe0h4No9jv1bjlY__1, 620).
+width(mHGQwMe0h4No9jv1bjlY__2, 445).
+width(mHGQwMe0h4No9jv1bjlY__3, 375).
+width(mHGQwMe0h4No9jv1bjlY__5, 40).
+width(mHGQwMe0h4No9jv1bjlY__6, 245).
+width(mHGQwMe0h4No9jv1bjlY__7, 40).
+width(mHGQwMe0h4No9jv1bjlY__8, 175).
+width(mHGQwMe0h4No9jv1bjlY__9, 40).
+x(kQPuOeSKpFBLvlsbsDxd__1, 230).
+x(mHGQwMe0h4No9jv1bjlY__1, 170).
+x(mHGQwMe0h4No9jv1bjlY__2, 255).
+x(mHGQwMe0h4No9jv1bjlY__3, 285).
+x(mHGQwMe0h4No9jv1bjlY__5, 670).
+x(mHGQwMe0h4No9jv1bjlY__6, 265).
+x(mHGQwMe0h4No9jv1bjlY__7, 245).
+x(mHGQwMe0h4No9jv1bjlY__8, 300).
+x(mHGQwMe0h4No9jv1bjlY__9, 150).
+y(kQPuOeSKpFBLvlsbsDxd__1, 284.5).
+y(mHGQwMe0h4No9jv1bjlY__1, 170).
+y(mHGQwMe0h4No9jv1bjlY__2, 220).
+y(mHGQwMe0h4No9jv1bjlY__3, 249).
+y(mHGQwMe0h4No9jv1bjlY__5, 290).
+y(mHGQwMe0h4No9jv1bjlY__6, 450).
+y(mHGQwMe0h4No9jv1bjlY__7, 490).
+y(mHGQwMe0h4No9jv1bjlY__8, 480).
+y(mHGQwMe0h4No9jv1bjlY__9, 285).

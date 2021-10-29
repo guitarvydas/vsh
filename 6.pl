@@ -1,7 +1,7 @@
 rect(0,"").
 rect(1,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__1,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__10,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__2,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__3,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__6,"").
+rect(mHGQwMe0h4No9jv1bjlY__1,"").
+rect(mHGQwMe0h4No9jv1bjlY__2,"").
+rect(mHGQwMe0h4No9jv1bjlY__3,"").
+rect(mHGQwMe0h4No9jv1bjlY__6,"").
+rect(mHGQwMe0h4No9jv1bjlY__8,"").

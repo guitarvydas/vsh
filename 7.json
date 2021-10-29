@@ -1,41 +1,29 @@
 [
   {
-    "children": ["async_hello", "async_world" ],
+    "children": ["d2pl", "fini" ],
     "connections": [
       {
 	"name":"x2",
-	"source": {"component":"async_hello", "port":"out"},
-	"target": {"component":"async_world", "port":"in"}
+	"source": {"component":"d2pl", "port":"out"},
+	"target": {"component":"fini", "port":"in"}
       }
     ],
-    "diagram":"fo9xvGcHm88d3B_x5weG",
-    "id":"i5jZ3dy8F4nkPbaXPHF6__1",
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"mHGQwMe0h4No9jv1bjlY__1",
     "inputs": [],
-    "name":"async_helloworld",
+    "name":"transpile_drawio_to_swipl",
     "outputs": [],
     "pervasiveinputs": ["$1" ],
     "pervasiveoutputs": [],
     "synccode":""
   },
   {
-    "children": [],
+    "children": ["code1" ],
     "connections": [],
-    "diagram":"fo9xvGcHm88d3B_x5weG",
-    "id":"i5jZ3dy8F4nkPbaXPHF6__10",
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"mHGQwMe0h4No9jv1bjlY__2",
     "inputs": [],
-    "name":"code1",
-    "outputs": [],
-    "pervasiveinputs": [],
-    "pervasiveoutputs": [],
-    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo a world '&amp;gt;&amp;gt;&amp;gt;&amp;gt;' $1&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;"
-  },
-  {
-    "children": ["code2" ],
-    "connections": [],
-    "diagram":"fo9xvGcHm88d3B_x5weG",
-    "id":"i5jZ3dy8F4nkPbaXPHF6__2",
-    "inputs": [],
-    "name":"async_hello",
+    "name":"d2pl",
     "outputs": ["out" ],
     "pervasiveinputs": ["$1" ],
     "pervasiveoutputs": [],
@@ -44,25 +32,37 @@
   {
     "children": [],
     "connections": [],
-    "diagram":"fo9xvGcHm88d3B_x5weG",
-    "id":"i5jZ3dy8F4nkPbaXPHF6__3",
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"mHGQwMe0h4No9jv1bjlY__3",
+    "inputs": [],
+    "name":"code1",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&lt;/div&gt;&lt;div&gt;&lt;span&gt;echo done &amp;gt; /dev/fd/4&lt;/span&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code2" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"mHGQwMe0h4No9jv1bjlY__6",
+    "inputs": ["in" ],
+    "name":"fini",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"mHGQwMe0h4No9jv1bjlY__8",
     "inputs": [],
     "name":"code2",
     "outputs": [],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
-    "synccode":"&lt;div&gt;echo a hello '&amp;gt;&amp;gt;&amp;gt;&amp;gt;' $1&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4"
-  },
-  {
-    "children": ["code1" ],
-    "connections": [],
-    "diagram":"fo9xvGcHm88d3B_x5weG",
-    "id":"i5jZ3dy8F4nkPbaXPHF6__6",
-    "inputs": ["in" ],
-    "name":"async_world",
-    "outputs": [],
-    "pervasiveinputs": ["$1" ],
-    "pervasiveoutputs": [],
-    "synccode":""
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;result=`read &amp;lt;/dev/fd/3`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo $result&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;"
   }
 ]

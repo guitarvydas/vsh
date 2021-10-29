@@ -1,10 +1,11 @@
 #!/bin/bash
 # transpile_drawio_to_swipl
-mkfifo pipe0
-./d2pl  $1 4>pipe0  &
+pipe0=pipe${RANDOM}
+mkfifo $pipe0
+./d2pl  $1   4>$pipe0 &
 d2pl_pid=$!
-./fini   3<pipe0 &
+./fini   3<$pipe0  &
 fini_pid=$!
 wait $d2pl_pid
 wait $fini_pid
-rm pipe0
+rm $pipe0
