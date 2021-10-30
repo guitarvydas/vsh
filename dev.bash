@@ -18,3 +18,8 @@ echo '*** transpile_drawio_to_swipl ***'
 # echo
 # echo '*** pfr orig_bounding_boxes ***'
 # pfr orig_bounding_boxes unhtml.ohm unhtml.glue
+
+
+# echo
+# echo '*** all contains 1 ***'
+# cat all_contains_1

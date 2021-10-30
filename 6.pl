@@ -13,5 +13,9 @@ rect(oNERr5Awd1CSBJseHcZe__27,"").
 rect(oNERr5Awd1CSBJseHcZe__3,"").
 rect(oNERr5Awd1CSBJseHcZe__31,"").
 rect(oNERr5Awd1CSBJseHcZe__33,"").
-rect(oNERr5Awd1CSBJseHcZe__7,"").
-rect(oNERr5Awd1CSBJseHcZe__9,"").
+rect(oNERr5Awd1CSBJseHcZe__38,"").
+rect(oNERr5Awd1CSBJseHcZe__40,"").
+rect(oNERr5Awd1CSBJseHcZe__41,"").
+rect(oNERr5Awd1CSBJseHcZe__43,"").
+rect(oNERr5Awd1CSBJseHcZe__51,"").
+rect(oNERr5Awd1CSBJseHcZe__53,"").

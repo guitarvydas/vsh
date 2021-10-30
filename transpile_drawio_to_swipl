@@ -12,20 +12,28 @@ pipe4=pipe${RANDOM}
 mkfifo $pipe4
 pipe5=pipe${RANDOM}
 mkfifo $pipe5
+pipe6=pipe${RANDOM}
+mkfifo $pipe6
+pipe7=pipe${RANDOM}
+mkfifo $pipe7
 ./d2pl  $1   4>$pipe4 &
 d2pl_pid=$!
-./create_rect_facts   3<$pipe4 4>$pipe5 &
+./create_rect_facts   3<$pipe4 4>$pipe7 &
 create_rect_facts_pid=$!
-./make_fb   3<$pipe5 4>$pipe0 &
+./make_fb   3<$pipe7 4>$pipe0 &
 make_fb_pid=$!
-./bounding_boxes   3<$pipe0 4>$pipe3 &
+./bounding_boxes   3<$pipe0 4>$pipe2 &
 bounding_boxes_pid=$!
-./all_contains_1   3<$pipe2 4>$pipe1 &
+./all_contains_1   3<$pipe1 4>$pipe3 &
 all_contains_1_pid=$!
-./make_fb_containing_bounding_boxes   3<$pipe3 4>$pipe2 &
+./make_fb_containing_bounding_boxes   3<$pipe2 4>$pipe1 &
 make_fb_containing_bounding_boxes_pid=$!
-./fini   3<$pipe1  &
+./fini   3<$pipe6  &
 fini_pid=$!
+./deep_contains   3<$pipe3 4>$pipe5 &
+deep_contains_pid=$!
+./direct_contains   3<$pipe5 4>$pipe6 &
+direct_contains_pid=$!
 wait $d2pl_pid
 wait $create_rect_facts_pid
 wait $make_fb_pid
@@ -33,12 +41,16 @@ wait $bounding_boxes_pid
 wait $all_contains_1_pid
 wait $make_fb_containing_bounding_boxes_pid
 wait $fini_pid
+wait $deep_contains_pid
+wait $direct_contains_pid
 rm $pipe0
 rm $pipe1
 rm $pipe2
 rm $pipe3
 rm $pipe4
 rm $pipe5
+rm $pipe6
+rm $pipe7
 
 
 
