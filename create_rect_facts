@@ -1,5 +1,6 @@
 #!/bin/bash
 # create_rect_facts
+read </dev/fd/3
 ## create rect fact for every vertex that is not an edge/ellipse/text
 ## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)
 ## but does not mark rectangles (the default)

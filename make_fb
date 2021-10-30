@@ -1,0 +1,11 @@
+#!/bin/bash
+# make_fb
+result=`read </dev/fd/3`
+cat 15.pl 16.pl >fb.pl
+echo done >/dev/fd/4
+
+
+
+
+
+

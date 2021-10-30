@@ -7,3 +7,5 @@ rect(mHGQwMe0h4No9jv1bjlY__6,"").
 rect(mHGQwMe0h4No9jv1bjlY__8,"").
 rect(oNERr5Awd1CSBJseHcZe__1,"").
 rect(oNERr5Awd1CSBJseHcZe__3,"").
+rect(oNERr5Awd1CSBJseHcZe__7,"").
+rect(oNERr5Awd1CSBJseHcZe__9,"").

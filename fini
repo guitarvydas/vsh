@@ -1,11 +1,9 @@
 #!/bin/bash
 # fini
-result=`read </dev/fd/3`
-echo $result
+read result </dev/fd/3
+echo 'result=/' $result '/' 1>&2
 echo end 1>&2
 # no output
-
-
 
 
 
