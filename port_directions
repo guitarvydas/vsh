@@ -1,0 +1,14 @@
+#!/bin/bash
+# port_directions
+read baton </dev/fd/3
+echo '*** placeholder for port directions ***'
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+# port_contains
+read baton </dev/fd/3
+echo '*** placeholder for port contains ***'
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+

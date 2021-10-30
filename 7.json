@@ -10,16 +10,48 @@
       "fini",
       "deep_contains",
       "direct_contains",
-      "design_rule_rectangles_must_not_intersect"
+      "design_rule_rectangles_must_not_intersect",
+      "port_contains",
+      "port_directions",
+      "assign_names",
+      "sync_code"
     ],
     "connections": [
       {
 	"name":"x2",
+	"source": {"component":"port_contains", "port":"out"},
+	"target": {"component":"port_directions", "port":"in"}
+      },
+      {
+	"name":"x3",
+	"source": {"component":"port_directions", "port":"out"},
+	"target": {"component":"assign_names", "port":"in"}
+      },
+      {
+	"name":"x4",
+	"source": {"component":"assign_names", "port":"out"},
+	"target": {"component":"sync_code", "port":"in"}
+      },
+      {
+	"name":"x5",
+	"source": {"component":"sync_code", "port":"out"},
+	"target": {"component":"fini", "port":"in"}
+      },
+      {
+	"name":"x6",
+	"source": {
+	  "component":"design_rule_rectangles_must_not_intersect",
+	  "port":"out"
+	},
+	"target": {"component":"port_contains", "port":"in"}
+      },
+      {
+	"name":"x7",
 	"source": {"component":"make_fb", "port":"out"},
 	"target": {"component":"bounding_boxes", "port":"in"}
       },
       {
-	"name":"x3",
+	"name":"x8",
 	"source": {
 	  "component":"make_fb_containing_bounding_boxes",
 	  "port":"out"
@@ -27,45 +59,37 @@
 	"target": {"component":"all_contains_1", "port":"in"}
       },
       {
-	"name":"x4",
+	"name":"x9",
 	"source": {"component":"bounding_boxes", "port":"out"},
 	"target": {"component":"make_fb_containing_bounding_boxes", "port":"in"}
       },
       {
-	"name":"x5",
+	"name":"x10",
 	"source": {"component":"all_contains_1", "port":"out"},
 	"target": {"component":"deep_contains", "port":"in"}
       },
       {
-	"name":"x6",
+	"name":"x11",
 	"source": {"component":"d2pl", "port":"out"},
 	"target": {"component":"create_rect_facts", "port":"in"}
       },
       {
-	"name":"x7",
+	"name":"x12",
 	"source": {"component":"deep_contains", "port":"out"},
 	"target": {"component":"direct_contains", "port":"in"}
       },
       {
-	"name":"x8",
+	"name":"x13",
 	"source": {"component":"create_rect_facts", "port":"out"},
 	"target": {"component":"make_fb", "port":"in"}
       },
       {
-	"name":"x9",
+	"name":"x14",
 	"source": {"component":"direct_contains", "port":"out"},
 	"target": {
 	  "component":"design_rule_rectangles_must_not_intersect",
 	  "port":"in"
 	}
-      },
-      {
-	"name":"x10",
-	"source": {
-	  "component":"design_rule_rectangles_must_not_intersect",
-	  "port":"out"
-	},
-	"target": {"component":"fini", "port":"in"}
       }
     ],
     "diagram":"jE60H37yvkXYl8kS__ae6",
@@ -316,5 +340,101 @@
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
     "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo '*** placeholder for design rule rectangles must not intersect ***'&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code11" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__85",
+    "inputs": ["in" ],
+    "name":"port_contains",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__87",
+    "inputs": [],
+    "name":"code11",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo '*** placeholder for port contains ***'&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code12" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__89",
+    "inputs": ["in" ],
+    "name":"port_directions",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__91",
+    "inputs": [],
+    "name":"code12",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo '*** placeholder for port directions ***'&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code13" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__93",
+    "inputs": ["in" ],
+    "name":"assign_names",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__95",
+    "inputs": [],
+    "name":"code13",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo '*** placeholder for assign names ***'&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code14" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__97",
+    "inputs": ["in" ],
+    "name":"sync_code",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__99",
+    "inputs": [],
+    "name":"code14",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo '*** placeholder for sync code ***'&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
   }
 ]

@@ -1,0 +1,14 @@
+#!/bin/bash
+# assign_names
+read baton </dev/fd/3
+echo '*** placeholder for assign names ***'
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+

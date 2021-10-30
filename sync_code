@@ -1,0 +1,14 @@
+#!/bin/bash
+# sync_code
+read baton </dev/fd/3
+echo '*** placeholder for sync code ***'
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+
