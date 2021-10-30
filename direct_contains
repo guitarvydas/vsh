@@ -1,0 +1,20 @@
+#!/bin/bash
+# direct_contains
+read baton </dev/fd/3
+swipl -q \
+  -g 'consult(fb).' \
+  -g 'consult(onSameDiagram).' \
+  -g 'consult(contain3).' \
+  -g 'printAllDirectContains.' \
+  -g 'halt.' \
+ | ./augment-fb.bash 
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+

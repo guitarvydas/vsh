@@ -1,24 +1,57 @@
 [
   {
-    "children": ["d2pl", "create_rect_facts", "make_fb", "all_contains_1", "fini" ],
+    "children": [
+      "d2pl",
+      "create_rect_facts",
+      "make_fb",
+      "bounding_boxes",
+      "all_contains_1",
+      "make_fb_containing_bounding_boxes",
+      "fini",
+      "deep_contains",
+      "direct_contains"
+    ],
     "connections": [
       {
 	"name":"x2",
 	"source": {"component":"make_fb", "port":"out"},
-	"target": {"component":"all_contains_1", "port":"in"}
+	"target": {"component":"bounding_boxes", "port":"in"}
       },
       {
 	"name":"x3",
-	"source": {"component":"all_contains_1", "port":"out"},
-	"target": {"component":"fini", "port":"in"}
+	"source": {
+	  "component":"make_fb_containing_bounding_boxes",
+	  "port":"out"
+	},
+	"target": {"component":"all_contains_1", "port":"in"}
       },
       {
 	"name":"x4",
+	"source": {"component":"bounding_boxes", "port":"out"},
+	"target": {"component":"make_fb_containing_bounding_boxes", "port":"in"}
+      },
+      {
+	"name":"x5",
+	"source": {"component":"all_contains_1", "port":"out"},
+	"target": {"component":"deep_contains", "port":"in"}
+      },
+      {
+	"name":"x6",
 	"source": {"component":"d2pl", "port":"out"},
 	"target": {"component":"create_rect_facts", "port":"in"}
       },
       {
-	"name":"x5",
+	"name":"x7",
+	"source": {"component":"deep_contains", "port":"out"},
+	"target": {"component":"direct_contains", "port":"in"}
+      },
+      {
+	"name":"x8",
+	"source": {"component":"direct_contains", "port":"out"},
+	"target": {"component":"fini", "port":"in"}
+      },
+      {
+	"name":"x9",
 	"source": {"component":"create_rect_facts", "port":"out"},
 	"target": {"component":"make_fb", "port":"in"}
       }
@@ -81,7 +114,7 @@
     "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## create rect fact for every vertex that is not an edge/ellipse/text&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## but does not mark rectangles (the default)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## this pass finds the defaults and creates explicit rect(...) facts&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'consult(5).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'consult(rects).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'printRects.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;gt; 16.pl&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
   },
   {
-    "children": ["code4" ],
+    "children": ["code5" ],
     "connections": [],
     "diagram":"jE60H37yvkXYl8kS__ae6",
     "id":"oNERr5Awd1CSBJseHcZe__1",
@@ -98,7 +131,7 @@
     "diagram":"jE60H37yvkXYl8kS__ae6",
     "id":"oNERr5Awd1CSBJseHcZe__15",
     "inputs": ["in" ],
-    "name":"all_contains_1",
+    "name":"bounding_boxes",
     "outputs": ["out" ],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
@@ -114,7 +147,31 @@
     "outputs": [],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
-    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;allContains1 (){&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -g 'consult(fb).'&#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(onSameDiagram).'&#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(contain1).'&#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'allContains1.'&#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; | ./augment-fb.bash&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-size: 11px&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;}&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;echo baton &amp;gt;/dev/fd/4&lt;/div&gt;"
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;font&gt;read baton &amp;lt;/dev/fd/3&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -g 'consult(fb).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'consult(boundingBoxes).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'printBB.' &#92;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;gt;temp2.pl&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span&gt;&lt;font&gt;echo baton &amp;gt;/dev/fd/4&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;"
+  },
+  {
+    "children": ["code4" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__25",
+    "inputs": ["in" ],
+    "name":"all_contains_1",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__27",
+    "inputs": [],
+    "name":"code4",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q&#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&amp;nbsp; -g 'consult(fb).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;&amp;nbsp; -g 'consult(onSameDiagram).' &#92;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; -g 'consult(contain1).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; -g 'allContains1.'&#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;| ./augment-fb.bash&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
   },
   {
     "children": [],
@@ -122,17 +179,41 @@
     "diagram":"jE60H37yvkXYl8kS__ae6",
     "id":"oNERr5Awd1CSBJseHcZe__3",
     "inputs": [],
-    "name":"code4",
+    "name":"code5",
     "outputs": [],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
     "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;cat 15.pl 16.pl &amp;gt;fb.pl&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/p&gt;"
   },
   {
-    "children": ["code5" ],
+    "children": ["code6" ],
     "connections": [],
     "diagram":"jE60H37yvkXYl8kS__ae6",
-    "id":"oNERr5Awd1CSBJseHcZe__7",
+    "id":"oNERr5Awd1CSBJseHcZe__31",
+    "inputs": ["in" ],
+    "name":"make_fb_containing_bounding_boxes",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__33",
+    "inputs": [],
+    "name":"code6",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;# augment the factbase (fb.pl) after every inferencing step&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;cat fb.pl temp2.pl | sort &amp;gt;temp3.pl&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;mv temp3.pl fb.pl&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;"
+  },
+  {
+    "children": ["code7" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__38",
     "inputs": ["in" ],
     "name":"fini",
     "outputs": [],
@@ -144,12 +225,60 @@
     "children": [],
     "connections": [],
     "diagram":"jE60H37yvkXYl8kS__ae6",
-    "id":"oNERr5Awd1CSBJseHcZe__9",
+    "id":"oNERr5Awd1CSBJseHcZe__40",
     "inputs": [],
-    "name":"code5",
+    "name":"code7",
     "outputs": [],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
     "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo &quot;baton=/$baton/&quot; 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo end 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;"
+  },
+  {
+    "children": ["code8" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__41",
+    "inputs": ["in" ],
+    "name":"deep_contains",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__43",
+    "inputs": [],
+    "name":"code8",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(fb).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(onSameDiagram).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(contain2).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'printAllDeepContains.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&amp;nbsp; | ./augment-fb.bash&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code9" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__51",
+    "inputs": ["in" ],
+    "name":"direct_contains",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__53",
+    "inputs": [],
+    "name":"code9",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(fb).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(onSameDiagram).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(contain3).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'printAllDirectContains.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; | ./augment-fb.bash&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
   }
 ]
