@@ -1,7 +1,13 @@
 #!/bin/bash
 # port_directions
 read baton </dev/fd/3
-echo '*** placeholder for port directions ***'
+swipl -q \
+   -g 'consult(fb).' \
+   -g 'consult(onSameDiagram).' \
+   -g 'consult(portdirection).' \
+   -g 'printAllDirections.' \
+   -g 'halt.' \
+  | ./augment-fb.bash 
 echo baton >/dev/fd/4
 
 

@@ -135,3 +135,38 @@ y(i5jZ3dy8F4nkPbaXPHF6__3, 265).
 y(i5jZ3dy8F4nkPbaXPHF6__5, 290).
 y(i5jZ3dy8F4nkPbaXPHF6__6, 450).
 y(i5jZ3dy8F4nkPbaXPHF6__9, 507.5).
+portdirection(i5jZ3dy8F4nkPbaXPHF6__5,output).
+portdirection(i5jZ3dy8F4nkPbaXPHF6__9,input).
+factname(i5jZ3dy8F4nkPbaXPHF6__5,"out").
+factname(i5jZ3dy8F4nkPbaXPHF6__9,"in").
+unknowncomponentname(0,"u1").
+unknowncomponentname(1,"u2").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__1,"u3").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__2,"u4").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__3,"u5").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__6,"u6").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__8,"u7").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__1,"u8").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__15,"u9").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__17,"u10").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__25,"u11").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__27,"u12").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__3,"u13").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__31,"u14").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__33,"u15").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__38,"u16").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__40,"u17").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__41,"u18").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__43,"u19").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__51,"u20").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__53,"u21").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__57,"u22").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__59,"u23").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__85,"u24").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__87,"u25").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__89,"u26").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__91,"u27").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__93,"u28").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__95,"u29").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__97,"u30").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__99,"u31").

@@ -1,7 +1,13 @@
 #!/bin/bash
 # port_contains
 read baton </dev/fd/3
-echo '*** placeholder for port contains ***'
+swipl -q \
+  -g 'consult(fb).' \
+  -g 'consult(onSameDiagram).' \
+  -g 'consult(containsport).' \
+  -g 'printAllPortContains.' \
+  -g 'halt.' \
+  | ./augment-fb.bash 
 echo baton >/dev/fd/4
 
 

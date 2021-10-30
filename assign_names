@@ -1,7 +1,15 @@
 #!/bin/bash
 # assign_names
 read baton </dev/fd/3
-echo '*** placeholder for assign names ***'
+swipl -q \
+   -g 'consult(fb).' \
+   -g 'consult(onSameDiagram).' \
+   -g 'consult(component).' \
+   -g 'consult(names).' \
+   -g 'consult(fixup).' \
+   -g 'printNames.' \
+   -g 'halt.' \
+  | ./augment-fb.bash 
 echo baton >/dev/fd/4
 
 
