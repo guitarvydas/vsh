@@ -2,10 +2,16 @@
 # transpile_drawio_to_swipl
 pipe0=pipe${RANDOM}
 mkfifo $pipe0
+pipe1=pipe${RANDOM}
+mkfifo $pipe1
 ./d2pl  $1   4>$pipe0 &
 d2pl_pid=$!
-./fini   3<$pipe0  &
+./create_rect_facts   3<$pipe0 4>$pipe1 &
+create_rect_facts_pid=$!
+./fini   3<$pipe1  &
 fini_pid=$!
 wait $d2pl_pid
+wait $create_rect_facts_pid
 wait $fini_pid
 rm $pipe0
+rm $pipe1

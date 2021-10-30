@@ -1,10 +1,15 @@
 [
   {
-    "children": ["d2pl", "fini" ],
+    "children": ["d2pl", "create_rect_facts", "fini" ],
     "connections": [
       {
 	"name":"x2",
 	"source": {"component":"d2pl", "port":"out"},
+	"target": {"component":"create_rect_facts", "port":"in"}
+      },
+      {
+	"name":"x3",
+	"source": {"component":"create_rect_facts", "port":"out"},
 	"target": {"component":"fini", "port":"in"}
       }
     ],
@@ -47,8 +52,8 @@
     "diagram":"jE60H37yvkXYl8kS__ae6",
     "id":"mHGQwMe0h4No9jv1bjlY__6",
     "inputs": ["in" ],
-    "name":"fini",
-    "outputs": [],
+    "name":"create_rect_facts",
+    "outputs": ["out" ],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
     "synccode":""
@@ -60,6 +65,30 @@
     "id":"mHGQwMe0h4No9jv1bjlY__8",
     "inputs": [],
     "name":"code2",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## create rect fact for every vertex that is not an edge/ellipse/text&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## but does not mark rectangles (the default)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;## this pass finds the defaults and creates explicit rect(...) facts&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'consult(5).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'consult(rects).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'printRects.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;gt; 16.pl&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo done &amp;gt;/dev/fd/4&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code3" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__1",
+    "inputs": ["in" ],
+    "name":"fini",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__3",
+    "inputs": [],
+    "name":"code3",
     "outputs": [],
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
