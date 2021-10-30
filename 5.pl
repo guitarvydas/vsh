@@ -50,7 +50,7 @@ target(mHGQwMe0h4No9jv1bjlY__4, mHGQwMe0h4No9jv1bjlY__7).
 value(kQPuOeSKpFBLvlsbsDxd__1, "$1").
 value(mHGQwMe0h4No9jv1bjlY__1, "transpile drawio to swipl").
 value(mHGQwMe0h4No9jv1bjlY__2, "d2pl").
-value(mHGQwMe0h4No9jv1bjlY__3, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&amp;nbsp;&lt;span&gt;&amp;gt; /dev/fd/4&lt;/span&gt;&lt;/div&gt;").
+value(mHGQwMe0h4No9jv1bjlY__3, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&amp;nbsp;&lt;span&gt;&amp;gt;15.pl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;echo done &amp;gt;/dev/fd/4&lt;/span&gt;&lt;/div&gt;").
 value(mHGQwMe0h4No9jv1bjlY__5, "out").
 value(mHGQwMe0h4No9jv1bjlY__6, "fini").
 value(mHGQwMe0h4No9jv1bjlY__7, "in").
