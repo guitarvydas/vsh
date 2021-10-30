@@ -1,0 +1,14 @@
+#!/bin/bash
+# design_rule_rectangles_must_not_intersect
+read baton </dev/fd/3
+echo '*** placeholder for design rule rectangles must not intersect ***'
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+

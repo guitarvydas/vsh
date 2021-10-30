@@ -19,3 +19,5 @@ rect(oNERr5Awd1CSBJseHcZe__41,"").
 rect(oNERr5Awd1CSBJseHcZe__43,"").
 rect(oNERr5Awd1CSBJseHcZe__51,"").
 rect(oNERr5Awd1CSBJseHcZe__53,"").
+rect(oNERr5Awd1CSBJseHcZe__57,"").
+rect(oNERr5Awd1CSBJseHcZe__59,"").

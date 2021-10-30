@@ -9,7 +9,8 @@
       "make_fb_containing_bounding_boxes",
       "fini",
       "deep_contains",
-      "direct_contains"
+      "direct_contains",
+      "design_rule_rectangles_must_not_intersect"
     ],
     "connections": [
       {
@@ -47,13 +48,24 @@
       },
       {
 	"name":"x8",
-	"source": {"component":"direct_contains", "port":"out"},
-	"target": {"component":"fini", "port":"in"}
+	"source": {"component":"create_rect_facts", "port":"out"},
+	"target": {"component":"make_fb", "port":"in"}
       },
       {
 	"name":"x9",
-	"source": {"component":"create_rect_facts", "port":"out"},
-	"target": {"component":"make_fb", "port":"in"}
+	"source": {"component":"direct_contains", "port":"out"},
+	"target": {
+	  "component":"design_rule_rectangles_must_not_intersect",
+	  "port":"in"
+	}
+      },
+      {
+	"name":"x10",
+	"source": {
+	  "component":"design_rule_rectangles_must_not_intersect",
+	  "port":"out"
+	},
+	"target": {"component":"fini", "port":"in"}
       }
     ],
     "diagram":"jE60H37yvkXYl8kS__ae6",
@@ -280,5 +292,29 @@
     "pervasiveinputs": [],
     "pervasiveoutputs": [],
     "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(fb).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(onSameDiagram).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'consult(contain3).' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'printAllDirectContains.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; -g 'halt.' &#92;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; | ./augment-fb.bash&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "children": ["code10" ],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__57",
+    "inputs": ["in" ],
+    "name":"design_rule_rectangles_must_not_intersect",
+    "outputs": ["out" ],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":""
+  },
+  {
+    "children": [],
+    "connections": [],
+    "diagram":"jE60H37yvkXYl8kS__ae6",
+    "id":"oNERr5Awd1CSBJseHcZe__59",
+    "inputs": [],
+    "name":"code10",
+    "outputs": [],
+    "pervasiveinputs": [],
+    "pervasiveoutputs": [],
+    "synccode":"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;echo '*** placeholder for design rule rectangles must not intersect ***'&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
   }
 ]
