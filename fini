@@ -1,7 +1,7 @@
 #!/bin/bash
 # fini
-read result </dev/fd/3
-echo 'result=/' $result '/' 1>&2
+read baton </dev/fd/3
+echo 'baton=/' $baton '/' 1>&2
 echo end 1>&2
 # no output
 
