@@ -6,18 +6,24 @@ pipe1=pipe${RANDOM}
 mkfifo $pipe1
 pipe2=pipe${RANDOM}
 mkfifo $pipe2
-./d2pl  $1   4>$pipe1 &
+pipe3=pipe${RANDOM}
+mkfifo $pipe3
+./d2pl  $1   4>$pipe2 &
 d2pl_pid=$!
-./create_rect_facts   3<$pipe1 4>$pipe2 &
+./create_rect_facts   3<$pipe2 4>$pipe3 &
 create_rect_facts_pid=$!
-./make_fb   3<$pipe2 4>$pipe0 &
+./make_fb   3<$pipe3 4>$pipe0 &
 make_fb_pid=$!
-./fini   3<$pipe0  &
+./all_contains_1   3<$pipe0 4>$pipe1 &
+all_contains_1_pid=$!
+./fini   3<$pipe1  &
 fini_pid=$!
 wait $d2pl_pid
 wait $create_rect_facts_pid
 wait $make_fb_pid
+wait $all_contains_1_pid
 wait $fini_pid
 rm $pipe0
 rm $pipe1
 rm $pipe2
+rm $pipe3
