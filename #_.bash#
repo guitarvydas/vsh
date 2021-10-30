@@ -1,8 +1,0 @@
-swipl -q \
-      -g 'consult(fb).'  \
-      -g 'consult(onSameDiagram).' \
-      -g 'consult(component).' \
-      -g 'consult(code).' \
-      -g 'printCode.' \
-      -g 'halt.' \
-    | ./augment-fb.bash 
