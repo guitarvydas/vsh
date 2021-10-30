@@ -8,6 +8,10 @@ rect(mHGQwMe0h4No9jv1bjlY__8,"").
 rect(oNERr5Awd1CSBJseHcZe__1,"").
 rect(oNERr5Awd1CSBJseHcZe__15,"").
 rect(oNERr5Awd1CSBJseHcZe__17,"").
+rect(oNERr5Awd1CSBJseHcZe__25,"").
+rect(oNERr5Awd1CSBJseHcZe__27,"").
 rect(oNERr5Awd1CSBJseHcZe__3,"").
+rect(oNERr5Awd1CSBJseHcZe__31,"").
+rect(oNERr5Awd1CSBJseHcZe__33,"").
 rect(oNERr5Awd1CSBJseHcZe__7,"").
 rect(oNERr5Awd1CSBJseHcZe__9,"").

@@ -1,0 +1,16 @@
+#!/bin/bash
+# bounding_boxes
+read baton </dev/fd/3
+swipl -g 'consult(fb).' \
+   -g 'consult(boundingBoxes).' \
+   -g 'printBB.' \
+   -g 'halt.' \
+   >temp2.pl
+echo baton >/dev/fd/4
+
+
+
+
+
+
+

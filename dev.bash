@@ -8,5 +8,13 @@ catch () {
     exit 1
 }
 
+echo
+echo '*** run.bash ***'
 ./run.bash
+echo
+echo '*** transpile_drawio_to_swipl ***'
 ./transpile_drawio_to_swipl helloworld
+
+# echo
+# echo '*** pfr orig_bounding_boxes ***'
+# pfr orig_bounding_boxes unhtml.ohm unhtml.glue

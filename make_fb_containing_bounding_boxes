@@ -1,0 +1,14 @@
+#!/bin/bash
+# make_fb_containing_bounding_boxes
+read baton </dev/fd/3
+# augment the factbase (fb.pl) after every inferencing step
+cat fb.pl temp2.pl | sort >temp3.pl
+mv temp3.pl fb.pl
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
