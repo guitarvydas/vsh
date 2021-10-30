@@ -11,6 +11,7 @@ unhtml {
     | "&amp;"  -- amp
     | "&lt;"  -- lt
     | "&gt;"  -- gt
+    | "&quot;"  -- quot
     | "&nbsp;"  -- nonBreakingSpace
     | any      -- any
 }
