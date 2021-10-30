@@ -2,7 +2,7 @@
 # fini
 result=`read </dev/fd/3`
 echo $result
-echo end 1>&amp;2
+echo end 1>&2
 # no output
 
 
