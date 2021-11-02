@@ -10,7 +10,7 @@ catch () {
 
 echo
 echo '*** run.bash ***'
-./run.bash
+./dev-run.bash
 echo
 echo '*** transpile_drawio_to_swipl ***'
 ./transpile_drawio_to_swipl helloworld

@@ -91,6 +91,7 @@ function endScript (sname) {
     let name = sname.replace (/ /g,'-');
     process.stderr.write (`emitting ${name}\n`);
     fs.writeFileSync (name, script);
+    emitToScript (`echo '@ '${name} 1>&2`);
     componentNames += ' ' + name;
 }
 

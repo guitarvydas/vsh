@@ -1,19 +1,10 @@
 #!/bin/bash
 # json
 read baton </dev/fd/3
+cp fb.pl _11.pl
 # convert fb.pl to JSON form
-swipl -q \
-   -g 'use_module(library(http/json))' \
-   -g 'consult(fb).' \
-   -g 'consult(component).' \
-   -g 'consult(names).' \
-   -g 'consult(code).' \
-   -g 'consult(jsoncomponent).'\
-   -g 'allc.'\
-   -g 'halt.'
-echo baton >/dev/fd/4
-
-
+swipl -q -g 'use_module(library(http/json))' -g 'consult(fb).' -g 'consult(component).' -g 'consult(names).' -g 'consult(fixup).' -g 'consult(code).' -g 'consult(jsoncomponent).' -g 'allc.' -g 'halt.' >_.json
+echo done >/dev/fd/4
 
 
 

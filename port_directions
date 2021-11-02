@@ -1,14 +1,10 @@
 #!/bin/bash
 # port_directions
 read baton </dev/fd/3
-swipl -q \
-   -g 'consult(fb).' \
-   -g 'consult(onSameDiagram).' \
-   -g 'consult(portdirection).' \
-   -g 'printAllDirections.' \
-   -g 'halt.' \
-  | ./augment-fb.bash 
+cp fb.pl _8.pl
+swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(portdirection).' -g 'printAllDirections.' -g 'halt.' | ./augment-fb.bash 
 echo baton >/dev/fd/4
+
 
 
 

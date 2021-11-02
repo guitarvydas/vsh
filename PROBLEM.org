@@ -1,0 +1,26 @@
+* Problem: `transpile_drawio_to_swipl.drawio` contains too few rects
+** contains 15 rounded rects, therefore 30 rects in total,
+** but, after `pfr helloworld.drawio drawio.ohm drawio.glue $cdir/support.js >_.html` I see only 10 mxCells in `_.html`.
+
+* Convert the .drawio file using raw JS and see what the result is.
+** decodeDrawio.js needs encoded guts of diagram, not full .drawio file
+** run shows 50+ rects
+
+* What is the diff between guts produced by manual edit vs. guts produced by .ohm file?
+** theory: .ohm file truncates guts
+*** maybe due to unprintable in stream?
+    $ pfr helloworld.drawio drawio.ohm drawio.glue $cdir/support.js >_helloworld.raw
+    $ wc *.raw
+       4     180    3419 _helloworld.raw
+       0       1    5212 _raw.raw
+       4     181    8631 total
+
+    ^^^ helloworld.raw is truncated by pfr/helloworld.glue
+
+** theory: reading raw data as UTF-8 ruins the binary data
+** observation: <mxFile ...><diagram id=...>###</diagram></mxFile>
+   ### is not preserved by .ohm parser
+
+* final 1
+** was using helloworld.drawio instead of transpile_drawio_to_swipl
+  

@@ -1,14 +1,11 @@
 #!/bin/bash
 # all_contains_1
 read baton </dev/fd/3
-swipl -q\
- -g 'consult(fb).' \
- -g 'consult(onSameDiagram).' \
- -g 'consult(contain1).' \
- -g 'allContains1.'\
- -g 'halt.' \
-| ./augment-fb.bash 
+echo '@@ all contains 1' 1>&1
+cp fb.pl _4.pl
+swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(contain1).' -g 'allContains1.' -g 'halt.' | ./augment-fb.bash 
 echo baton >/dev/fd/4
+
 
 
 

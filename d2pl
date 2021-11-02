@@ -1,12 +1,14 @@
 #!/bin/bash
 # d2pl
 cdir=`pwd`
+echo $1.drawio 1>&2
 pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js \
-  | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js \
-  | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js \
-  | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
-  | sort >15.pl
+    | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js \
+    | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js \
+    | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
+    | sort >15.pl
 echo baton >/dev/fd/4
+
 
 
 
