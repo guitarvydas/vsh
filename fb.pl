@@ -1,80 +1,77 @@
 
-b(kQPuOeSKpFBLvlsbsDxd__1,324.5).
-b(mHGQwMe0h4No9jv1bjlY__1,600).
-b(mHGQwMe0h4No9jv1bjlY__2,390).
-b(mHGQwMe0h4No9jv1bjlY__3,360).
-b(mHGQwMe0h4No9jv1bjlY__4,510).
-b(mHGQwMe0h4No9jv1bjlY__5,330).
-b(mHGQwMe0h4No9jv1bjlY__6,560).
-b(mHGQwMe0h4No9jv1bjlY__7,530).
-b(mHGQwMe0h4No9jv1bjlY__8,540).
-b(mHGQwMe0h4No9jv1bjlY__9,325).
 cell(0,"").
 cell(1,"").
-cell(kQPuOeSKpFBLvlsbsDxd__1,"").
-cell(mHGQwMe0h4No9jv1bjlY__1,"").
-cell(mHGQwMe0h4No9jv1bjlY__2,"").
-cell(mHGQwMe0h4No9jv1bjlY__3,"").
-cell(mHGQwMe0h4No9jv1bjlY__4,"").
-cell(mHGQwMe0h4No9jv1bjlY__5,"").
-cell(mHGQwMe0h4No9jv1bjlY__6,"").
-cell(mHGQwMe0h4No9jv1bjlY__7,"").
-cell(mHGQwMe0h4No9jv1bjlY__8,"").
-cell(mHGQwMe0h4No9jv1bjlY__9,"").
-diagram(jE60H37yvkXYl8kS__ae6, "").
-diagramContains(jE60H37yvkXYl8kS__ae6, 0).
-diagramContains(jE60H37yvkXYl8kS__ae6, 1).
-diagramContains(jE60H37yvkXYl8kS__ae6, kQPuOeSKpFBLvlsbsDxd__1).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__1).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__2).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__3).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__4).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__5).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__6).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__7).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__8).
-diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__9).
-edge(mHGQwMe0h4No9jv1bjlY__4, "").
-ellipse(kQPuOeSKpFBLvlsbsDxd__1, "").
-ellipse(mHGQwMe0h4No9jv1bjlY__5, "").
-ellipse(mHGQwMe0h4No9jv1bjlY__7, "").
-ellipse(mHGQwMe0h4No9jv1bjlY__9, "").
-fillColor(kQPuOeSKpFBLvlsbsDxd__1, "red").
-fillColor(mHGQwMe0h4No9jv1bjlY__3, "red").
-fillColor(mHGQwMe0h4No9jv1bjlY__5, "yellow").
-fillColor(mHGQwMe0h4No9jv1bjlY__7, "green").
-fillColor(mHGQwMe0h4No9jv1bjlY__8, "red").
-fillColor(mHGQwMe0h4No9jv1bjlY__9, "red").
-height(kQPuOeSKpFBLvlsbsDxd__1, 40).
-height(mHGQwMe0h4No9jv1bjlY__1, 430).
-height(mHGQwMe0h4No9jv1bjlY__2, 170).
-height(mHGQwMe0h4No9jv1bjlY__3, 111).
-height(mHGQwMe0h4No9jv1bjlY__5, 40).
-height(mHGQwMe0h4No9jv1bjlY__6, 110).
-height(mHGQwMe0h4No9jv1bjlY__7, 40).
-height(mHGQwMe0h4No9jv1bjlY__8, 60).
-height(mHGQwMe0h4No9jv1bjlY__9, 40).
-l(kQPuOeSKpFBLvlsbsDxd__1,230).
-l(mHGQwMe0h4No9jv1bjlY__1,170).
-l(mHGQwMe0h4No9jv1bjlY__2,255).
-l(mHGQwMe0h4No9jv1bjlY__3,285).
-l(mHGQwMe0h4No9jv1bjlY__4,265).
-l(mHGQwMe0h4No9jv1bjlY__5,670).
-l(mHGQwMe0h4No9jv1bjlY__6,265).
-l(mHGQwMe0h4No9jv1bjlY__7,245).
-l(mHGQwMe0h4No9jv1bjlY__8,300).
-l(mHGQwMe0h4No9jv1bjlY__9,150).
-name(jE60H37yvkXYl8kS__ae6, "Page-1").
-r(kQPuOeSKpFBLvlsbsDxd__1,270).
-r(mHGQwMe0h4No9jv1bjlY__1,790).
-r(mHGQwMe0h4No9jv1bjlY__2,700).
-r(mHGQwMe0h4No9jv1bjlY__3,660).
-r(mHGQwMe0h4No9jv1bjlY__4,690).
-r(mHGQwMe0h4No9jv1bjlY__5,710).
-r(mHGQwMe0h4No9jv1bjlY__6,510).
-r(mHGQwMe0h4No9jv1bjlY__7,285).
-r(mHGQwMe0h4No9jv1bjlY__8,475).
-r(mHGQwMe0h4No9jv1bjlY__9,190).
+cell(i5jZ3dy8F4nkPbaXPHF6__1,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__10,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__2,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__3,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__4,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__5,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__6,"").
+cell(i5jZ3dy8F4nkPbaXPHF6__9,"").
+diagram(fo9xvGcHm88d3B_x5weG, "").
+diagramContains(fo9xvGcHm88d3B_x5weG, 0).
+diagramContains(fo9xvGcHm88d3B_x5weG, 1).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__1).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__10).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__2).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__3).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__4).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__5).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__6).
+diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__9).
+edge(i5jZ3dy8F4nkPbaXPHF6__4, "").
+ellipse(i5jZ3dy8F4nkPbaXPHF6__5, "").
+ellipse(i5jZ3dy8F4nkPbaXPHF6__9, "").
+fillColor(i5jZ3dy8F4nkPbaXPHF6__10, "red").
+fillColor(i5jZ3dy8F4nkPbaXPHF6__3, "red").
+fillColor(i5jZ3dy8F4nkPbaXPHF6__5, "yellow").
+fillColor(i5jZ3dy8F4nkPbaXPHF6__9, "green").
+height(i5jZ3dy8F4nkPbaXPHF6__1, 480).
+height(i5jZ3dy8F4nkPbaXPHF6__10, 75).
+height(i5jZ3dy8F4nkPbaXPHF6__2, 170).
+height(i5jZ3dy8F4nkPbaXPHF6__3, 80).
+height(i5jZ3dy8F4nkPbaXPHF6__5, 40).
+height(i5jZ3dy8F4nkPbaXPHF6__6, 150).
+height(i5jZ3dy8F4nkPbaXPHF6__9, 40).
+name(fo9xvGcHm88d3B_x5weG, "Page-1").
+source(i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__5).
+target(i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__9).
+value(i5jZ3dy8F4nkPbaXPHF6__1, "helloworld").
+value(i5jZ3dy8F4nkPbaXPHF6__10, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo world&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
+value(i5jZ3dy8F4nkPbaXPHF6__2, "hello").
+value(i5jZ3dy8F4nkPbaXPHF6__3, "&lt;div&gt;echo hello&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
+value(i5jZ3dy8F4nkPbaXPHF6__5, "out").
+value(i5jZ3dy8F4nkPbaXPHF6__6, "world").
+value(i5jZ3dy8F4nkPbaXPHF6__9, "in").
+vertex(i5jZ3dy8F4nkPbaXPHF6__1, "").
+vertex(i5jZ3dy8F4nkPbaXPHF6__10, "").
+vertex(i5jZ3dy8F4nkPbaXPHF6__2, "").
+vertex(i5jZ3dy8F4nkPbaXPHF6__3, "").
+vertex(i5jZ3dy8F4nkPbaXPHF6__5, "").
+vertex(i5jZ3dy8F4nkPbaXPHF6__6, "").
+vertex(i5jZ3dy8F4nkPbaXPHF6__9, "").
+width(i5jZ3dy8F4nkPbaXPHF6__1, 460).
+width(i5jZ3dy8F4nkPbaXPHF6__10, 175).
+width(i5jZ3dy8F4nkPbaXPHF6__2, 235).
+width(i5jZ3dy8F4nkPbaXPHF6__3, 165).
+width(i5jZ3dy8F4nkPbaXPHF6__5, 40).
+width(i5jZ3dy8F4nkPbaXPHF6__6, 245).
+width(i5jZ3dy8F4nkPbaXPHF6__9, 40).
+x(i5jZ3dy8F4nkPbaXPHF6__1, 170).
+x(i5jZ3dy8F4nkPbaXPHF6__10, 295).
+x(i5jZ3dy8F4nkPbaXPHF6__2, 255).
+x(i5jZ3dy8F4nkPbaXPHF6__3, 285).
+x(i5jZ3dy8F4nkPbaXPHF6__5, 470).
+x(i5jZ3dy8F4nkPbaXPHF6__6, 265).
+x(i5jZ3dy8F4nkPbaXPHF6__9, 245).
+y(i5jZ3dy8F4nkPbaXPHF6__1, 170).
+y(i5jZ3dy8F4nkPbaXPHF6__10, 490).
+y(i5jZ3dy8F4nkPbaXPHF6__2, 220).
+y(i5jZ3dy8F4nkPbaXPHF6__3, 265).
+y(i5jZ3dy8F4nkPbaXPHF6__5, 290).
+y(i5jZ3dy8F4nkPbaXPHF6__6, 450).
+y(i5jZ3dy8F4nkPbaXPHF6__9, 507.5).
 rect(0,"").
 rect(1,"").
 rect(mHGQwMe0h4No9jv1bjlY__1,"").
@@ -82,100 +79,131 @@ rect(mHGQwMe0h4No9jv1bjlY__2,"").
 rect(mHGQwMe0h4No9jv1bjlY__3,"").
 rect(mHGQwMe0h4No9jv1bjlY__6,"").
 rect(mHGQwMe0h4No9jv1bjlY__8,"").
-source(mHGQwMe0h4No9jv1bjlY__4, mHGQwMe0h4No9jv1bjlY__5).
-t(kQPuOeSKpFBLvlsbsDxd__1,284.5).
-t(mHGQwMe0h4No9jv1bjlY__1,170).
-t(mHGQwMe0h4No9jv1bjlY__2,220).
-t(mHGQwMe0h4No9jv1bjlY__3,249).
-t(mHGQwMe0h4No9jv1bjlY__4,310).
-t(mHGQwMe0h4No9jv1bjlY__5,290).
-t(mHGQwMe0h4No9jv1bjlY__6,450).
-t(mHGQwMe0h4No9jv1bjlY__7,490).
-t(mHGQwMe0h4No9jv1bjlY__8,480).
-t(mHGQwMe0h4No9jv1bjlY__9,285).
-target(mHGQwMe0h4No9jv1bjlY__4, mHGQwMe0h4No9jv1bjlY__7).
-value(kQPuOeSKpFBLvlsbsDxd__1, "$1").
-value(mHGQwMe0h4No9jv1bjlY__1, "transpile drawio to swipl").
-value(mHGQwMe0h4No9jv1bjlY__2, "d2pl").
-value(mHGQwMe0h4No9jv1bjlY__3, "&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&amp;nbsp;&lt;span&gt;&amp;gt; /dev/fd/4&lt;/span&gt;&lt;/div&gt;").
-value(mHGQwMe0h4No9jv1bjlY__5, "out").
-value(mHGQwMe0h4No9jv1bjlY__6, "fini").
-value(mHGQwMe0h4No9jv1bjlY__7, "in").
-value(mHGQwMe0h4No9jv1bjlY__8, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;result=`read &amp;lt;/dev/fd/3`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo $result&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo end 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
-value(mHGQwMe0h4No9jv1bjlY__9, "$1").
-vertex(kQPuOeSKpFBLvlsbsDxd__1, "").
-vertex(mHGQwMe0h4No9jv1bjlY__1, "").
-vertex(mHGQwMe0h4No9jv1bjlY__2, "").
-vertex(mHGQwMe0h4No9jv1bjlY__3, "").
-vertex(mHGQwMe0h4No9jv1bjlY__5, "").
-vertex(mHGQwMe0h4No9jv1bjlY__6, "").
-vertex(mHGQwMe0h4No9jv1bjlY__7, "").
-vertex(mHGQwMe0h4No9jv1bjlY__8, "").
-vertex(mHGQwMe0h4No9jv1bjlY__9, "").
-width(kQPuOeSKpFBLvlsbsDxd__1, 40).
-width(mHGQwMe0h4No9jv1bjlY__1, 620).
-width(mHGQwMe0h4No9jv1bjlY__2, 445).
-width(mHGQwMe0h4No9jv1bjlY__3, 375).
-width(mHGQwMe0h4No9jv1bjlY__5, 40).
-width(mHGQwMe0h4No9jv1bjlY__6, 245).
-width(mHGQwMe0h4No9jv1bjlY__7, 40).
-width(mHGQwMe0h4No9jv1bjlY__8, 175).
-width(mHGQwMe0h4No9jv1bjlY__9, 40).
-x(kQPuOeSKpFBLvlsbsDxd__1, 230).
-x(mHGQwMe0h4No9jv1bjlY__1, 170).
-x(mHGQwMe0h4No9jv1bjlY__2, 255).
-x(mHGQwMe0h4No9jv1bjlY__3, 285).
-x(mHGQwMe0h4No9jv1bjlY__5, 670).
-x(mHGQwMe0h4No9jv1bjlY__6, 265).
-x(mHGQwMe0h4No9jv1bjlY__7, 245).
-x(mHGQwMe0h4No9jv1bjlY__8, 300).
-x(mHGQwMe0h4No9jv1bjlY__9, 150).
-y(kQPuOeSKpFBLvlsbsDxd__1, 284.5).
-y(mHGQwMe0h4No9jv1bjlY__1, 170).
-y(mHGQwMe0h4No9jv1bjlY__2, 220).
-y(mHGQwMe0h4No9jv1bjlY__3, 249).
-y(mHGQwMe0h4No9jv1bjlY__5, 290).
-y(mHGQwMe0h4No9jv1bjlY__6, 450).
-y(mHGQwMe0h4No9jv1bjlY__7, 490).
-y(mHGQwMe0h4No9jv1bjlY__8, 480).
-y(mHGQwMe0h4No9jv1bjlY__9, 285).
-contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__2).
-contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__3).
-contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__4).
-contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__6).
-contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__8).
-contains1(mHGQwMe0h4No9jv1bjlY__2,mHGQwMe0h4No9jv1bjlY__3).
-contains1(mHGQwMe0h4No9jv1bjlY__6,mHGQwMe0h4No9jv1bjlY__8).
-deepcontains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__3).
-deepcontains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__8).
-contains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__2).
-contains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__4).
-contains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__6).
-contains(mHGQwMe0h4No9jv1bjlY__2,mHGQwMe0h4No9jv1bjlY__3).
-contains(mHGQwMe0h4No9jv1bjlY__6,mHGQwMe0h4No9jv1bjlY__8).
-contains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__9).
-contains(mHGQwMe0h4No9jv1bjlY__2,kQPuOeSKpFBLvlsbsDxd__1).
-contains(mHGQwMe0h4No9jv1bjlY__2,mHGQwMe0h4No9jv1bjlY__5).
-contains(mHGQwMe0h4No9jv1bjlY__6,mHGQwMe0h4No9jv1bjlY__7).
-portdirection(kQPuOeSKpFBLvlsbsDxd__1,pervasiveinput).
-portdirection(mHGQwMe0h4No9jv1bjlY__5,output).
-portdirection(mHGQwMe0h4No9jv1bjlY__7,input).
-portdirection(mHGQwMe0h4No9jv1bjlY__9,pervasiveinput).
-factname(kQPuOeSKpFBLvlsbsDxd__1,"$1").
-factname(mHGQwMe0h4No9jv1bjlY__1,"transpile_drawio_to_swipl").
-factname(mHGQwMe0h4No9jv1bjlY__2,"d2pl").
-factname(mHGQwMe0h4No9jv1bjlY__3,"code1").
-factname(mHGQwMe0h4No9jv1bjlY__5,"out").
-factname(mHGQwMe0h4No9jv1bjlY__6,"fini").
-factname(mHGQwMe0h4No9jv1bjlY__7,"in").
-factname(mHGQwMe0h4No9jv1bjlY__8,"code2").
-factname(mHGQwMe0h4No9jv1bjlY__9,"$1").
+rect(oNERr5Awd1CSBJseHcZe__1,"").
+rect(oNERr5Awd1CSBJseHcZe__111,"").
+rect(oNERr5Awd1CSBJseHcZe__113,"").
+rect(oNERr5Awd1CSBJseHcZe__15,"").
+rect(oNERr5Awd1CSBJseHcZe__17,"").
+rect(oNERr5Awd1CSBJseHcZe__25,"").
+rect(oNERr5Awd1CSBJseHcZe__27,"").
+rect(oNERr5Awd1CSBJseHcZe__3,"").
+rect(oNERr5Awd1CSBJseHcZe__31,"").
+rect(oNERr5Awd1CSBJseHcZe__33,"").
+rect(oNERr5Awd1CSBJseHcZe__38,"").
+rect(oNERr5Awd1CSBJseHcZe__40,"").
+rect(oNERr5Awd1CSBJseHcZe__41,"").
+rect(oNERr5Awd1CSBJseHcZe__43,"").
+rect(oNERr5Awd1CSBJseHcZe__51,"").
+rect(oNERr5Awd1CSBJseHcZe__53,"").
+rect(oNERr5Awd1CSBJseHcZe__57,"").
+rect(oNERr5Awd1CSBJseHcZe__59,"").
+rect(oNERr5Awd1CSBJseHcZe__85,"").
+rect(oNERr5Awd1CSBJseHcZe__87,"").
+rect(oNERr5Awd1CSBJseHcZe__89,"").
+rect(oNERr5Awd1CSBJseHcZe__91,"").
+rect(oNERr5Awd1CSBJseHcZe__93,"").
+rect(oNERr5Awd1CSBJseHcZe__95,"").
+rect(oNERr5Awd1CSBJseHcZe__97,"").
+rect(oNERr5Awd1CSBJseHcZe__99,"").
+b(i5jZ3dy8F4nkPbaXPHF6__1,650).
+b(i5jZ3dy8F4nkPbaXPHF6__10,565).
+b(i5jZ3dy8F4nkPbaXPHF6__2,390).
+b(i5jZ3dy8F4nkPbaXPHF6__3,345).
+b(i5jZ3dy8F4nkPbaXPHF6__4,527.5).
+b(i5jZ3dy8F4nkPbaXPHF6__5,330).
+b(i5jZ3dy8F4nkPbaXPHF6__6,600).
+b(i5jZ3dy8F4nkPbaXPHF6__9,547.5).
+l(i5jZ3dy8F4nkPbaXPHF6__1,170).
+l(i5jZ3dy8F4nkPbaXPHF6__10,295).
+l(i5jZ3dy8F4nkPbaXPHF6__2,255).
+l(i5jZ3dy8F4nkPbaXPHF6__3,285).
+l(i5jZ3dy8F4nkPbaXPHF6__4,265).
+l(i5jZ3dy8F4nkPbaXPHF6__5,470).
+l(i5jZ3dy8F4nkPbaXPHF6__6,265).
+l(i5jZ3dy8F4nkPbaXPHF6__9,245).
+r(i5jZ3dy8F4nkPbaXPHF6__1,630).
+r(i5jZ3dy8F4nkPbaXPHF6__10,470).
+r(i5jZ3dy8F4nkPbaXPHF6__2,490).
+r(i5jZ3dy8F4nkPbaXPHF6__3,450).
+r(i5jZ3dy8F4nkPbaXPHF6__4,490).
+r(i5jZ3dy8F4nkPbaXPHF6__5,510).
+r(i5jZ3dy8F4nkPbaXPHF6__6,510).
+r(i5jZ3dy8F4nkPbaXPHF6__9,285).
+t(i5jZ3dy8F4nkPbaXPHF6__1,170).
+t(i5jZ3dy8F4nkPbaXPHF6__10,490).
+t(i5jZ3dy8F4nkPbaXPHF6__2,220).
+t(i5jZ3dy8F4nkPbaXPHF6__3,265).
+t(i5jZ3dy8F4nkPbaXPHF6__4,310).
+t(i5jZ3dy8F4nkPbaXPHF6__5,290).
+t(i5jZ3dy8F4nkPbaXPHF6__6,450).
+t(i5jZ3dy8F4nkPbaXPHF6__9,507.5).
+portdirection(i5jZ3dy8F4nkPbaXPHF6__5,output).
+portdirection(i5jZ3dy8F4nkPbaXPHF6__9,input).
+factname(i5jZ3dy8F4nkPbaXPHF6__5,"out").
+factname(i5jZ3dy8F4nkPbaXPHF6__9,"in").
 unknowncomponentname(0,"u1").
 unknowncomponentname(1,"u2").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__1,"u3").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__2,"u4").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__3,"u5").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__6,"u6").
+unknowncomponentname(mHGQwMe0h4No9jv1bjlY__8,"u7").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__1,"u8").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__111,"u9").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__113,"u10").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__15,"u11").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__17,"u12").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__25,"u13").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__27,"u14").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__3,"u15").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__31,"u16").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__33,"u17").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__38,"u18").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__40,"u19").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__41,"u20").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__43,"u21").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__51,"u22").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__53,"u23").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__57,"u24").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__59,"u25").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__85,"u26").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__87,"u27").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__89,"u28").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__91,"u29").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__93,"u30").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__95,"u31").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__97,"u32").
+unknowncomponentname(oNERr5Awd1CSBJseHcZe__99,"u33").
 factcomponentcode(0,"").
 factcomponentcode(1,"").
 factcomponentcode(mHGQwMe0h4No9jv1bjlY__1,"").
 factcomponentcode(mHGQwMe0h4No9jv1bjlY__2,"").
-factcomponentcode(mHGQwMe0h4No9jv1bjlY__3,"&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&amp;nbsp;&lt;span&gt;&amp;gt; /dev/fd/4&lt;/span&gt;&lt;/div&gt;").
+factcomponentcode(mHGQwMe0h4No9jv1bjlY__3,"").
 factcomponentcode(mHGQwMe0h4No9jv1bjlY__6,"").
-factcomponentcode(mHGQwMe0h4No9jv1bjlY__8,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;result=`read &amp;lt;/dev/fd/3`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo $result&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo end 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
+factcomponentcode(mHGQwMe0h4No9jv1bjlY__8,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__1,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__111,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__113,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__15,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__17,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__25,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__27,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__3,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__31,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__33,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__38,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__40,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__41,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__43,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__51,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__53,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__57,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__59,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__85,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__87,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__89,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__91,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__93,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__95,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__97,"").
+factcomponentcode(oNERr5Awd1CSBJseHcZe__99,"").

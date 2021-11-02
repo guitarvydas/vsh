@@ -2,13 +2,92 @@
 # transpile_drawio_to_swipl
 pipe0=pipe${RANDOM}
 mkfifo $pipe0
-./d2pl  $1   4>$pipe0 &
+pipe1=pipe${RANDOM}
+mkfifo $pipe1
+pipe2=pipe${RANDOM}
+mkfifo $pipe2
+pipe3=pipe${RANDOM}
+mkfifo $pipe3
+pipe4=pipe${RANDOM}
+mkfifo $pipe4
+pipe5=pipe${RANDOM}
+mkfifo $pipe5
+pipe6=pipe${RANDOM}
+mkfifo $pipe6
+pipe7=pipe${RANDOM}
+mkfifo $pipe7
+pipe8=pipe${RANDOM}
+mkfifo $pipe8
+pipe9=pipe${RANDOM}
+mkfifo $pipe9
+pipe10=pipe${RANDOM}
+mkfifo $pipe10
+pipe11=pipe${RANDOM}
+mkfifo $pipe11
+pipe12=pipe${RANDOM}
+mkfifo $pipe12
+pipe13=pipe${RANDOM}
+mkfifo $pipe13
+./d2pl  $1   4>$pipe10 &
 d2pl_pid=$!
-./fini   3<$pipe0  &
+./create_rect_facts   3<$pipe10 4>$pipe12 &
+create_rect_facts_pid=$!
+./make_fb   3<$pipe12 4>$pipe6 &
+make_fb_pid=$!
+./json   3<$pipe4 4>$pipe5 &
+json_pid=$!
+./bounding_boxes   3<$pipe6 4>$pipe8 &
+bounding_boxes_pid=$!
+./all_contains_1   3<$pipe7 4>$pipe9 &
+all_contains_1_pid=$!
+./make_fb_containing_bounding_boxes   3<$pipe8 4>$pipe7 &
+make_fb_containing_bounding_boxes_pid=$!
+./fini   3<$pipe5  &
 fini_pid=$!
+./deep_contains   3<$pipe9 4>$pipe11 &
+deep_contains_pid=$!
+./direct_contains   3<$pipe11 4>$pipe13 &
+direct_contains_pid=$!
+./design_rule_rectangles_must_not_intersect   3<$pipe13 4>$pipe3 &
+design_rule_rectangles_must_not_intersect_pid=$!
+./port_contains   3<$pipe3 4>$pipe0 &
+port_contains_pid=$!
+./port_directions   3<$pipe0 4>$pipe1 &
+port_directions_pid=$!
+./assign_names   3<$pipe1 4>$pipe2 &
+assign_names_pid=$!
+./sync_code   3<$pipe2 4>$pipe4 &
+sync_code_pid=$!
 wait $d2pl_pid
+wait $create_rect_facts_pid
+wait $make_fb_pid
+wait $json_pid
+wait $bounding_boxes_pid
+wait $all_contains_1_pid
+wait $make_fb_containing_bounding_boxes_pid
 wait $fini_pid
+wait $deep_contains_pid
+wait $direct_contains_pid
+wait $design_rule_rectangles_must_not_intersect_pid
+wait $port_contains_pid
+wait $port_directions_pid
+wait $assign_names_pid
+wait $sync_code_pid
 rm $pipe0
+rm $pipe1
+rm $pipe2
+rm $pipe3
+rm $pipe4
+rm $pipe5
+rm $pipe6
+rm $pipe7
+rm $pipe8
+rm $pipe9
+rm $pipe10
+rm $pipe11
+rm $pipe12
+rm $pipe13
+
 
 
 

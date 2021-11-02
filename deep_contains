@@ -1,0 +1,17 @@
+#!/bin/bash
+# deep_contains
+read baton </dev/fd/3
+echo '@@ deep contains' 1>&1
+cp fb.pl _5.pl
+swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(contain2).' -g 'printAllDeepContains.' -g 'halt.' | ./augment-fb.bash 
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+
+

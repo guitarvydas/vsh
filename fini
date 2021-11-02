@@ -1,10 +1,9 @@
 #!/bin/bash
 # fini
-result=`read </dev/fd/3`
-echo $result
-echo end 1>&amp;2
+read baton </dev/fd/3
+echo "baton=/$baton/" 1>&2
+echo end 1>&2
 # no output
-
 
 
 

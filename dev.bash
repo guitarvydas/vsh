@@ -8,11 +8,18 @@ catch () {
     exit 1
 }
 
-# convert fb.pl to JSON form
-swipl -g 'use_module(library(http/json))' \
-      -g 'consult(fb).' \
-      -g 'consult(component).' \
-      -g 'consult(names).' \
-      -g 'consult(code).' \
-      -g 'consult(jsoncomponent).'\
-      -g 'allc.'
+echo
+echo '*** run.bash ***'
+./dev-run.bash
+echo
+echo '*** transpile_drawio_to_swipl ***'
+./transpile_drawio_to_swipl helloworld
+
+# echo
+# echo '*** pfr orig_bounding_boxes ***'
+# pfr orig_bounding_boxes unhtml.ohm unhtml.glue
+
+
+# echo
+# echo '*** all contains 1 ***'
+# cat all_contains_1
