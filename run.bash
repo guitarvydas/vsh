@@ -1,11 +1,6 @@
 #!/bin/bash
 clear
 
-echo
-echo '*** use dev.bash for now ***'
-echo
-exit 1
-
 set -e
 trap 'catch' ERR
 
@@ -28,7 +23,11 @@ for i in $names
 do
     echo processing $i
     mv $i orig_$i
-    pfr orig_$i unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue >$i
+    pfr orig_$i unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue | pfr - unhtml2.ohm unhtml2.glue >$i
     chmod a+x $i 
 done
 
+echo
+echo '*** running result ***'
+echo
+./transpile_drawio_to_swipl helloworld

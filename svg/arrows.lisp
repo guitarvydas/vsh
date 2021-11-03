@@ -1,8 +1,0 @@
-(defun convert-arrows (list)
-  (mapcar #'(lambda (item)
-	  (if (and (listp (last item))
-		   (listp (car (last item)))
-		   (eq 'z (caar (last item))))
-	      (cons 'arrow (cdr item))
-	      item))
-	  list))
