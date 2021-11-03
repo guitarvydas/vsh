@@ -1,0 +1,16 @@
+#!/bin/bash
+# helloworld
+pipe0=pipe_${RANDOM}
+mkfifo $pipe0
+./ahello $1 4>$pipe0  &
+hello_pid=$!
+./aworld $1 3<$pipe0 &
+world_pid=$!
+wait $hello_pid
+wait $world_pid
+rm $pipe0
+
+
+
+
+

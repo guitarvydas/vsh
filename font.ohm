@@ -1,0 +1,7 @@
+font {
+text =
+    stuff* font text -- withfont
+  | stuff* -- withoutfont
+font = "<font" (~">" any)* ">" text "</font>"
+stuff = ~"<font" ~"</font" any
+}

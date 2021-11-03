@@ -1,0 +1,13 @@
+#!/bin/bash
+# make_fb_containing_bounding_boxes
+read baton </dev/fd/3
+echo '@@ make fb' 1>&1
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+

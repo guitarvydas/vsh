@@ -1,0 +1,8 @@
+unhtml {
+  text = htmlchar*
+  htmlchar =
+      "\&nbsp; " -- nbsp
+    | "&amp;"  -- amp
+    | any      -- any
+}
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+# async_hello
+echo a hello '>>>>' $1
+
+echo done >/dev/fd/4
+
+
+
+
+

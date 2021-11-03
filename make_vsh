@@ -1,0 +1,41 @@
+#!/bin/bash
+# make_vsh
+mkfifo pipe0
+mkfifo pipe1
+mkfifo pipe2
+mkfifo pipe3
+mkfifo pipe4
+mkfifo pipe5
+./run_queries 4>pipe2 3<pipe1 &
+run_queries_pid=$!
+./emit_bash 4>pipe3 3<pipe2 &
+emit_bash_pid=$!
+./create_rect_facts 4>pipe4 3<pipe0 &
+create_rect_facts_pid=$!
+./unhtml 4>pipe5 3<pipe3 &
+unhtml_pid=$!
+./sort_factbase 4>pipe1 3<pipe4 &
+sort_factbase_pid=$!
+./permissions_to_execute  3<pipe5 &
+permissions_to_execute_pid=$!
+./drawio_to_factbase 4>pipe0  &
+drawio_to_factbase_pid=$!
+wait $run_queries_pid
+wait $emit_bash_pid
+wait $create_rect_facts_pid
+wait $unhtml_pid
+wait $sort_factbase_pid
+wait $permissions_to_execute_pid
+wait $drawio_to_factbase_pid
+echo rm pipe0
+rm pipe0
+echo rm pipe1
+rm pipe1
+echo rm pipe2
+rm pipe2
+echo rm pipe3
+rm pipe3
+echo rm pipe4
+rm pipe4
+echo rm pipe5
+rm pipe5

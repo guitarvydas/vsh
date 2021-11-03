@@ -1,0 +1,7 @@
+span {
+text =
+    stuff* span text -- withspan
+  | stuff* -- withoutspan
+span = "<span" (~">" any)* ">" text "</span>"
+stuff = ~"<span" ~"</span" any
+}

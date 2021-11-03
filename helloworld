@@ -1,0 +1,15 @@
+#!/bin/bash
+# helloworld
+mkfifo pipe0
+./async_hello 4>pipe0  &
+async_hello_pid=$!
+./async_world  3<pipe0 &
+async_world_pid=$!
+wait $async_hello_pid
+wait $async_world_pid
+rm pipe0
+
+
+
+
+

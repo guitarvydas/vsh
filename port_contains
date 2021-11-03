@@ -1,0 +1,16 @@
+#!/bin/bash
+# port_contains
+read baton </dev/fd/3
+cp fb.pl _7.pl
+swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(containsport).' -g 'printAllPortContains.' -g 'halt.' | ./augment-fb.bash 
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
+
+
+

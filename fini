@@ -1,0 +1,13 @@
+#!/bin/bash
+# fini
+read baton </dev/fd/3
+echo "baton=/$baton/" 1>&2
+echo end 1>&2
+# no output
+
+
+
+
+
+
+

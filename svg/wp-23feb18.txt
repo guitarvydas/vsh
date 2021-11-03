@@ -1,6 +1,0 @@
-see wp-25nov17.txt first
-
-4. (load "acl.lisp")
-5. (setf *translated* (main))
-   *translated* is like 3.lisp - all absolute values, all (translate (x y) ...) removed
-   (with-open-file (f "3a.lisp" :direction :output) (format f "~a" *translated*))

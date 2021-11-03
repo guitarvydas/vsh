@@ -1,0 +1,8 @@
+para {
+text =
+    stuff* para text -- withpara
+  | stuff* -- withoutpara
+para = "<p " (~">" any)* ">" notPEnd* "</p>"
+notPEnd = ~"</p>" any
+stuff = ~"<p " any
+}

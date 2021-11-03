@@ -1,0 +1,12 @@
+unhtml {
+  text = htmlchar*
+  htmlchar =
+      "&#92;"  -- backslash
+    | "&amp;"  -- amp
+    | "&lt;"  -- lt
+    | "&gt;"  -- gt
+    | "&quot;"  -- quot
+    | "&nbsp;"  -- nbsp
+    | any      -- any
+}
+

@@ -1,0 +1,8 @@
+text [@cs] = [[${cs}]]
+htmlchar_backslash [k] = [[\\]]
+htmlchar_amp [k] = [[&]]
+htmlchar_lt [k] = [[<]]
+htmlchar_gt [k] = [[>]]
+htmlchar_quot [k] = [["]]
+htmlchar_nbsp [k] = [[\ ]]
+htmlchar_any [c] = [[${c}]]

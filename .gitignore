@@ -1,11 +1,4 @@
 *~
-*fsl
-*fasl
-*64xfasl
-.AppleDouble
-*.pro
-[0-9]*
-junk*
-temp*
-#*
-.DS_Store
+_*
+.DS_Store*
+node_modules/*

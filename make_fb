@@ -1,0 +1,12 @@
+#!/bin/bash
+# make_fb
+read baton </dev/fd/3
+cat 15.pl 16.pl >fb.pl
+echo baton >/dev/fd/4
+
+
+
+
+
+
+
