@@ -1,6 +1,11 @@
 
 cell(0,"").
 cell(1,"").
+cell(id_FzDhdtfWYLPbjFiiYYII__1,"").
+cell(id_FzDhdtfWYLPbjFiiYYII__2,"").
+cell(id_FzDhdtfWYLPbjFiiYYII__3,"").
+cell(id_FzDhdtfWYLPbjFiiYYII__7,"").
+cell(id_FzDhdtfWYLPbjFiiYYII__8,"").
 cell(kQPuOeSKpFBLvlsbsDxd__1,"").
 cell(mHGQwMe0h4No9jv1bjlY__1,"").
 cell(mHGQwMe0h4No9jv1bjlY__2,"").
@@ -79,6 +84,11 @@ cell(oNERr5Awd1CSBJseHcZe__99,"").
 diagram(jE60H37yvkXYl8kS__ae6, "").
 diagramContains(jE60H37yvkXYl8kS__ae6, 0).
 diagramContains(jE60H37yvkXYl8kS__ae6, 1).
+diagramContains(jE60H37yvkXYl8kS__ae6, id_FzDhdtfWYLPbjFiiYYII__1).
+diagramContains(jE60H37yvkXYl8kS__ae6, id_FzDhdtfWYLPbjFiiYYII__2).
+diagramContains(jE60H37yvkXYl8kS__ae6, id_FzDhdtfWYLPbjFiiYYII__3).
+diagramContains(jE60H37yvkXYl8kS__ae6, id_FzDhdtfWYLPbjFiiYYII__7).
+diagramContains(jE60H37yvkXYl8kS__ae6, id_FzDhdtfWYLPbjFiiYYII__8).
 diagramContains(jE60H37yvkXYl8kS__ae6, kQPuOeSKpFBLvlsbsDxd__1).
 diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__1).
 diagramContains(jE60H37yvkXYl8kS__ae6, mHGQwMe0h4No9jv1bjlY__2).
@@ -154,6 +164,7 @@ diagramContains(jE60H37yvkXYl8kS__ae6, oNERr5Awd1CSBJseHcZe__96).
 diagramContains(jE60H37yvkXYl8kS__ae6, oNERr5Awd1CSBJseHcZe__97).
 diagramContains(jE60H37yvkXYl8kS__ae6, oNERr5Awd1CSBJseHcZe__98).
 diagramContains(jE60H37yvkXYl8kS__ae6, oNERr5Awd1CSBJseHcZe__99).
+edge(id_FzDhdtfWYLPbjFiiYYII__8, "").
 edge(oNERr5Awd1CSBJseHcZe__101, "").
 edge(oNERr5Awd1CSBJseHcZe__102, "").
 edge(oNERr5Awd1CSBJseHcZe__104, "").
@@ -168,6 +179,8 @@ edge(oNERr5Awd1CSBJseHcZe__5, "").
 edge(oNERr5Awd1CSBJseHcZe__55, "").
 edge(oNERr5Awd1CSBJseHcZe__6, "").
 edge(oNERr5Awd1CSBJseHcZe__79, "").
+ellipse(id_FzDhdtfWYLPbjFiiYYII__2, "").
+ellipse(id_FzDhdtfWYLPbjFiiYYII__7, "").
 ellipse(kQPuOeSKpFBLvlsbsDxd__1, "").
 ellipse(mHGQwMe0h4No9jv1bjlY__5, "").
 ellipse(mHGQwMe0h4No9jv1bjlY__7, "").
@@ -198,6 +211,9 @@ ellipse(oNERr5Awd1CSBJseHcZe__92, "").
 ellipse(oNERr5Awd1CSBJseHcZe__94, "").
 ellipse(oNERr5Awd1CSBJseHcZe__96, "").
 ellipse(oNERr5Awd1CSBJseHcZe__98, "").
+fillColor(id_FzDhdtfWYLPbjFiiYYII__2, "green").
+fillColor(id_FzDhdtfWYLPbjFiiYYII__3, "red").
+fillColor(id_FzDhdtfWYLPbjFiiYYII__7, "yellow").
 fillColor(kQPuOeSKpFBLvlsbsDxd__1, "red").
 fillColor(mHGQwMe0h4No9jv1bjlY__3, "red").
 fillColor(mHGQwMe0h4No9jv1bjlY__5, "yellow").
@@ -243,8 +259,12 @@ fillColor(oNERr5Awd1CSBJseHcZe__95, "red").
 fillColor(oNERr5Awd1CSBJseHcZe__96, "yellow").
 fillColor(oNERr5Awd1CSBJseHcZe__98, "green").
 fillColor(oNERr5Awd1CSBJseHcZe__99, "red").
+height(id_FzDhdtfWYLPbjFiiYYII__1, 110).
+height(id_FzDhdtfWYLPbjFiiYYII__2, 40).
+height(id_FzDhdtfWYLPbjFiiYYII__3, 75).
+height(id_FzDhdtfWYLPbjFiiYYII__7, 40).
 height(kQPuOeSKpFBLvlsbsDxd__1, 40).
-height(mHGQwMe0h4No9jv1bjlY__1, 3880).
+height(mHGQwMe0h4No9jv1bjlY__1, 4310).
 height(mHGQwMe0h4No9jv1bjlY__2, 170).
 height(mHGQwMe0h4No9jv1bjlY__3, 121).
 height(mHGQwMe0h4No9jv1bjlY__5, 40).
@@ -305,6 +325,7 @@ height(oNERr5Awd1CSBJseHcZe__97, 200).
 height(oNERr5Awd1CSBJseHcZe__98, 40).
 height(oNERr5Awd1CSBJseHcZe__99, 150).
 name(jE60H37yvkXYl8kS__ae6, "Page-1").
+source(id_FzDhdtfWYLPbjFiiYYII__8, id_FzDhdtfWYLPbjFiiYYII__7).
 source(oNERr5Awd1CSBJseHcZe__101, oNERr5Awd1CSBJseHcZe__88).
 source(oNERr5Awd1CSBJseHcZe__102, oNERr5Awd1CSBJseHcZe__92).
 source(oNERr5Awd1CSBJseHcZe__104, oNERr5Awd1CSBJseHcZe__96).
@@ -319,12 +340,13 @@ source(oNERr5Awd1CSBJseHcZe__5, mHGQwMe0h4No9jv1bjlY__5).
 source(oNERr5Awd1CSBJseHcZe__55, oNERr5Awd1CSBJseHcZe__45).
 source(oNERr5Awd1CSBJseHcZe__6, oNERr5Awd1CSBJseHcZe__4).
 source(oNERr5Awd1CSBJseHcZe__79, oNERr5Awd1CSBJseHcZe__54).
+target(id_FzDhdtfWYLPbjFiiYYII__8, oNERr5Awd1CSBJseHcZe__39).
 target(oNERr5Awd1CSBJseHcZe__101, oNERr5Awd1CSBJseHcZe__90).
 target(oNERr5Awd1CSBJseHcZe__102, oNERr5Awd1CSBJseHcZe__94).
 target(oNERr5Awd1CSBJseHcZe__104, oNERr5Awd1CSBJseHcZe__98).
 target(oNERr5Awd1CSBJseHcZe__106, oNERr5Awd1CSBJseHcZe__86).
 target(oNERr5Awd1CSBJseHcZe__115, oNERr5Awd1CSBJseHcZe__112).
-target(oNERr5Awd1CSBJseHcZe__116, oNERr5Awd1CSBJseHcZe__39).
+target(oNERr5Awd1CSBJseHcZe__116, id_FzDhdtfWYLPbjFiiYYII__2).
 target(oNERr5Awd1CSBJseHcZe__20, oNERr5Awd1CSBJseHcZe__16).
 target(oNERr5Awd1CSBJseHcZe__36, oNERr5Awd1CSBJseHcZe__26).
 target(oNERr5Awd1CSBJseHcZe__37, oNERr5Awd1CSBJseHcZe__32).
@@ -333,6 +355,10 @@ target(oNERr5Awd1CSBJseHcZe__5, mHGQwMe0h4No9jv1bjlY__7).
 target(oNERr5Awd1CSBJseHcZe__55, oNERr5Awd1CSBJseHcZe__52).
 target(oNERr5Awd1CSBJseHcZe__6, oNERr5Awd1CSBJseHcZe__2).
 target(oNERr5Awd1CSBJseHcZe__79, oNERr5Awd1CSBJseHcZe__58).
+value(id_FzDhdtfWYLPbjFiiYYII__1, "emit bash").
+value(id_FzDhdtfWYLPbjFiiYYII__2, "in").
+value(id_FzDhdtfWYLPbjFiiYYII__3, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo '## emit bash' 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;names=`node emitBash.js _.json`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span&gt;echo $names &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;").
+value(id_FzDhdtfWYLPbjFiiYYII__7, "out").
 value(kQPuOeSKpFBLvlsbsDxd__1, "$1").
 value(mHGQwMe0h4No9jv1bjlY__1, "transpile drawio to swipl").
 value(mHGQwMe0h4No9jv1bjlY__2, "d2pl").
@@ -394,6 +420,10 @@ value(oNERr5Awd1CSBJseHcZe__96, "out").
 value(oNERr5Awd1CSBJseHcZe__97, "sync code").
 value(oNERr5Awd1CSBJseHcZe__98, "in").
 value(oNERr5Awd1CSBJseHcZe__99, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo '@@ sync code' 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;cp fb.pl _11.pl&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;swipl -q &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;-g 'consult(fb).'&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;-g 'consult(component).'&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;-g 'consult(code).'&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;-g 'printCode.'&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;-g 'halt.'&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;| ./augment-fb.bash&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px&quot;&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;").
+vertex(id_FzDhdtfWYLPbjFiiYYII__1, "").
+vertex(id_FzDhdtfWYLPbjFiiYYII__2, "").
+vertex(id_FzDhdtfWYLPbjFiiYYII__3, "").
+vertex(id_FzDhdtfWYLPbjFiiYYII__7, "").
 vertex(kQPuOeSKpFBLvlsbsDxd__1, "").
 vertex(mHGQwMe0h4No9jv1bjlY__1, "").
 vertex(mHGQwMe0h4No9jv1bjlY__2, "").
@@ -455,6 +485,10 @@ vertex(oNERr5Awd1CSBJseHcZe__96, "").
 vertex(oNERr5Awd1CSBJseHcZe__97, "").
 vertex(oNERr5Awd1CSBJseHcZe__98, "").
 vertex(oNERr5Awd1CSBJseHcZe__99, "").
+width(id_FzDhdtfWYLPbjFiiYYII__1, 286).
+width(id_FzDhdtfWYLPbjFiiYYII__2, 40).
+width(id_FzDhdtfWYLPbjFiiYYII__3, 225).
+width(id_FzDhdtfWYLPbjFiiYYII__7, 40).
 width(kQPuOeSKpFBLvlsbsDxd__1, 40).
 width(mHGQwMe0h4No9jv1bjlY__1, 1820).
 width(mHGQwMe0h4No9jv1bjlY__2, 445).
@@ -516,6 +550,10 @@ width(oNERr5Awd1CSBJseHcZe__96, 40).
 width(oNERr5Awd1CSBJseHcZe__97, 913).
 width(oNERr5Awd1CSBJseHcZe__98, 40).
 width(oNERr5Awd1CSBJseHcZe__99, 818).
+x(id_FzDhdtfWYLPbjFiiYYII__1, 234).
+x(id_FzDhdtfWYLPbjFiiYYII__2, 214).
+x(id_FzDhdtfWYLPbjFiiYYII__3, 266).
+x(id_FzDhdtfWYLPbjFiiYYII__7, 500).
 x(kQPuOeSKpFBLvlsbsDxd__1, 230).
 x(mHGQwMe0h4No9jv1bjlY__1, 110).
 x(mHGQwMe0h4No9jv1bjlY__2, 255).
@@ -546,10 +584,10 @@ x(oNERr5Awd1CSBJseHcZe__31, 240).
 x(oNERr5Awd1CSBJseHcZe__32, 220).
 x(oNERr5Awd1CSBJseHcZe__33, 275).
 x(oNERr5Awd1CSBJseHcZe__34, 710).
-x(oNERr5Awd1CSBJseHcZe__38, 235.5).
-x(oNERr5Awd1CSBJseHcZe__39, 215.5).
+x(oNERr5Awd1CSBJseHcZe__38, 234).
+x(oNERr5Awd1CSBJseHcZe__39, 214).
 x(oNERr5Awd1CSBJseHcZe__4, 875).
-x(oNERr5Awd1CSBJseHcZe__40, 267.5).
+x(oNERr5Awd1CSBJseHcZe__40, 266).
 x(oNERr5Awd1CSBJseHcZe__41, 231).
 x(oNERr5Awd1CSBJseHcZe__42, 208).
 x(oNERr5Awd1CSBJseHcZe__43, 266).
@@ -577,6 +615,10 @@ x(oNERr5Awd1CSBJseHcZe__96, 1460).
 x(oNERr5Awd1CSBJseHcZe__97, 237).
 x(oNERr5Awd1CSBJseHcZe__98, 214).
 x(oNERr5Awd1CSBJseHcZe__99, 272).
+y(id_FzDhdtfWYLPbjFiiYYII__1, 4080).
+y(id_FzDhdtfWYLPbjFiiYYII__2, 4115).
+y(id_FzDhdtfWYLPbjFiiYYII__3, 4100).
+y(id_FzDhdtfWYLPbjFiiYYII__7, 4115).
 y(kQPuOeSKpFBLvlsbsDxd__1, 284.5).
 y(mHGQwMe0h4No9jv1bjlY__1, 170).
 y(mHGQwMe0h4No9jv1bjlY__2, 220).
@@ -607,10 +649,10 @@ y(oNERr5Awd1CSBJseHcZe__31, 1130).
 y(oNERr5Awd1CSBJseHcZe__32, 1185).
 y(oNERr5Awd1CSBJseHcZe__33, 1162).
 y(oNERr5Awd1CSBJseHcZe__34, 1185).
-y(oNERr5Awd1CSBJseHcZe__38, 3840).
-y(oNERr5Awd1CSBJseHcZe__39, 3875).
+y(oNERr5Awd1CSBJseHcZe__38, 4260).
+y(oNERr5Awd1CSBJseHcZe__39, 4295).
 y(oNERr5Awd1CSBJseHcZe__4, 545).
-y(oNERr5Awd1CSBJseHcZe__40, 3875).
+y(oNERr5Awd1CSBJseHcZe__40, 4295).
 y(oNERr5Awd1CSBJseHcZe__41, 1600).
 y(oNERr5Awd1CSBJseHcZe__42, 1680).
 y(oNERr5Awd1CSBJseHcZe__43, 1630).
@@ -640,6 +682,8 @@ y(oNERr5Awd1CSBJseHcZe__98, 3340).
 y(oNERr5Awd1CSBJseHcZe__99, 3290).
 rect(0,"").
 rect(1,"").
+rect(id_FzDhdtfWYLPbjFiiYYII__1,"").
+rect(id_FzDhdtfWYLPbjFiiYYII__3,"").
 rect(mHGQwMe0h4No9jv1bjlY__1,"").
 rect(mHGQwMe0h4No9jv1bjlY__2,"").
 rect(mHGQwMe0h4No9jv1bjlY__3,"").
@@ -671,8 +715,13 @@ rect(oNERr5Awd1CSBJseHcZe__93,"").
 rect(oNERr5Awd1CSBJseHcZe__95,"").
 rect(oNERr5Awd1CSBJseHcZe__97,"").
 rect(oNERr5Awd1CSBJseHcZe__99,"").
+b(id_FzDhdtfWYLPbjFiiYYII__1,4190).
+b(id_FzDhdtfWYLPbjFiiYYII__2,4155).
+b(id_FzDhdtfWYLPbjFiiYYII__3,4175).
+b(id_FzDhdtfWYLPbjFiiYYII__7,4155).
+b(id_FzDhdtfWYLPbjFiiYYII__8,4315).
 b(kQPuOeSKpFBLvlsbsDxd__1,324.5).
-b(mHGQwMe0h4No9jv1bjlY__1,4050).
+b(mHGQwMe0h4No9jv1bjlY__1,4480).
 b(mHGQwMe0h4No9jv1bjlY__2,390).
 b(mHGQwMe0h4No9jv1bjlY__3,370).
 b(mHGQwMe0h4No9jv1bjlY__5,330).
@@ -692,7 +741,7 @@ b(oNERr5Awd1CSBJseHcZe__112,3650).
 b(oNERr5Awd1CSBJseHcZe__113,3750).
 b(oNERr5Awd1CSBJseHcZe__114,3650).
 b(oNERr5Awd1CSBJseHcZe__115,3630).
-b(oNERr5Awd1CSBJseHcZe__116,3895).
+b(oNERr5Awd1CSBJseHcZe__116,4135).
 b(oNERr5Awd1CSBJseHcZe__15,1080).
 b(oNERr5Awd1CSBJseHcZe__16,1015).
 b(oNERr5Awd1CSBJseHcZe__17,1060).
@@ -710,10 +759,10 @@ b(oNERr5Awd1CSBJseHcZe__33,1252).
 b(oNERr5Awd1CSBJseHcZe__34,1225).
 b(oNERr5Awd1CSBJseHcZe__36,1450).
 b(oNERr5Awd1CSBJseHcZe__37,1205).
-b(oNERr5Awd1CSBJseHcZe__38,3950).
-b(oNERr5Awd1CSBJseHcZe__39,3915).
+b(oNERr5Awd1CSBJseHcZe__38,4370).
+b(oNERr5Awd1CSBJseHcZe__39,4335).
 b(oNERr5Awd1CSBJseHcZe__4,586).
-b(oNERr5Awd1CSBJseHcZe__40,3935).
+b(oNERr5Awd1CSBJseHcZe__40,4355).
 b(oNERr5Awd1CSBJseHcZe__41,1800).
 b(oNERr5Awd1CSBJseHcZe__42,1720).
 b(oNERr5Awd1CSBJseHcZe__43,1780).
@@ -746,6 +795,11 @@ b(oNERr5Awd1CSBJseHcZe__96,3100).
 b(oNERr5Awd1CSBJseHcZe__97,3460).
 b(oNERr5Awd1CSBJseHcZe__98,3380).
 b(oNERr5Awd1CSBJseHcZe__99,3440).
+l(id_FzDhdtfWYLPbjFiiYYII__1,234).
+l(id_FzDhdtfWYLPbjFiiYYII__2,214).
+l(id_FzDhdtfWYLPbjFiiYYII__3,266).
+l(id_FzDhdtfWYLPbjFiiYYII__7,500).
+l(id_FzDhdtfWYLPbjFiiYYII__8,234).
 l(kQPuOeSKpFBLvlsbsDxd__1,230).
 l(mHGQwMe0h4No9jv1bjlY__1,110).
 l(mHGQwMe0h4No9jv1bjlY__2,255).
@@ -767,7 +821,7 @@ l(oNERr5Awd1CSBJseHcZe__112,215.5).
 l(oNERr5Awd1CSBJseHcZe__113,273.5).
 l(oNERr5Awd1CSBJseHcZe__114,1710).
 l(oNERr5Awd1CSBJseHcZe__115,235.5).
-l(oNERr5Awd1CSBJseHcZe__116,235.5).
+l(oNERr5Awd1CSBJseHcZe__116,234).
 l(oNERr5Awd1CSBJseHcZe__15,240).
 l(oNERr5Awd1CSBJseHcZe__16,220).
 l(oNERr5Awd1CSBJseHcZe__17,275).
@@ -785,10 +839,10 @@ l(oNERr5Awd1CSBJseHcZe__33,275).
 l(oNERr5Awd1CSBJseHcZe__34,710).
 l(oNERr5Awd1CSBJseHcZe__36,235).
 l(oNERr5Awd1CSBJseHcZe__37,240).
-l(oNERr5Awd1CSBJseHcZe__38,235.5).
-l(oNERr5Awd1CSBJseHcZe__39,215.5).
+l(oNERr5Awd1CSBJseHcZe__38,234).
+l(oNERr5Awd1CSBJseHcZe__39,214).
 l(oNERr5Awd1CSBJseHcZe__4,875).
-l(oNERr5Awd1CSBJseHcZe__40,267.5).
+l(oNERr5Awd1CSBJseHcZe__40,266).
 l(oNERr5Awd1CSBJseHcZe__41,231).
 l(oNERr5Awd1CSBJseHcZe__42,208).
 l(oNERr5Awd1CSBJseHcZe__43,266).
@@ -821,6 +875,11 @@ l(oNERr5Awd1CSBJseHcZe__96,1460).
 l(oNERr5Awd1CSBJseHcZe__97,237).
 l(oNERr5Awd1CSBJseHcZe__98,214).
 l(oNERr5Awd1CSBJseHcZe__99,272).
+r(id_FzDhdtfWYLPbjFiiYYII__1,520).
+r(id_FzDhdtfWYLPbjFiiYYII__2,254).
+r(id_FzDhdtfWYLPbjFiiYYII__3,491).
+r(id_FzDhdtfWYLPbjFiiYYII__7,540).
+r(id_FzDhdtfWYLPbjFiiYYII__8,520).
 r(kQPuOeSKpFBLvlsbsDxd__1,270).
 r(mHGQwMe0h4No9jv1bjlY__1,1930).
 r(mHGQwMe0h4No9jv1bjlY__2,700).
@@ -860,10 +919,10 @@ r(oNERr5Awd1CSBJseHcZe__33,690).
 r(oNERr5Awd1CSBJseHcZe__34,750).
 r(oNERr5Awd1CSBJseHcZe__36,730).
 r(oNERr5Awd1CSBJseHcZe__37,790).
-r(oNERr5Awd1CSBJseHcZe__38,515.5).
-r(oNERr5Awd1CSBJseHcZe__39,255.5).
+r(oNERr5Awd1CSBJseHcZe__38,514).
+r(oNERr5Awd1CSBJseHcZe__39,254).
 r(oNERr5Awd1CSBJseHcZe__4,915).
-r(oNERr5Awd1CSBJseHcZe__40,492.5).
+r(oNERr5Awd1CSBJseHcZe__40,491).
 r(oNERr5Awd1CSBJseHcZe__41,1230).
 r(oNERr5Awd1CSBJseHcZe__42,248).
 r(oNERr5Awd1CSBJseHcZe__43,1190).
@@ -896,6 +955,11 @@ r(oNERr5Awd1CSBJseHcZe__96,1500).
 r(oNERr5Awd1CSBJseHcZe__97,1150).
 r(oNERr5Awd1CSBJseHcZe__98,254).
 r(oNERr5Awd1CSBJseHcZe__99,1090).
+t(id_FzDhdtfWYLPbjFiiYYII__1,4080).
+t(id_FzDhdtfWYLPbjFiiYYII__2,4115).
+t(id_FzDhdtfWYLPbjFiiYYII__3,4100).
+t(id_FzDhdtfWYLPbjFiiYYII__7,4115).
+t(id_FzDhdtfWYLPbjFiiYYII__8,4135).
 t(kQPuOeSKpFBLvlsbsDxd__1,284.5).
 t(mHGQwMe0h4No9jv1bjlY__1,170).
 t(mHGQwMe0h4No9jv1bjlY__2,220).
@@ -935,10 +999,10 @@ t(oNERr5Awd1CSBJseHcZe__33,1162).
 t(oNERr5Awd1CSBJseHcZe__34,1185).
 t(oNERr5Awd1CSBJseHcZe__36,1205).
 t(oNERr5Awd1CSBJseHcZe__37,995).
-t(oNERr5Awd1CSBJseHcZe__38,3840).
-t(oNERr5Awd1CSBJseHcZe__39,3875).
+t(oNERr5Awd1CSBJseHcZe__38,4260).
+t(oNERr5Awd1CSBJseHcZe__39,4295).
 t(oNERr5Awd1CSBJseHcZe__4,545).
-t(oNERr5Awd1CSBJseHcZe__40,3875).
+t(oNERr5Awd1CSBJseHcZe__40,4295).
 t(oNERr5Awd1CSBJseHcZe__41,1600).
 t(oNERr5Awd1CSBJseHcZe__42,1680).
 t(oNERr5Awd1CSBJseHcZe__43,1630).
@@ -971,6 +1035,10 @@ t(oNERr5Awd1CSBJseHcZe__96,3060).
 t(oNERr5Awd1CSBJseHcZe__97,3260).
 t(oNERr5Awd1CSBJseHcZe__98,3340).
 t(oNERr5Awd1CSBJseHcZe__99,3290).
+contains1(id_FzDhdtfWYLPbjFiiYYII__1,id_FzDhdtfWYLPbjFiiYYII__3).
+contains1(mHGQwMe0h4No9jv1bjlY__1,id_FzDhdtfWYLPbjFiiYYII__1).
+contains1(mHGQwMe0h4No9jv1bjlY__1,id_FzDhdtfWYLPbjFiiYYII__3).
+contains1(mHGQwMe0h4No9jv1bjlY__1,id_FzDhdtfWYLPbjFiiYYII__8).
 contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__2).
 contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__3).
 contains1(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__6).
@@ -1030,6 +1098,7 @@ contains1(oNERr5Awd1CSBJseHcZe__85,oNERr5Awd1CSBJseHcZe__87).
 contains1(oNERr5Awd1CSBJseHcZe__89,oNERr5Awd1CSBJseHcZe__91).
 contains1(oNERr5Awd1CSBJseHcZe__93,oNERr5Awd1CSBJseHcZe__95).
 contains1(oNERr5Awd1CSBJseHcZe__97,oNERr5Awd1CSBJseHcZe__99).
+deepcontains(mHGQwMe0h4No9jv1bjlY__1,id_FzDhdtfWYLPbjFiiYYII__3).
 deepcontains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__3).
 deepcontains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__8).
 deepcontains(mHGQwMe0h4No9jv1bjlY__1,oNERr5Awd1CSBJseHcZe__113).
@@ -1045,6 +1114,9 @@ deepcontains(mHGQwMe0h4No9jv1bjlY__1,oNERr5Awd1CSBJseHcZe__87).
 deepcontains(mHGQwMe0h4No9jv1bjlY__1,oNERr5Awd1CSBJseHcZe__91).
 deepcontains(mHGQwMe0h4No9jv1bjlY__1,oNERr5Awd1CSBJseHcZe__95).
 deepcontains(mHGQwMe0h4No9jv1bjlY__1,oNERr5Awd1CSBJseHcZe__99).
+contains(id_FzDhdtfWYLPbjFiiYYII__1,id_FzDhdtfWYLPbjFiiYYII__3).
+contains(mHGQwMe0h4No9jv1bjlY__1,id_FzDhdtfWYLPbjFiiYYII__1).
+contains(mHGQwMe0h4No9jv1bjlY__1,id_FzDhdtfWYLPbjFiiYYII__8).
 contains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__2).
 contains(mHGQwMe0h4No9jv1bjlY__1,mHGQwMe0h4No9jv1bjlY__6).
 contains(mHGQwMe0h4No9jv1bjlY__1,oNERr5Awd1CSBJseHcZe__1).
@@ -1089,6 +1161,8 @@ contains(oNERr5Awd1CSBJseHcZe__85,oNERr5Awd1CSBJseHcZe__87).
 contains(oNERr5Awd1CSBJseHcZe__89,oNERr5Awd1CSBJseHcZe__91).
 contains(oNERr5Awd1CSBJseHcZe__93,oNERr5Awd1CSBJseHcZe__95).
 contains(oNERr5Awd1CSBJseHcZe__97,oNERr5Awd1CSBJseHcZe__99).
+contains(id_FzDhdtfWYLPbjFiiYYII__1,id_FzDhdtfWYLPbjFiiYYII__2).
+contains(id_FzDhdtfWYLPbjFiiYYII__1,id_FzDhdtfWYLPbjFiiYYII__7).
 contains(mHGQwMe0h4No9jv1bjlY__2,kQPuOeSKpFBLvlsbsDxd__1).
 contains(mHGQwMe0h4No9jv1bjlY__2,mHGQwMe0h4No9jv1bjlY__5).
 contains(mHGQwMe0h4No9jv1bjlY__6,mHGQwMe0h4No9jv1bjlY__7).
@@ -1118,6 +1192,8 @@ contains(oNERr5Awd1CSBJseHcZe__93,oNERr5Awd1CSBJseHcZe__94).
 contains(oNERr5Awd1CSBJseHcZe__93,oNERr5Awd1CSBJseHcZe__96).
 contains(oNERr5Awd1CSBJseHcZe__97,oNERr5Awd1CSBJseHcZe__100).
 contains(oNERr5Awd1CSBJseHcZe__97,oNERr5Awd1CSBJseHcZe__98).
+portdirection(id_FzDhdtfWYLPbjFiiYYII__2,input).
+portdirection(id_FzDhdtfWYLPbjFiiYYII__7,output).
 portdirection(kQPuOeSKpFBLvlsbsDxd__1,pervasiveinput).
 portdirection(mHGQwMe0h4No9jv1bjlY__5,output).
 portdirection(mHGQwMe0h4No9jv1bjlY__7,input).
@@ -1148,71 +1224,77 @@ portdirection(oNERr5Awd1CSBJseHcZe__92,output).
 portdirection(oNERr5Awd1CSBJseHcZe__94,input).
 portdirection(oNERr5Awd1CSBJseHcZe__96,output).
 portdirection(oNERr5Awd1CSBJseHcZe__98,input).
+factname(id_FzDhdtfWYLPbjFiiYYII__1,"emit_bash").
+factname(id_FzDhdtfWYLPbjFiiYYII__2,"in").
+factname(id_FzDhdtfWYLPbjFiiYYII__3,"code1").
+factname(id_FzDhdtfWYLPbjFiiYYII__7,"out").
 factname(kQPuOeSKpFBLvlsbsDxd__1,"$1").
 factname(mHGQwMe0h4No9jv1bjlY__1,"transpile_drawio_to_swipl").
 factname(mHGQwMe0h4No9jv1bjlY__2,"d2pl").
-factname(mHGQwMe0h4No9jv1bjlY__3,"code1").
+factname(mHGQwMe0h4No9jv1bjlY__3,"code2").
 factname(mHGQwMe0h4No9jv1bjlY__5,"out").
 factname(mHGQwMe0h4No9jv1bjlY__6,"create_rect_facts").
 factname(mHGQwMe0h4No9jv1bjlY__7,"in").
-factname(mHGQwMe0h4No9jv1bjlY__8,"code2").
+factname(mHGQwMe0h4No9jv1bjlY__8,"code3").
 factname(mHGQwMe0h4No9jv1bjlY__9,"$1").
 factname(oNERr5Awd1CSBJseHcZe__1,"make_fb").
 factname(oNERr5Awd1CSBJseHcZe__10,"out").
 factname(oNERr5Awd1CSBJseHcZe__100,"out").
 factname(oNERr5Awd1CSBJseHcZe__111,"json").
 factname(oNERr5Awd1CSBJseHcZe__112,"in").
-factname(oNERr5Awd1CSBJseHcZe__113,"code3").
+factname(oNERr5Awd1CSBJseHcZe__113,"code4").
 factname(oNERr5Awd1CSBJseHcZe__114,"out").
 factname(oNERr5Awd1CSBJseHcZe__15,"bounding_boxes").
 factname(oNERr5Awd1CSBJseHcZe__16,"in").
-factname(oNERr5Awd1CSBJseHcZe__17,"code4").
+factname(oNERr5Awd1CSBJseHcZe__17,"code5").
 factname(oNERr5Awd1CSBJseHcZe__18,"out").
 factname(oNERr5Awd1CSBJseHcZe__2,"in").
 factname(oNERr5Awd1CSBJseHcZe__25,"all_contains_1").
 factname(oNERr5Awd1CSBJseHcZe__26,"in").
-factname(oNERr5Awd1CSBJseHcZe__27,"code5").
+factname(oNERr5Awd1CSBJseHcZe__27,"code6").
 factname(oNERr5Awd1CSBJseHcZe__28,"out").
-factname(oNERr5Awd1CSBJseHcZe__3,"code6").
+factname(oNERr5Awd1CSBJseHcZe__3,"code7").
 factname(oNERr5Awd1CSBJseHcZe__31,"make_fb_containing_bounding_boxes").
 factname(oNERr5Awd1CSBJseHcZe__32,"in").
-factname(oNERr5Awd1CSBJseHcZe__33,"code7").
+factname(oNERr5Awd1CSBJseHcZe__33,"code8").
 factname(oNERr5Awd1CSBJseHcZe__34,"out").
 factname(oNERr5Awd1CSBJseHcZe__38,"fini").
 factname(oNERr5Awd1CSBJseHcZe__39,"in").
 factname(oNERr5Awd1CSBJseHcZe__4,"out").
-factname(oNERr5Awd1CSBJseHcZe__40,"code8").
+factname(oNERr5Awd1CSBJseHcZe__40,"code9").
 factname(oNERr5Awd1CSBJseHcZe__41,"deep_contains").
 factname(oNERr5Awd1CSBJseHcZe__42,"in").
-factname(oNERr5Awd1CSBJseHcZe__43,"code9").
+factname(oNERr5Awd1CSBJseHcZe__43,"code10").
 factname(oNERr5Awd1CSBJseHcZe__45,"out").
 factname(oNERr5Awd1CSBJseHcZe__51,"direct_contains").
 factname(oNERr5Awd1CSBJseHcZe__52,"in").
-factname(oNERr5Awd1CSBJseHcZe__53,"code10").
+factname(oNERr5Awd1CSBJseHcZe__53,"code11").
 factname(oNERr5Awd1CSBJseHcZe__54,"out").
 factname(oNERr5Awd1CSBJseHcZe__57,"design_rule_rectangles_must_not_intersect").
 factname(oNERr5Awd1CSBJseHcZe__58,"in").
-factname(oNERr5Awd1CSBJseHcZe__59,"code11").
+factname(oNERr5Awd1CSBJseHcZe__59,"code12").
 factname(oNERr5Awd1CSBJseHcZe__60,"out").
 factname(oNERr5Awd1CSBJseHcZe__85,"port_contains").
 factname(oNERr5Awd1CSBJseHcZe__86,"in").
-factname(oNERr5Awd1CSBJseHcZe__87,"code12").
+factname(oNERr5Awd1CSBJseHcZe__87,"code13").
 factname(oNERr5Awd1CSBJseHcZe__88,"out").
 factname(oNERr5Awd1CSBJseHcZe__89,"port_directions").
 factname(oNERr5Awd1CSBJseHcZe__90,"in").
-factname(oNERr5Awd1CSBJseHcZe__91,"code13").
+factname(oNERr5Awd1CSBJseHcZe__91,"code14").
 factname(oNERr5Awd1CSBJseHcZe__92,"out").
 factname(oNERr5Awd1CSBJseHcZe__93,"assign_names").
 factname(oNERr5Awd1CSBJseHcZe__94,"in").
-factname(oNERr5Awd1CSBJseHcZe__95,"code14").
+factname(oNERr5Awd1CSBJseHcZe__95,"code15").
 factname(oNERr5Awd1CSBJseHcZe__96,"out").
 factname(oNERr5Awd1CSBJseHcZe__97,"sync_code").
 factname(oNERr5Awd1CSBJseHcZe__98,"in").
-factname(oNERr5Awd1CSBJseHcZe__99,"code15").
+factname(oNERr5Awd1CSBJseHcZe__99,"code16").
 unknowncomponentname(0,"u1").
 unknowncomponentname(1,"u2").
 factcomponentcode(0,"").
 factcomponentcode(1,"").
+factcomponentcode(id_FzDhdtfWYLPbjFiiYYII__1,"").
+factcomponentcode(id_FzDhdtfWYLPbjFiiYYII__3,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read baton &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo '## emit bash' 1&amp;gt;&amp;amp;2&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;names=`node emitBash.js _.json`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span&gt;echo $names &amp;gt;/dev/fd/4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;").
 factcomponentcode(mHGQwMe0h4No9jv1bjlY__1,"").
 factcomponentcode(mHGQwMe0h4No9jv1bjlY__2,"").
 factcomponentcode(mHGQwMe0h4No9jv1bjlY__3,"&lt;div&gt;cdir=`pwd`&lt;/div&gt;&lt;div&gt;echo $1.drawio 1&amp;gt;&amp;amp;2&lt;/div&gt;&lt;div&gt;pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js &#92;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | sort&amp;nbsp;&lt;span&gt;&amp;gt;15.pl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;echo baton &amp;gt;/dev/fd/4&lt;/span&gt;&lt;/div&gt;").
