@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
 
-#target=helloworld
-target=transpile_drawio_to_swipl
+target=helloworld
+#target=transpile_drawio_to_swipl
 
 set -e
 trap 'catch' ERR
@@ -31,4 +31,4 @@ done
 echo
 echo '*** running result ***'
 echo
-./transpile_drawio_to_swipl $target 
+./$target 
