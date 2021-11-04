@@ -1,7 +1,7 @@
 #!/bin/bash
 # all_contains_1
 read baton </dev/fd/3
-echo '@@ all contains 1' 1>&1
+echo '@x@ all contains 1' 1>&2
 cp fb.pl _4.pl
 swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(contain1).' -g 'allContains1.' -g 'halt.' | ./augment-fb.bash 
 echo baton >/dev/fd/4

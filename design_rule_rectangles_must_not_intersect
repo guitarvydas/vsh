@@ -1,7 +1,8 @@
 #!/bin/bash
 # design_rule_rectangles_must_not_intersect
 read baton </dev/fd/3
-cp fb.pl _6.pl
+echo '@@ design rule rectangles must not intersect' 1>&2
+cp fb.pl _7.pl
 swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(designRuleRectanglesMustNotIntersect).' -g 'designRuleRectanglesMustNotIntersectOnTheSameDiagram.' -g 'halt.' | ./check-design-rule.bash 
 echo baton >/dev/fd/4
 

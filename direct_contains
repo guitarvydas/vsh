@@ -1,8 +1,8 @@
 #!/bin/bash
 # direct_contains
 read baton </dev/fd/3
-echo '@@ direct contains' 1>&1
-cp fb.pl _5.pl
+echo '@@ direct contains' 1>&2
+cp fb.pl _6.pl
 
 swipl -q -g 'consult(fb).' -g 'consult(onSameDiagram).' -g 'consult(contain3).' -g 'printAllDirectContains.' -g 'halt.' | ./augment-fb.bash 
 echo baton >/dev/fd/4

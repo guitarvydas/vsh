@@ -1,7 +1,8 @@
 #!/bin/bash
 # sync_code
 read baton </dev/fd/3
-cp fb.pl _10.pl
+echo '@@ sync code' 1>&2
+cp fb.pl _11.pl
 swipl -q -g 'consult(fb).' -g 'consult(component).' -g 'consult(code).' -g 'printCode.' -g 'halt.' | ./augment-fb.bash 
 echo baton >/dev/fd/4
 

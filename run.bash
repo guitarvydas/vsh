@@ -15,8 +15,6 @@ names=`node emitBash.js 7.json`
 # echo chmod a+x ${names}
 # chmod a+x ${names}
 
-cp fb.pl fb_bootstrap.pl
-
 echo
 
 for i in $names
@@ -30,4 +28,5 @@ done
 echo
 echo '*** running result ***'
 echo
-./transpile_drawio_to_swipl helloworld
+#./transpile_drawio_to_swipl helloworld
+./transpile_drawio_to_swipl transpile_drawio_to_swipl
