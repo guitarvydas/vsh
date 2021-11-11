@@ -31,4 +31,4 @@ done
 echo
 echo '*** running result ***'
 echo
-./$target 
+./$target $target
