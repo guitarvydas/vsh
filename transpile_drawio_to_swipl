@@ -28,36 +28,41 @@ pipe12=pipe${RANDOM}
 mkfifo $pipe12
 pipe13=pipe${RANDOM}
 mkfifo $pipe13
-./d2pl  $1   4>$pipe10 &
+pipe14=pipe${RANDOM}
+mkfifo $pipe14
+./emit_bash   3<$pipe6 4>$pipe0 &
+emit_bash_pid=$!
+./d2pl  $1   4>$pipe11 &
 d2pl_pid=$!
-./create_rect_facts   3<$pipe10 4>$pipe12 &
+./create_rect_facts   3<$pipe11 4>$pipe13 &
 create_rect_facts_pid=$!
-./make_fb   3<$pipe12 4>$pipe6 &
+./make_fb   3<$pipe13 4>$pipe7 &
 make_fb_pid=$!
-./json   3<$pipe4 4>$pipe5 &
+./json   3<$pipe5 4>$pipe6 &
 json_pid=$!
-./bounding_boxes   3<$pipe6 4>$pipe8 &
+./bounding_boxes   3<$pipe7 4>$pipe9 &
 bounding_boxes_pid=$!
-./all_contains_1   3<$pipe7 4>$pipe9 &
+./all_contains_1   3<$pipe8 4>$pipe10 &
 all_contains_1_pid=$!
-./make_fb_containing_bounding_boxes   3<$pipe8 4>$pipe7 &
+./make_fb_containing_bounding_boxes   3<$pipe9 4>$pipe8 &
 make_fb_containing_bounding_boxes_pid=$!
-./fini   3<$pipe5  &
+./fini   3<$pipe0  &
 fini_pid=$!
-./deep_contains   3<$pipe9 4>$pipe11 &
+./deep_contains   3<$pipe10 4>$pipe12 &
 deep_contains_pid=$!
-./direct_contains   3<$pipe11 4>$pipe13 &
+./direct_contains   3<$pipe12 4>$pipe14 &
 direct_contains_pid=$!
-./design_rule_rectangles_must_not_intersect   3<$pipe13 4>$pipe3 &
+./design_rule_rectangles_must_not_intersect   3<$pipe14 4>$pipe4 &
 design_rule_rectangles_must_not_intersect_pid=$!
-./port_contains   3<$pipe3 4>$pipe0 &
+./port_contains   3<$pipe4 4>$pipe1 &
 port_contains_pid=$!
-./port_directions   3<$pipe0 4>$pipe1 &
+./port_directions   3<$pipe1 4>$pipe2 &
 port_directions_pid=$!
-./assign_names   3<$pipe1 4>$pipe2 &
+./assign_names   3<$pipe2 4>$pipe3 &
 assign_names_pid=$!
-./sync_code   3<$pipe2 4>$pipe4 &
+./sync_code   3<$pipe3 4>$pipe5 &
 sync_code_pid=$!
+wait $emit_bash_pid
 wait $d2pl_pid
 wait $create_rect_facts_pid
 wait $make_fb_pid
@@ -87,9 +92,4 @@ rm $pipe10
 rm $pipe11
 rm $pipe12
 rm $pipe13
-
-
-
-
-
-
+rm $pipe14

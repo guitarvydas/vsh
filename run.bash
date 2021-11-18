@@ -1,6 +1,9 @@
 #!/bin/bash
 clear
 
+target=helloworld
+#target=transpile_drawio_to_swipl
+
 set -e
 trap 'catch' ERR
 
@@ -10,12 +13,10 @@ catch () {
 }
 
 #./transpile.bash async_helloworld >7.json
-./transpile.bash transpile_drawio_to_swipl >7.json
+./transpile.bash $target >7.json
 names=`node emitBash.js 7.json`
 # echo chmod a+x ${names}
 # chmod a+x ${names}
-
-cp fb.pl fb_bootstrap.pl
 
 echo
 
@@ -30,4 +31,4 @@ done
 echo
 echo '*** running result ***'
 echo
-./transpile_drawio_to_swipl helloworld
+./$target $target
