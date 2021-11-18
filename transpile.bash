@@ -11,10 +11,10 @@ catch () {
 # ./drawio2fb.bash
 
 cdir=`pwd`
-pfr $1.drawio drawio.ohm drawio.glue $cdir/support.js \
-    | pfr - styleexpander.ohm styleexpander.glue $cdir/support.js \
-    | pfr - attributeelider.ohm attributeelider.glue $cdir/support.js \
-    | pfr - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
+./vshpfr.bash $1.drawio drawio.ohm drawio.glue $cdir/support.js \
+    | ./vshpfr.bash - styleexpander.ohm styleexpander.glue $cdir/support.js \
+    | ./vshpfr.bash - attributeelider.ohm attributeelider.glue $cdir/support.js \
+    | ./vshpfr.bash - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
     | sort >5.pl
 
 

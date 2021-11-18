@@ -24,7 +24,7 @@ for i in $names
 do
     echo processing $i
     mv $i orig_$i
-    pfr orig_$i unhtml.ohm unhtml.glue | pfr - span.ohm span.glue | pfr - para.ohm para.glue | pfr - div.ohm div.glue | pfr - font.ohm font.glue | pfr - unhtml2.ohm unhtml2.glue >$i
+    ./vshpfr.bash orig_$i unhtml.ohm unhtml.glue | ./vshpfr.bash - span.ohm span.glue | ./vshpfr.bash - para.ohm para.glue | ./vshpfr.bash - div.ohm div.glue | ./vshpfr.bash - font.ohm font.glue | ./vshpfr.bash - unhtml2.ohm unhtml2.glue >$i
     chmod a+x $i 
 done
 
