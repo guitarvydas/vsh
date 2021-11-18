@@ -1,0 +1,9 @@
+rect(cell_10,"").
+rect(cell_11,"").
+rect(cell_12,"").
+rect(cell_13,"").
+rect(cell_4,"").
+rect(cell_5,"").
+rect(cell_6,"").
+rect(cell_7,"").
+rect(cell_8,"").

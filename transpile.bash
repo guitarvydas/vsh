@@ -17,7 +17,8 @@ catch () {
 #     | ./vshpfr.bash - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
 #     | sort >5.pl
 set -x
-d2f $1.drawio >5.pl
+d2f $1.drawio >temp5.pl
+./convertNewFBFormatToOld.bash <temp5.pl >5.pl
 
 ## create rect fact for every vertex that is not an edge/ellipse/text
 ## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)
