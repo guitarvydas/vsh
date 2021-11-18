@@ -13,9 +13,10 @@ codebox(C):-
     fillColor(C,"red").
 
 component(Diagram,C,Name,Ins,Outs,IIns,IOuts,SyncCode,Children,Connections) :-
-    diagramContains(Diagram,C),
+    leafcomponent(Diagram,_,_,C),
     rect(C,_),
     componentname(C,Name),
+    hasport(C),
     inputsof(C,Ins),
     outputsof(C,Outs),
     pervasiveinputsof(C,IIns),
@@ -23,6 +24,9 @@ component(Diagram,C,Name,Ins,Outs,IIns,IOuts,SyncCode,Children,Connections) :-
     componentcode(C,SyncCode),
     childrenOf(C,Children),
     connectionsOf(C,Connections).
+
+leafcomponent(D,MXG,ROOT,LeafComponent):-
+    diagram(D,_),contains(D,MXG),contains(MXG,ROOT),contains(ROOT,LeafComponent).
 
 inputsof(C,InBag):-
     inputof(C,_),
@@ -33,6 +37,15 @@ outputsof(C,InBag):-
     outputof(C,_),
     bagof(I,outputof(C,I),InBag).
 outputsof(C,[]) :- \+ outputof(C,_).
+
+hasport(C):-
+    inputof(C,_).
+hasport(C):-
+    pervasiveinputof(C,_).
+hasport(C):-
+    outputof(C,_).
+hasport(C):-
+    pervasiveoutputof(C,_).
 
 pervasiveinputsof(C,InBag):-
     pervasiveinputof(C,_),

@@ -68,6 +68,7 @@ cp fb.pl _r12.pl
 # convert fb.pl to JSON form
 swipl -g 'use_module(library(http/json))' \
       -g 'consult(fb).' \
+      -g 'consult(onSameDiagram).' \
       -g 'consult(component).' \
       -g 'consult(names).' \
       -g 'consult(fixup).' \
