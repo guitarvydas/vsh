@@ -82,6 +82,7 @@ linesIntersectAisVertical(Xa1, Ya1, Xa2, Ya2, Xb1, Yb1, Xb2, Yb2):-
 
 designRuleRectanglesMustNotIntersectOnTheSameDiagram:-
     bagof([A,B],(rect(A,""),rect(B,""),designRuleRectanglesMustNotIntersectOnTheSameDiagram(A,B)),_),!.
+designRuleRectanglesMustNotIntersectOnTheSameDiagram.
 
 designRuleRectanglesMustNotIntersectOnTheSameDiagram(A,B):-
     A \= B,
