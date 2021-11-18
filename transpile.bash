@@ -10,13 +10,14 @@ catch () {
 
 # ./drawio2fb.bash
 
-cdir=`pwd`
-./vshpfr.bash $1.drawio drawio.ohm drawio.glue $cdir/support.js \
-    | ./vshpfr.bash - styleexpander.ohm styleexpander.glue $cdir/support.js \
-    | ./vshpfr.bash - attributeelider.ohm attributeelider.glue $cdir/support.js \
-    | ./vshpfr.bash - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
-    | sort >5.pl
-
+# cdir=`pwd`
+# ./vshpfr.bash $1.drawio drawio.ohm drawio.glue $cdir/support.js \
+#     | ./vshpfr.bash - styleexpander.ohm styleexpander.glue $cdir/support.js \
+#     | ./vshpfr.bash - attributeelider.ohm attributeelider.glue $cdir/support.js \
+#     | ./vshpfr.bash - emitFactbase.ohm emitFactbase.glue $cdir/support.js \
+#     | sort >5.pl
+set -x
+d2f $1.drawio >5.pl
 
 ## create rect fact for every vertex that is not an edge/ellipse/text
 ## sequence.drawio file contains vertexes, and marks all edge and ellipse (and text)
