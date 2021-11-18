@@ -1,147 +1,140 @@
-
-b(i5jZ3dy8F4nkPbaXPHF6__1,650).
-b(i5jZ3dy8F4nkPbaXPHF6__10,565).
-b(i5jZ3dy8F4nkPbaXPHF6__2,390).
-b(i5jZ3dy8F4nkPbaXPHF6__3,345).
-b(i5jZ3dy8F4nkPbaXPHF6__4,527.5).
-b(i5jZ3dy8F4nkPbaXPHF6__5,330).
-b(i5jZ3dy8F4nkPbaXPHF6__6,600).
-b(i5jZ3dy8F4nkPbaXPHF6__9,547.5).
-cell(0,"").
-cell(1,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__1,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__10,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__2,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__3,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__4,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__5,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__6,"").
-cell(i5jZ3dy8F4nkPbaXPHF6__9,"").
-diagram(fo9xvGcHm88d3B_x5weG, "").
-diagramContains(fo9xvGcHm88d3B_x5weG, 0).
-diagramContains(fo9xvGcHm88d3B_x5weG, 1).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__1).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__10).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__2).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__3).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__4).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__5).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__6).
-diagramContains(fo9xvGcHm88d3B_x5weG, i5jZ3dy8F4nkPbaXPHF6__9).
-edge(i5jZ3dy8F4nkPbaXPHF6__4, "").
-ellipse(i5jZ3dy8F4nkPbaXPHF6__5, "").
-ellipse(i5jZ3dy8F4nkPbaXPHF6__9, "").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__10, "red").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__3, "red").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__5, "yellow").
-fillColor(i5jZ3dy8F4nkPbaXPHF6__9, "green").
-height(i5jZ3dy8F4nkPbaXPHF6__1, 480).
-height(i5jZ3dy8F4nkPbaXPHF6__10, 75).
-height(i5jZ3dy8F4nkPbaXPHF6__2, 170).
-height(i5jZ3dy8F4nkPbaXPHF6__3, 80).
-height(i5jZ3dy8F4nkPbaXPHF6__5, 40).
-height(i5jZ3dy8F4nkPbaXPHF6__6, 150).
-height(i5jZ3dy8F4nkPbaXPHF6__9, 40).
-l(i5jZ3dy8F4nkPbaXPHF6__1,170).
-l(i5jZ3dy8F4nkPbaXPHF6__10,295).
-l(i5jZ3dy8F4nkPbaXPHF6__2,255).
-l(i5jZ3dy8F4nkPbaXPHF6__3,285).
-l(i5jZ3dy8F4nkPbaXPHF6__4,265).
-l(i5jZ3dy8F4nkPbaXPHF6__5,470).
-l(i5jZ3dy8F4nkPbaXPHF6__6,265).
-l(i5jZ3dy8F4nkPbaXPHF6__9,245).
-name(fo9xvGcHm88d3B_x5weG, "Page-1").
-r(i5jZ3dy8F4nkPbaXPHF6__1,630).
-r(i5jZ3dy8F4nkPbaXPHF6__10,470).
-r(i5jZ3dy8F4nkPbaXPHF6__2,490).
-r(i5jZ3dy8F4nkPbaXPHF6__3,450).
-r(i5jZ3dy8F4nkPbaXPHF6__4,490).
-r(i5jZ3dy8F4nkPbaXPHF6__5,510).
-r(i5jZ3dy8F4nkPbaXPHF6__6,510).
-r(i5jZ3dy8F4nkPbaXPHF6__9,285).
-rect(0,"").
-rect(1,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__1,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__10,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__2,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__3,"").
-rect(i5jZ3dy8F4nkPbaXPHF6__6,"").
-source(i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__5).
-t(i5jZ3dy8F4nkPbaXPHF6__1,170).
-t(i5jZ3dy8F4nkPbaXPHF6__10,490).
-t(i5jZ3dy8F4nkPbaXPHF6__2,220).
-t(i5jZ3dy8F4nkPbaXPHF6__3,265).
-t(i5jZ3dy8F4nkPbaXPHF6__4,310).
-t(i5jZ3dy8F4nkPbaXPHF6__5,290).
-t(i5jZ3dy8F4nkPbaXPHF6__6,450).
-t(i5jZ3dy8F4nkPbaXPHF6__9,507.5).
-target(i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__9).
-value(i5jZ3dy8F4nkPbaXPHF6__1, "helloworld").
-value(i5jZ3dy8F4nkPbaXPHF6__10, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo world&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
-value(i5jZ3dy8F4nkPbaXPHF6__2, "hello").
-value(i5jZ3dy8F4nkPbaXPHF6__3, "&lt;div&gt;echo hello&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
-value(i5jZ3dy8F4nkPbaXPHF6__5, "out").
-value(i5jZ3dy8F4nkPbaXPHF6__6, "world").
-value(i5jZ3dy8F4nkPbaXPHF6__9, "in").
-vertex(i5jZ3dy8F4nkPbaXPHF6__1, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__10, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__2, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__3, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__5, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__6, "").
-vertex(i5jZ3dy8F4nkPbaXPHF6__9, "").
-width(i5jZ3dy8F4nkPbaXPHF6__1, 460).
-width(i5jZ3dy8F4nkPbaXPHF6__10, 175).
-width(i5jZ3dy8F4nkPbaXPHF6__2, 235).
-width(i5jZ3dy8F4nkPbaXPHF6__3, 165).
-width(i5jZ3dy8F4nkPbaXPHF6__5, 40).
-width(i5jZ3dy8F4nkPbaXPHF6__6, 245).
-width(i5jZ3dy8F4nkPbaXPHF6__9, 40).
-x(i5jZ3dy8F4nkPbaXPHF6__1, 170).
-x(i5jZ3dy8F4nkPbaXPHF6__10, 295).
-x(i5jZ3dy8F4nkPbaXPHF6__2, 255).
-x(i5jZ3dy8F4nkPbaXPHF6__3, 285).
-x(i5jZ3dy8F4nkPbaXPHF6__5, 470).
-x(i5jZ3dy8F4nkPbaXPHF6__6, 265).
-x(i5jZ3dy8F4nkPbaXPHF6__9, 245).
-y(i5jZ3dy8F4nkPbaXPHF6__1, 170).
-y(i5jZ3dy8F4nkPbaXPHF6__10, 490).
-y(i5jZ3dy8F4nkPbaXPHF6__2, 220).
-y(i5jZ3dy8F4nkPbaXPHF6__3, 265).
-y(i5jZ3dy8F4nkPbaXPHF6__5, 290).
-y(i5jZ3dy8F4nkPbaXPHF6__6, 450).
-y(i5jZ3dy8F4nkPbaXPHF6__9, 507.5).
-contains1(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__10).
-contains1(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__2).
-contains1(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__3).
-contains1(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__4).
-contains1(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__6).
-contains1(i5jZ3dy8F4nkPbaXPHF6__2,i5jZ3dy8F4nkPbaXPHF6__3).
-contains1(i5jZ3dy8F4nkPbaXPHF6__6,i5jZ3dy8F4nkPbaXPHF6__10).
-deepcontains(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__10).
-deepcontains(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__3).
-contains(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__2).
-contains(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__4).
-contains(i5jZ3dy8F4nkPbaXPHF6__1,i5jZ3dy8F4nkPbaXPHF6__6).
-contains(i5jZ3dy8F4nkPbaXPHF6__2,i5jZ3dy8F4nkPbaXPHF6__3).
-contains(i5jZ3dy8F4nkPbaXPHF6__6,i5jZ3dy8F4nkPbaXPHF6__10).
-contains(i5jZ3dy8F4nkPbaXPHF6__2,i5jZ3dy8F4nkPbaXPHF6__5).
-contains(i5jZ3dy8F4nkPbaXPHF6__6,i5jZ3dy8F4nkPbaXPHF6__9).
-portdirection(i5jZ3dy8F4nkPbaXPHF6__5,output).
-portdirection(i5jZ3dy8F4nkPbaXPHF6__9,input).
-factname(i5jZ3dy8F4nkPbaXPHF6__1,"helloworld").
-factname(i5jZ3dy8F4nkPbaXPHF6__10,"code1").
-factname(i5jZ3dy8F4nkPbaXPHF6__2,"hello").
-factname(i5jZ3dy8F4nkPbaXPHF6__3,"code2").
-factname(i5jZ3dy8F4nkPbaXPHF6__5,"out").
-factname(i5jZ3dy8F4nkPbaXPHF6__6,"world").
-factname(i5jZ3dy8F4nkPbaXPHF6__9,"in").
-unknowncomponentname(0,"u1").
-unknowncomponentname(1,"u2").
-factcomponentcode(0,"").
-factcomponentcode(1,"").
-factcomponentcode(i5jZ3dy8F4nkPbaXPHF6__1,"").
-factcomponentcode(i5jZ3dy8F4nkPbaXPHF6__10,"&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo world&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
-factcomponentcode(i5jZ3dy8F4nkPbaXPHF6__2,"").
-factcomponentcode(i5jZ3dy8F4nkPbaXPHF6__3,"&lt;div&gt;echo hello&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
-factcomponentcode(i5jZ3dy8F4nkPbaXPHF6__6,"").
+fact(align, i5jZ3dy8F4nkPbaXPHF6__10, "left").
+fact(align, i5jZ3dy8F4nkPbaXPHF6__3, "left").
+fact(arrows, id_1, 1).
+fact(as, i5jZ3dy8F4nkPbaXPHF6__1, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__10, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__2, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__3, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__4, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__5, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__6, "geometry").
+fact(as, i5jZ3dy8F4nkPbaXPHF6__9, "geometry").
+fact(aspect, i5jZ3dy8F4nkPbaXPHF6__5, "fixed").
+fact(aspect, i5jZ3dy8F4nkPbaXPHF6__9, "fixed").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__1, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__10, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__2, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__3, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__4, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__5, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__6, "").
+fact(cell, i5jZ3dy8F4nkPbaXPHF6__9, "").
+fact(connect, id_1, 1).
+fact(contains, id_1, i5jZ3dy8F4nkPbaXPHF6__10).
+fact(diagram, id_1, "").
+fact(dx, id_1, 1106).
+fact(dy, id_1, 806).
+fact(edge, i5jZ3dy8F4nkPbaXPHF6__4, 1).
+fact(edgeStyle, i5jZ3dy8F4nkPbaXPHF6__4, "orthogonalEdgeStyle").
+fact(entryDx, i5jZ3dy8F4nkPbaXPHF6__4, 0).
+fact(entryDy, i5jZ3dy8F4nkPbaXPHF6__4, 0).
+fact(entryX, i5jZ3dy8F4nkPbaXPHF6__4, 0).
+fact(entryY, i5jZ3dy8F4nkPbaXPHF6__4, 0.5).
+fact(fillColor, i5jZ3dy8F4nkPbaXPHF6__10, "#f8cecc").
+fact(fillColor, i5jZ3dy8F4nkPbaXPHF6__2, "#dae8fc").
+fact(fillColor, i5jZ3dy8F4nkPbaXPHF6__3, "#f8cecc").
+fact(fillColor, i5jZ3dy8F4nkPbaXPHF6__5, "#fff2cc").
+fact(fillColor, i5jZ3dy8F4nkPbaXPHF6__6, "#dae8fc").
+fact(fillColor, i5jZ3dy8F4nkPbaXPHF6__9, "#d5e8d4").
+fact(fold, id_1, 1).
+fact(gradientColor, i5jZ3dy8F4nkPbaXPHF6__2, "#7ea6e0").
+fact(gradientColor, i5jZ3dy8F4nkPbaXPHF6__6, "#7ea6e0").
+fact(grid, id_1, 1).
+fact(gridSize, id_1, 10).
+fact(guides, id_1, 1).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__1, 480).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__10, 75).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__2, 170).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__3, 80).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__5, 40).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__6, 150).
+fact(height, i5jZ3dy8F4nkPbaXPHF6__9, 40).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__1, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__10, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__2, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__3, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__4, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__5, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__6, 1).
+fact(html, i5jZ3dy8F4nkPbaXPHF6__9, 1).
+fact(jettySize, i5jZ3dy8F4nkPbaXPHF6__4, "auto").
+fact(kind, i5jZ3dy8F4nkPbaXPHF6__5, "ellipse").
+fact(kind, i5jZ3dy8F4nkPbaXPHF6__9, "ellipse").
+fact(math, id_1, 0).
+fact(name, id_1, "Page-1").
+fact(orthogonalLoop, i5jZ3dy8F4nkPbaXPHF6__4, 1).
+fact(page, id_1, 1).
+fact(pageHeight, id_1, 850).
+fact(pageScale, id_1, 1).
+fact(pageWidth, id_1, 1100).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__1, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__10, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__2, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__3, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__4, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__5, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__6, id_1).
+fact(parent, i5jZ3dy8F4nkPbaXPHF6__9, id_1).
+fact(parent, id_1, id_0).
+fact(relative, i5jZ3dy8F4nkPbaXPHF6__4, 1).
+fact(rounded, i5jZ3dy8F4nkPbaXPHF6__1, 1).
+fact(rounded, i5jZ3dy8F4nkPbaXPHF6__10, 0).
+fact(rounded, i5jZ3dy8F4nkPbaXPHF6__2, 1).
+fact(rounded, i5jZ3dy8F4nkPbaXPHF6__3, 0).
+fact(rounded, i5jZ3dy8F4nkPbaXPHF6__4, 0).
+fact(rounded, i5jZ3dy8F4nkPbaXPHF6__6, 1).
+fact(shadow, id_1, 0).
+fact(source, i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__5).
+fact(strokeColor, i5jZ3dy8F4nkPbaXPHF6__10, "#b85450").
+fact(strokeColor, i5jZ3dy8F4nkPbaXPHF6__2, "#6c8ebf").
+fact(strokeColor, i5jZ3dy8F4nkPbaXPHF6__3, "#b85450").
+fact(strokeColor, i5jZ3dy8F4nkPbaXPHF6__5, "#d6b656").
+fact(strokeColor, i5jZ3dy8F4nkPbaXPHF6__6, "#6c8ebf").
+fact(strokeColor, i5jZ3dy8F4nkPbaXPHF6__9, "#82b366").
+fact(target, i5jZ3dy8F4nkPbaXPHF6__4, i5jZ3dy8F4nkPbaXPHF6__9).
+fact(tooltips, id_1, 1).
+fact(value, i5jZ3dy8F4nkPbaXPHF6__1, "helloworld").
+fact(value, i5jZ3dy8F4nkPbaXPHF6__10, "&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo world&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;").
+fact(value, i5jZ3dy8F4nkPbaXPHF6__2, "hello").
+fact(value, i5jZ3dy8F4nkPbaXPHF6__3, "&lt;div&gt;echo hello&lt;/div&gt;&lt;div&gt;&lt;/div&gt;echo done &amp;gt;/dev/fd/4").
+fact(value, i5jZ3dy8F4nkPbaXPHF6__5, "out").
+fact(value, i5jZ3dy8F4nkPbaXPHF6__6, "world").
+fact(value, i5jZ3dy8F4nkPbaXPHF6__9, "in").
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__1, 1).
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__10, 1).
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__2, 1).
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__3, 1).
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__5, 1).
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__6, 1).
+fact(vertex, i5jZ3dy8F4nkPbaXPHF6__9, 1).
+fact(verticalAlign, i5jZ3dy8F4nkPbaXPHF6__1, "top").
+fact(verticalAlign, i5jZ3dy8F4nkPbaXPHF6__2, "top").
+fact(verticalAlign, i5jZ3dy8F4nkPbaXPHF6__6, "top").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__1, "wrap").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__10, "wrap").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__2, "wrap").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__3, "wrap").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__5, "wrap").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__6, "wrap").
+fact(whiteSpace, i5jZ3dy8F4nkPbaXPHF6__9, "wrap").
+fact(width, i5jZ3dy8F4nkPbaXPHF6__1, 460).
+fact(width, i5jZ3dy8F4nkPbaXPHF6__10, 175).
+fact(width, i5jZ3dy8F4nkPbaXPHF6__2, 235).
+fact(width, i5jZ3dy8F4nkPbaXPHF6__3, 165).
+fact(width, i5jZ3dy8F4nkPbaXPHF6__5, 40).
+fact(width, i5jZ3dy8F4nkPbaXPHF6__6, 245).
+fact(width, i5jZ3dy8F4nkPbaXPHF6__9, 40).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__1, 170).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__10, 295).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__2, 255).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__3, 285).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__5, 470).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__6, 265).
+fact(x, i5jZ3dy8F4nkPbaXPHF6__9, 245).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__1, 170).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__10, 490).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__2, 220).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__3, 265).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__5, 290).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__6, 450).
+fact(y, i5jZ3dy8F4nkPbaXPHF6__9, 507.5).

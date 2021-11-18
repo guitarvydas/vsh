@@ -1,3 +1,34 @@
 #!/bin/bash
 # world
-&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;read &amp;lt;/dev/fd/3&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;echo world&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot;&gt;# no output&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;
+read </dev/fd/3
+echo world
+# no output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

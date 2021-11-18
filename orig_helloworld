@@ -9,3 +9,29 @@ world_pid=$!
 wait $hello_pid
 wait $world_pid
 rm $pipe0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
