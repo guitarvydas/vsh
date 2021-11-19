@@ -11,7 +11,7 @@ makename(C):-
     format("factname(~w,\"~w\").~n",[C,FixedUpName]),
     !.
 makename(C):-
-    component(C),
+    leafcomponent(C),
     value(C,Name),
     fixupName(Name,FixedUpName),
     format("factname(~w,\"~w\").~n",[C,FixedUpName]),

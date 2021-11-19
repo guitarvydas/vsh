@@ -28,6 +28,9 @@ component(Diagram,C,Name,Ins,Outs,IIns,IOuts,SyncCode,Children,Connections) :-
 leafcomponent(D,MXG,ROOT,LeafComponent):-
     diagram(D,_),contains(D,MXG),contains(MXG,ROOT),contains(ROOT,LeafComponent).
 
+leafcomponent(LeafComponent):-
+    diagram(D,_),contains(D,MXG),contains(MXG,ROOT),contains(ROOT,LeafComponent).
+
 inputsof(C,InBag):-
     inputof(C,_),
     bagof(I,inputof(C,I),InBag).
