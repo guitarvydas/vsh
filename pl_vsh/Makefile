@@ -7,7 +7,7 @@ all : $(execs) io.lisp
 
 $(bindir)/% : %.lisp io.lisp
 	rm -f $@
-	/usr/local/bin/buildapp --output $@  --load $< --entry main
+	buildapp --output $@  --load $< --entry main
 
 clean:
 	rm -f $(execs)
