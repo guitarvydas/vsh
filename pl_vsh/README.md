@@ -20,10 +20,12 @@ The compiler is run by the ./grun shell script.
 
 The .gsh file in assembled and run by the ./run script.
 
-The input to the compiler is the file `1.txt`.  This file is created by the plscan command, which is compiled from two lisp files - plscan.lisp and io.lisp.  The plscan command simply does some text rewriting from .graphml format to .pro format.  Graphml is a XML format that describes elements found on the diagram.
+The input to the compiler is the file `1.txt`.  This file is created by the plscan command, which is compiled from two lisp files - plscan.lisp and io.lisp, using `make`.  The plscan command simply does some text rewriting from .graphml format to .pro format.  Graphml is an XML format that describes elements found on the diagram.
 
 At present, the ./grun script outputs to a series of text files fb1.pro ... fb8.pro.  The final output is the file fb9.gsh.  This file contains the grash assembler commands that run the compiler by calling executable binaries for each pass (the names of the binaries are derived from the diagram pl_vsh.graphml)
 
 The ./run shell script runs the compiler (again) to self-compile the diagram to a new file called `self.gsh`.  The intent is to `diff` the file `fb9.gsh` against the self-compiled file `self.gsh`.  There should be no differences if everything is working correctly.
 
-A variation on this theme can be found in ../cl_vsh, where Common Lisp is used instead of Gnu PROLOG.  You can see that there is nothing magical about executing pattern matches against a factbase, except that the syntax of PROLOG makes it easier to write and to understand what was written.
+The ./run script uses the graph assembler command called `grash`.  The source coe and build of grash can be found in ../grash.  A .gsh file contains "assembler" commands that invoke various functions of the Linux kernel.  There are about 7 commands that are interpreted (an 8th "command" - comment - is added).  The kernel functions are functions like `dup2()`, `fork()`, etc.  This "assembler" requires very little work and was hand-written in C.
+
+A variation on this diagram compiler can be found in ../cl_vsh, where Common Lisp is used instead of Gnu PROLOG.  You can see that there is nothing magical about executing pattern matches against a factbase, except that the syntax of PROLOG makes it easier to write and to understand what was written.  Pattern-matching is basically a set of nested Loops and could be written in any programming language.
