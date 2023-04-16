@@ -18,3 +18,5 @@ The final result is written to the file `self.grash` by the emit-grash pass.
 
 The compiler is run by `./run-bootstrap`.
 
+[2018 version]
+
