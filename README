@@ -1,5 +1,9 @@
 See Diagram-Compiler-As-A-Compilable-Diagram.jpg first.
 
+usage:
+$ cd pl_vsh
+$ ./run
+
 This is the first release, 0.1, of vsh (visual shell) and grash (graph
 shell).
 
