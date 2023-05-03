@@ -1,8 +1,21 @@
 See Diagram-Compiler-As-A-Compilable-Diagram.jpg first.
 
-usage:
-$ cd pl_vsh
+## Usage
+### build grash interpreter
+$ cd grash
+$ make
+### build commands from .pl (executables built from PROLOG source using gplc)
+### and run commands to build fb9.gsh (vsh compiler as .gsh)
+$ cd ../pl_vsh
+$ mkdir ~/bin
+$ ./grun
+#### build scanner for .graphml to .pro (executable built from Lisp source using SBLC ; tweaked to generate PROLOG facts in factbase)
+$ make
+### compile diagram (scan diagram to fb1.pro, run fb9.gsh with input fb1.pro to create self.gsh (fb9.gsh again, this time self-compiled))
 $ ./run
+
+
+# older docs
 
 This is the first release, 0.1, of vsh (visual shell) and grash (graph
 shell).
