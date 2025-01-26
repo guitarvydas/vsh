@@ -1,0 +1,117 @@
+[
+  {
+    "name": "main",
+    "children": [
+      {
+        "name": "$ wc -l",
+        "id": 7
+      },
+      {
+        "name": "$ grep vsh",
+        "id": 11
+      },
+      {
+        "name": "$ ps",
+        "id": 15
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": "$ ps",
+          "id": 15
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "$ ps",
+          "id": 15
+        },
+        "target": {
+          "name": "$ wc -l",
+          "id": 7
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "$ ps",
+          "id": 15
+        },
+        "target": {
+          "name": "$ grep vsh",
+          "id": 11
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "processes",
+        "source": {
+          "name": "$ wc -l",
+          "id": 7
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "grep",
+        "source": {
+          "name": "$ grep vsh",
+          "id": 11
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "$ wc -l",
+          "id": 7
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "$ grep vsh",
+          "id": 11
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "✗",
+        "target_port": "✗",
+        "source": {
+          "name": "$ ps",
+          "id": 15
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "",
+        "target_port": "",
+        "source": {
+          "name": "$ ps",
+          "id": 15
+        }
+      }
+    ],
+    "file": "vsh.drawio"
+  },
+  {
+    "name": "...",
+    "children": [],
+    "connections": [],
+    "file": "vsh.drawio"
+  }
+]
