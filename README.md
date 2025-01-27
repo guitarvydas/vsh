@@ -12,6 +12,7 @@ make
 The actual output depends on what processes are running on your system and are picked up by the "ps" command.
 
 I see:
+```
 [
 {"":"PID TTY           TIME CMD
   599 ttys000    0:00.02 -zsh
@@ -38,6 +39,7 @@ I see:
 ,
 {"grep":"1839 ttys011    0:00.03 /opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python main.py . . start main vsh.drawio.json"}
 ]
+```
 # disclaimer
 This demo is just a simple demo that shows that a number of programming languages can be used to produce a DPL (Diagrammatic Programming Language) version of the Bourne Shell. This demo focuses mainly on multi-branching and pipes and excludes many of the features of a full-blown shell (I would argue that, if you have pipes and composition of parts, you don't really need the rest of the features since you can get the same result by simply using parts built in various languages).
 
